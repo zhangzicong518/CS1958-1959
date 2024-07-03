@@ -1,0 +1,6 @@
+(lambda (s)
+    (let loop ((s s) (r '()))
+      (if (null? s) r
+      (let ((d (cdr s)))
+            (cdr s r)
+        (loop d s)))))

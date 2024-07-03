@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.13.0"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-matrix.hpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iomanip&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iomanip&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-matrix.hpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-matrix.hpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-matrix.hpp" line="7"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;RowProxy&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;RowProxy&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="class-matrix.hpp" line="20"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ConstRowProxy&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ConstRowProxy&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="class-matrix.hpp" line="29"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iomanip&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iomanip&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="64"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="65"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Bint&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Bint&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="30"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Bint&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Bint&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="31"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Bint&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Bint&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="class-bint.hpp" line="32"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code1.cpp" line="11"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code1.cpp" line="12"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code1.cpp" line="13"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &amp;#039;dInt&amp;#039; can be declared as reference to const" verbose="Variable &amp;#039;dInt&amp;#039; can be declared as reference to const" cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="code1.cpp" line="92"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="exceptions.hpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="exceptions.hpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="exceptions.hpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="7"/>
+        </error>
+        <error id="operatorEqToSelf" severity="warning" msg="&amp;#039;operator=&amp;#039; should check for assignment to self to avoid problems with dynamic memory." verbose="&amp;#039;operator=&amp;#039; should check for assignment to self to ensure that each block of dynamically allocated memory is owned and managed by only one instance of the class." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="44"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;elements&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;elements&amp;#039; a value by passing the value to the constructor in the initialization list." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="217"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;vec&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;vec&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="25"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;block&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;block&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="212"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="243"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="450"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="451"/>
+        </error>
+        <error id="incorrectLogicOperator" severity="warning" msg="Logical conjunction always evaluates to false: current_block != nullptr &amp;amp;&amp;amp; current_block == nullptr." verbose="Logical conjunction always evaluates to false: current_block != nullptr &amp;amp;&amp;amp; current_block == nullptr. Are these conditions necessary? Did you intend to use || instead? Are the numbers correct? Are you comparing the correct variables?" cwe="570" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="308"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;current_block!=nullptr&amp;#039; is always true" verbose="Condition &amp;#039;current_block!=nullptr&amp;#039; is always true" cwe="571" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="326"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;current_block!=nullptr&amp;#039; is always true" verbose="Condition &amp;#039;current_block!=nullptr&amp;#039; is always true" cwe="571" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="533"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;_nxt!=nullptr&amp;#039; is always true" verbose="Condition &amp;#039;_nxt!=nullptr&amp;#039; is always true" cwe="571" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="881"/>
+        </error>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="423"/>
+        </error>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="630"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="288" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="283" info="Assuming that condition &amp;#039;current_block!=nullptr&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="311" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="303" info="Assuming that condition &amp;#039;current_block!=nullptr&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="346" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="351" info="Assuming that condition &amp;#039;current_block!=nullptr&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &amp;#039;current_block!=nullptr&amp;#039; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="495" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="490" info="Assuming that condition &amp;#039;current_block!=nullptr&amp;#039; is not redundant"/>
+        </error>
+        <error id="oppositeExpression" severity="style" msg="Opposite expression on both sides of &amp;#039;&amp;amp;&amp;amp;&amp;#039;." verbose="Finding the opposite expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="308"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: cur.nxt, cur.pre" verbose="Uninitialized variables: cur.nxt, cur.pre" cwe="457" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="675" info=""/>
+            <location file="deque.hpp" line="667" info="Assuming condition is false"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: cur.nxt, cur.pre" verbose="Uninitialized variables: cur.nxt, cur.pre" cwe="457" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="700" info=""/>
+            <location file="deque.hpp" line="692" info="Assuming condition is false"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="deque.hpp" line="791"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Integer&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Integer&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp" sinceDate="yyyy/M/d">
+            <location file="class-integer.hpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="7"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code2.cpp" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="316"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;myCounter!=ansCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;myCounter!=ansCounter&amp;#039;, second condition is always false" cwe="398" file0="code2.cpp" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="369" info="Testing identical condition &amp;#039;myCounter!=ansCounter&amp;#039;"/>
+            <location file="code2.cpp" line="365" info="If condition &amp;#039;myCounter!=ansCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;ansIter&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;ansIter&amp;#039; shadows outer variable" cwe="398" file0="code2.cpp" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="196" info="Shadow variable"/>
+            <location file="code2.cpp" line="171" info="Shadowed declaration"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;myIter&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;myIter&amp;#039; shadows outer variable" cwe="398" file0="code2.cpp" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="197" info="Shadow variable"/>
+            <location file="code2.cpp" line="172" info="Shadowed declaration"/>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &amp;#039;ansIter&amp;#039; used." verbose="The iterator &amp;#039;ansIter&amp;#039; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="code2.cpp" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="208"/>
+        </error>
+        <error id="mismatchingContainerExpression" severity="warning" msg="Iterators to containers from different expressions &amp;#039;deq2&amp;#039; and &amp;#039;deq&amp;#039; are used together." verbose="Iterators to containers from different expressions &amp;#039;deq2&amp;#039; and &amp;#039;deq&amp;#039; are used together." cwe="664" file0="code2.cpp" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="499"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;Pow&amp;#039; is never used." verbose="The function &amp;#039;Pow&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="249"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;Transpose&amp;#039; is never used." verbose="The function &amp;#039;Transpose&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="208"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;_DoubleSpace&amp;#039; is never used." verbose="The function &amp;#039;_DoubleSpace&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="code2.cpp" line="85"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="8"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="9"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Int::data&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Int::data&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="27"/>
+        </error>
+        <error id="noConstructor" severity="style" msg="The class &amp;#039;Timer&amp;#039; does not declare a constructor although it has private member variables which likely require initialization." verbose="The class &amp;#039;Timer&amp;#039; does not declare a constructor although it has private member variables which likely require initialization. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="76"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Int&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Int&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="28"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="49"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1031" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="code3.cpp" line="1025" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1037" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="code3.cpp" line="1025" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1043" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="code3.cpp" line="1025" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1051" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="code3.cpp" line="1025" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1079" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="code3.cpp" line="1071" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1085" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="code3.cpp" line="1071" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1091" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="code3.cpp" line="1071" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tB&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tB&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="693" info="tB is overwritten"/>
+            <location file="code3.cpp" line="691" info="tB is initialized"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tA&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tA&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="694" info="tA is overwritten"/>
+            <location file="code3.cpp" line="692" info="tA is initialized"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;tmpA&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;tmpA&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1077" info="tmpA is overwritten"/>
+            <location file="code3.cpp" line="1077" info="tmpA is assigned"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;tmpA&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;tmpA&amp;#039; to itself." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1041"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1077"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1166"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;tA&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;tA&amp;#039; to itself." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1178"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1235"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1239"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &amp;#039;a&amp;#039; can be declared as reference to const" verbose="Parameter &amp;#039;a&amp;#039; can be declared as reference to const" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="98"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &amp;#039;b&amp;#039; can be declared as reference to const" verbose="Parameter &amp;#039;b&amp;#039; can be declared as reference to const" cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="98"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy algorithm instead of a raw loop." verbose="Consider using std::copy algorithm instead of a raw loop." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="104"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy algorithm instead of a raw loop." verbose="Consider using std::copy algorithm instead of a raw loop." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="106"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="168"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="190"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="218"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="246"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="275"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="298"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="323"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="346"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="372"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="392"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="459"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="470"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="541"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="552"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="726"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="760"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="798"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="836"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1270"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1426"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1732"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1736"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1755"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1759"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;itA&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1769"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;a[i]&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;a[i]&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1879"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." cwe="563" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1961"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="736"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="738"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1301"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1302"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1458"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1459"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1690"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code3.cpp" sinceDate="yyyy/M/d">
+            <location file="code3.cpp" line="1713"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdio&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdio&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;queue&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;queue&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="8"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;T&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;T&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="24"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="74" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="code4.cpp" line="72" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="123" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="code4.cpp" line="121" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="499" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="code4.cpp" line="497" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="507" info="tmp is overwritten"/>
+            <location file="code4.cpp" line="506" info="tmp is initialized"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="524" info="tmp is overwritten"/>
+            <location file="code4.cpp" line="523" info="tmp is initialized"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;tmp&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="542" info="tmp is overwritten"/>
+            <location file="code4.cpp" line="541" info="tmp is assigned"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="538"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;q&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;q&amp;#039; shadows outer variable" cwe="398" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="482" info="Shadow variable"/>
+            <location file="code4.cpp" line="39" info="Shadowed declaration"/>
+        </error>
+        <error id="mismatchingContainerExpression" severity="warning" msg="Iterators to containers from different expressions &amp;#039;q&amp;#039; and &amp;#039;other&amp;#039; are used together." verbose="Iterators to containers from different expressions &amp;#039;q&amp;#039; and &amp;#039;other&amp;#039; are used together." cwe="664" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="202"/>
+        </error>
+        <error id="mismatchingContainerExpression" severity="warning" msg="Iterators to containers from different expressions &amp;#039;q&amp;#039; and &amp;#039;pp&amp;#039; are used together." verbose="Iterators to containers from different expressions &amp;#039;q&amp;#039; and &amp;#039;pp&amp;#039; are used together." cwe="664" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="268"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;judge1&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;judge1&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="150"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;judge2&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;judge2&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="151"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="95"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="104"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="129"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="202"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="507"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="524"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="542"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code4.cpp" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="52"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;is_full&amp;#039; is never used." verbose="The function &amp;#039;is_full&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="89"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;what&amp;#039; is never used." verbose="The function &amp;#039;what&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="code4.cpp" line="21"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;type_traits&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;type_traits&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="6"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;A&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;A&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="745"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;t_copy&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;t_copy&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="199"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;t_copy&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;t_copy&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="303"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;first1&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;first1&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="155"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;last1&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;last1&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="155"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;first&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;first&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="159"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;last&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;last&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="159"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;last&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;last&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="165"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;before_start&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;before_start&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="452"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;after_finish&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;after_finish&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="457"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;position&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;position&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="604"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;pos&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;pos&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="623"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;pos&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;pos&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="640"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &amp;#039;last&amp;#039; should be passed by const reference." verbose="Parameter &amp;#039;last&amp;#039; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="640"/>
+        </error>
+        <error id="signConversionCond" severity="warning" msg="Expression &amp;#039;-offset-1&amp;#039; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &amp;#039;-offset-1&amp;#039; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="try1.cpp" sinceDate="yyyy/M/d">
+            <location file="try1.cpp" line="102" info="Negative value is converted to an unsigned value"/>
+            <location file="try1.cpp" line="102" info="Assuming that condition &amp;#039;offset&amp;gt;0&amp;#039; is not redundant"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="try2.cpp" sinceDate="yyyy/M/d">
+            <location file="try2.cpp" line="109"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="try2.cpp" sinceDate="yyyy/M/d">
+            <location file="try2.cpp" line="116"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Deque::size&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Deque::size&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="try2.cpp" sinceDate="yyyy/M/d">
+            <location file="try2.cpp" line="287"/>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &amp;#039;Deque&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;Deque&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="try2.cpp" sinceDate="yyyy/M/d">
+            <location file="try2.cpp" line="289"/>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &amp;#039;Deque&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;Deque&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="try2.cpp" sinceDate="yyyy/M/d">
+            <location file="try2.cpp" line="289"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;DequeItr&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;DequeItr&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="try2.cpp" sinceDate="yyyy/M/d">
+            <location file="try2.cpp" line="482"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdio&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdio&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;queue&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;queue&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="8"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;deque.hpp&amp;quot; not found." verbose="Include file: &amp;quot;deque.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;exceptions.hpp&amp;quot; not found." verbose="Include file: &amp;quot;exceptions.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="10"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;T&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;T&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="24"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="74" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="tests\four\code.cpp" line="72" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="123" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="tests\four\code.cpp" line="121" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="488" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="tests\four\code.cpp" line="486" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="496" info="tmp is overwritten"/>
+            <location file="tests\four\code.cpp" line="495" info="tmp is initialized"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="513" info="tmp is overwritten"/>
+            <location file="tests\four\code.cpp" line="512" info="tmp is initialized"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;tmp&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="531" info="tmp is overwritten"/>
+            <location file="tests\four\code.cpp" line="530" info="tmp is assigned"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="527"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;q&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;q&amp;#039; shadows outer variable" cwe="398" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="471" info="Shadow variable"/>
+            <location file="tests\four\code.cpp" line="39" info="Shadowed declaration"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="95"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="104"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="129"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="195"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="496"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="513"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="531"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="tests/four/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four\code.cpp" line="52"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdio&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdio&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstring&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;queue&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;queue&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cmath&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="8"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;deque.hpp&amp;quot; not found." verbose="Include file: &amp;quot;deque.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;exceptions.hpp&amp;quot; not found." verbose="Include file: &amp;quot;exceptions.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="10"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;T&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;T&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="24"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="74" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="tests\four.memcheck\code.cpp" line="72" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="123" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="tests\four.memcheck\code.cpp" line="121" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" verbose="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true" cwe="571" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="488" info="Condition &amp;#039;i%10&amp;lt;=9&amp;#039; is always true"/>
+            <location file="tests\four.memcheck\code.cpp" line="486" info="Assuming that condition &amp;#039;i%10&amp;lt;=8&amp;#039; is not redundant"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="496" info="tmp is overwritten"/>
+            <location file="tests\four.memcheck\code.cpp" line="495" info="tmp is initialized"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tmp&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="513" info="tmp is overwritten"/>
+            <location file="tests\four.memcheck\code.cpp" line="512" info="tmp is initialized"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;tmp&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="531" info="tmp is overwritten"/>
+            <location file="tests\four.memcheck\code.cpp" line="530" info="tmp is assigned"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="527"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;q&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;q&amp;#039; shadows outer variable" cwe="398" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="471" info="Shadow variable"/>
+            <location file="tests\four.memcheck\code.cpp" line="39" info="Shadowed declaration"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="95"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="104"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="129"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;t&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="195"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="496"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="513"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="531"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="tests/four.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\four.memcheck\code.cpp" line="52"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-integer.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-integer.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\one\code.cpp" line="8"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-matrix.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-matrix.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\one\code.cpp" line="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-bint.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-bint.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\one\code.cpp" line="10"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\one\code.cpp" line="11"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\one\code.cpp" line="12"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\one\code.cpp" line="13"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;deque.hpp&amp;quot; not found." verbose="Include file: &amp;quot;deque.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\one\code.cpp" line="14"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;deque.hpp&amp;quot; not found." verbose="Include file: &amp;quot;deque.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="8"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="9"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Int::data&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Int::data&amp;#039; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="23"/>
+        </error>
+        <error id="noConstructor" severity="style" msg="The class &amp;#039;Timer&amp;#039; does not declare a constructor although it has private member variables which likely require initialization." verbose="The class &amp;#039;Timer&amp;#039; does not declare a constructor although it has private member variables which likely require initialization. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="65"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;Int&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;Int&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="24"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="43"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="804" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="tests\three\code.cpp" line="799" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="809" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="tests\three\code.cpp" line="799" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="814" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="tests\three\code.cpp" line="799" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="821" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="tests\three\code.cpp" line="799" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="845" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="tests\three\code.cpp" line="838" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="850" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="tests\three\code.cpp" line="838" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="855" info="Testing identical condition &amp;#039;stdCounter!=srcCounter&amp;#039;"/>
+            <location file="tests\three\code.cpp" line="838" info="If condition &amp;#039;stdCounter!=srcCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tB&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tB&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="555" info="tB is overwritten"/>
+            <location file="tests\three\code.cpp" line="553" info="tB is initialized"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &amp;#039;tA&amp;#039;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &amp;#039;tA&amp;#039;. The initialized value is overwritten before it is read." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="556" info="tA is overwritten"/>
+            <location file="tests\three\code.cpp" line="554" info="tA is initialized"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;tmpB&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;tmpB&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="813" info="tmpB is overwritten"/>
+            <location file="tests\three\code.cpp" line="813" info="tmpB is assigned"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;tmpA&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;tmpA&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="843" info="tmpA is overwritten"/>
+            <location file="tests\three\code.cpp" line="843" info="tmpA is assigned"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;tmpB&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;tmpB&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="844" info="tmpB is overwritten"/>
+            <location file="tests\three\code.cpp" line="844" info="tmpB is assigned"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;tmpA&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;tmpA&amp;#039; to itself." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="812"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="843"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="916"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;tA&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;tA&amp;#039; to itself." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="925"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="971"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &amp;#039;a&amp;#039; to itself." verbose="Redundant assignment of &amp;#039;a&amp;#039; to itself." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="975"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &amp;#039;a&amp;#039; can be declared as reference to const" verbose="Parameter &amp;#039;a&amp;#039; can be declared as reference to const" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="84"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &amp;#039;b&amp;#039; can be declared as reference to const" verbose="Parameter &amp;#039;b&amp;#039; can be declared as reference to const" cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="84"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy algorithm instead of a raw loop." verbose="Consider using std::copy algorithm instead of a raw loop." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="88"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy algorithm instead of a raw loop." verbose="Consider using std::copy algorithm instead of a raw loop." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="89"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="136"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="153"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="175"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="197"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="220"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="239"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="260"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="279"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="301"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="318"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="372"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="381"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="436"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="445"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="579"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="606"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="633"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;pos&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="660"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1000"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;tmp&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1125"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." cwe="563" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1545"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1023"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1024"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1149"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="tests/three/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\three\code.cpp" line="1150"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="7"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-integer.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-integer.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-matrix.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-matrix.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="10"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-bint.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-bint.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;deque.hpp&amp;quot; not found." verbose="Include file: &amp;quot;deque.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="12"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="236"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;myCounter!=ansCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;myCounter!=ansCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="275" info="Testing identical condition &amp;#039;myCounter!=ansCounter&amp;#039;"/>
+            <location file="tests\two\code.cpp" line="272" info="If condition &amp;#039;myCounter!=ansCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;deq3&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;deq3&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="266" info="deq3 is overwritten"/>
+            <location file="tests\two\code.cpp" line="266" info="deq3 is assigned"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;ansIter&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;ansIter&amp;#039; shadows outer variable" cwe="398" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="139" info="Shadow variable"/>
+            <location file="tests\two\code.cpp" line="121" info="Shadowed declaration"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;myIter&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;myIter&amp;#039; shadows outer variable" cwe="398" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="140" info="Shadow variable"/>
+            <location file="tests\two\code.cpp" line="122" info="Shadowed declaration"/>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &amp;#039;ansIter&amp;#039; used." verbose="The iterator &amp;#039;ansIter&amp;#039; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="148"/>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &amp;#039;myIter&amp;#039; used." verbose="The iterator &amp;#039;myIter&amp;#039; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="148"/>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ans.end()-1" verbose="Possible dereference of an invalid iterator: ans.end()-1" cwe="825" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="199" info="Dereference of an invalid iterator"/>
+            <location file="tests\two\code.cpp" line="194" info="Assuming that condition &amp;#039;ansIter!=ans.end()&amp;#039; is not redundant"/>
+            <location file="tests\two\code.cpp" line="194" info="Assuming condition is false"/>
+            <location file="tests\two\code.cpp" line="193" info="Assignment &amp;#039;ansIter=ans.begin()&amp;#039;, assigned value is start=0"/>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ansIter" verbose="Possible dereference of an invalid iterator: ansIter" cwe="825" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="200" info="Dereference of an invalid iterator"/>
+            <location file="tests\two\code.cpp" line="199" info="Assignment &amp;#039;ansIter=ans.end()-1&amp;#039;, assigned value is start=-1"/>
+            <location file="tests\two\code.cpp" line="194" info="Assuming that condition &amp;#039;ansIter!=ans.end()&amp;#039; is not redundant"/>
+            <location file="tests\two\code.cpp" line="194" info="Assuming condition is false"/>
+            <location file="tests\two\code.cpp" line="193" info="Assignment &amp;#039;ansIter=ans.begin()&amp;#039;, assigned value is start=0"/>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ansIter" verbose="Possible dereference of an invalid iterator: ansIter" cwe="825" file0="tests/two/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two\code.cpp" line="201" info="Dereference of an invalid iterator"/>
+            <location file="tests\two\code.cpp" line="199" info="Assignment &amp;#039;ansIter=ans.end()-1&amp;#039;, assigned value is start=-1"/>
+            <location file="tests\two\code.cpp" line="194" info="Assuming that condition &amp;#039;ansIter!=ans.end()&amp;#039; is not redundant"/>
+            <location file="tests\two\code.cpp" line="194" info="Assuming condition is false"/>
+            <location file="tests\two\code.cpp" line="193" info="Assignment &amp;#039;ansIter=ans.begin()&amp;#039;, assigned value is start=0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;ctime&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;deque&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;random&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="7"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-integer.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-integer.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-matrix.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-matrix.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="10"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;class-bint.hpp&amp;quot; not found." verbose="Include file: &amp;quot;class-bint.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="11"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;deque.hpp&amp;quot; not found." verbose="Include file: &amp;quot;deque.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="12"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;DynamicType&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="300"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &amp;#039;myCounter!=ansCounter&amp;#039;, second condition is always false" verbose="Identical condition &amp;#039;myCounter!=ansCounter&amp;#039;, second condition is always false" cwe="398" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="351" info="Testing identical condition &amp;#039;myCounter!=ansCounter&amp;#039;"/>
+            <location file="tests\two.memcheck\code.cpp" line="347" info="If condition &amp;#039;myCounter!=ansCounter&amp;#039; is true, the function will return/exit"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;deq3&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;deq3&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="340" info="deq3 is overwritten"/>
+            <location file="tests\two.memcheck\code.cpp" line="340" info="deq3 is assigned"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;ansIter&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;ansIter&amp;#039; shadows outer variable" cwe="398" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="181" info="Shadow variable"/>
+            <location file="tests\two.memcheck\code.cpp" line="156" info="Shadowed declaration"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &amp;#039;myIter&amp;#039; shadows outer variable" verbose="Local variable &amp;#039;myIter&amp;#039; shadows outer variable" cwe="398" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="182" info="Shadow variable"/>
+            <location file="tests\two.memcheck\code.cpp" line="157" info="Shadowed declaration"/>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &amp;#039;ansIter&amp;#039; used." verbose="The iterator &amp;#039;ansIter&amp;#039; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="192"/>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &amp;#039;myIter&amp;#039; used." verbose="The iterator &amp;#039;myIter&amp;#039; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="192"/>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ans.end()-1" verbose="Possible dereference of an invalid iterator: ans.end()-1" cwe="825" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="255" info="Dereference of an invalid iterator"/>
+            <location file="tests\two.memcheck\code.cpp" line="249" info="Assuming that condition &amp;#039;ansIter!=ans.end()&amp;#039; is not redundant"/>
+            <location file="tests\two.memcheck\code.cpp" line="249" info="Assuming condition is false"/>
+            <location file="tests\two.memcheck\code.cpp" line="247" info="Assignment &amp;#039;ansIter=ans.begin()&amp;#039;, assigned value is start=0"/>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ansIter" verbose="Possible dereference of an invalid iterator: ansIter" cwe="825" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="257" info="Dereference of an invalid iterator"/>
+            <location file="tests\two.memcheck\code.cpp" line="255" info="Assignment &amp;#039;ansIter=ans.end()-1&amp;#039;, assigned value is start=-1"/>
+            <location file="tests\two.memcheck\code.cpp" line="249" info="Assuming that condition &amp;#039;ansIter!=ans.end()&amp;#039; is not redundant"/>
+            <location file="tests\two.memcheck\code.cpp" line="249" info="Assuming condition is false"/>
+            <location file="tests\two.memcheck\code.cpp" line="247" info="Assignment &amp;#039;ansIter=ans.begin()&amp;#039;, assigned value is start=0"/>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ansIter" verbose="Possible dereference of an invalid iterator: ansIter" cwe="825" file0="tests/two.memcheck/code.cpp" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="259" info="Dereference of an invalid iterator"/>
+            <location file="tests\two.memcheck\code.cpp" line="255" info="Assignment &amp;#039;ansIter=ans.end()-1&amp;#039;, assigned value is start=-1"/>
+            <location file="tests\two.memcheck\code.cpp" line="249" info="Assuming that condition &amp;#039;ansIter!=ans.end()&amp;#039; is not redundant"/>
+            <location file="tests\two.memcheck\code.cpp" line="249" info="Assuming condition is false"/>
+            <location file="tests\two.memcheck\code.cpp" line="247" info="Assignment &amp;#039;ansIter=ans.begin()&amp;#039;, assigned value is start=0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;exceptionTest&amp;#039; is never used." verbose="The function &amp;#039;exceptionTest&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="tests\two.memcheck\code.cpp" line="436"/>
+        </error>
+    </errors>
+</results>

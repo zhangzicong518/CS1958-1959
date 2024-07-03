@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="9845754728263203114">
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="try2.cpp">
+            <location file="try2.cpp" line="109" column="0"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="try2.cpp">
+            <location file="try2.cpp" line="116" column="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Deque::size&apos; is not initialized in the constructor." verbose="Member variable &apos;Deque::size&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="try2.cpp">
+            <location file="try2.cpp" line="287" column="21"/>
+            <symbol>Deque::size</symbol>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &apos;Deque&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;Deque&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="try2.cpp">
+            <location file="try2.cpp" line="289" column="5"/>
+            <symbol>Deque</symbol>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &apos;Deque&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;Deque&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="try2.cpp">
+            <location file="try2.cpp" line="289" column="5"/>
+            <symbol>Deque</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;DequeItr&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;DequeItr&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="try2.cpp">
+            <location file="try2.cpp" line="482" column="5"/>
+            <symbol>DequeItr</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="try2.cpp:9:10" call-funcname="swap" call-argnr="2" file="try2.cpp" line="85" col="17" call-argexpr="k-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="try2.cpp" line="83" col="34" info="Assuming that condition &apos;k&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="try2.cpp:9:10" call-funcname="swap" call-argnr="2" file="try2.cpp" line="99" col="17" call-argexpr="k-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="try2.cpp" line="97" col="34" info="Assuming that condition &apos;k&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="try2.cpp:9:10" call-funcname="swap" call-argnr="2" file="try2.cpp" line="211" col="17" call-argexpr="k-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="try2.cpp" line="209" col="34" info="Assuming that condition &apos;k&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="try2.cpp:283:5" call-funcname="Node" call-argnr="2" file="try2.cpp" line="358" col="41" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try2.cpp:283:5" call-funcname="Node" call-argnr="2" file="try2.cpp" line="628" col="41" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="try2.cpp:476:10" my-argnr="1" my-argname="itr" file="try2.cpp" line="549" col="32" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="swap" lineNumber="45"/>
+    <functiondecl functionName="is_empty" lineNumber="53"/>
+    <functiondecl functionName="is_filled" lineNumber="59"/>
+    <functiondecl functionName="get_size" lineNumber="65"/>
+    <functiondecl functionName="push_back" lineNumber="71"/>
+    <functiondecl functionName="push_pointer_front" lineNumber="78"/>
+    <functiondecl functionName="push_front" lineNumber="92"/>
+    <functiondecl functionName="at" lineNumber="113"/>
+    <functiondecl functionName="front" lineNumber="120"/>
+    <functiondecl functionName="back" lineNumber="126"/>
+    <functiondecl functionName="nullout_last" lineNumber="132"/>
+    <functiondecl functionName="insert_before" lineNumber="138"/>
+    <functiondecl functionName="remove_at" lineNumber="150"/>
+    <functiondecl functionName="pop_front" lineNumber="163"/>
+    <functiondecl functionName="pop_back" lineNumber="173"/>
+    <functiondecl functionName="emplace_back" lineNumber="196"/>
+    <functiondecl functionName="emplace_front" lineNumber="204"/>
+    <functiondecl functionName="emplace" lineNumber="219"/>
+    <functiondecl functionName="front" lineNumber="302"/>
+    <functiondecl functionName="back" lineNumber="308"/>
+    <functiondecl functionName="at" lineNumber="326"/>
+    <functiondecl functionName="push_back" lineNumber="338"/>
+    <functiondecl functionName="push_front" lineNumber="354"/>
+    <functiondecl functionName="insert" lineNumber="370"/>
+    <functiondecl functionName="pop_front" lineNumber="398"/>
+    <functiondecl functionName="pop_back" lineNumber="412"/>
+    <functiondecl functionName="erase" lineNumber="427"/>
+    <functiondecl functionName="begin" lineNumber="582"/>
+    <functiondecl functionName="end" lineNumber="588"/>
+    <functiondecl functionName="cbegin" lineNumber="594"/>
+    <functiondecl functionName="cend" lineNumber="600"/>
+    <functiondecl functionName="emplace_back" lineNumber="607"/>
+    <functiondecl functionName="emplace_front" lineNumber="624"/>
+    <functiondecl functionName="emplace" lineNumber="641"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="Deque"/>
+    <functioncall functionName="DequeItr"/>
+    <functioncall functionName="LimVec"/>
+    <functioncall functionName="Node"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="emplace_front"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get_size"/>
+    <functioncall functionName="insert_before"/>
+    <functioncall functionName="is_empty"/>
+    <functioncall functionName="is_filled"/>
+    <functioncall functionName="max_size"/>
+    <functioncall functionName="nullout_last"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="push_pointer_front"/>
+    <functioncall functionName="remove_at"/>
+    <functioncall functionName="swap"/>
+  </FileInfo>
+</analyzerinfo>

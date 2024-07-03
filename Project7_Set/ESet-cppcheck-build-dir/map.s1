@@ -1,0 +1,62 @@
+node
+node
+init call:[operatornew,sizeof]
+clear call:[clear]
+minimum
+maximum
+leftRotate
+rightRotate
+insert_rebalance call:[leftRotate,rightRotate] noreturn:[leftRotate,rightRotate]
+erase_rebalance call:[leftRotate,maximum,minimum,rightRotate] noreturn:[maximum,minimum]
+copy_tree call:[copy_tree,node] noreturn:[copy_tree]
+iterator
+iterator
+iterator
+iterator
+operator=
+operator++ call:[invalid_iterator,itr] noreturn:[invalid_iterator]
+operator++ call:[invalid_iterator] noreturn:[invalid_iterator]
+operator-- call:[invalid_iterator,itr] noreturn:[invalid_iterator]
+operator-- call:[invalid_iterator] noreturn:[invalid_iterator]
+operator*
+operator== call:[return] noreturn:[return]
+operator== call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+operator->
+const_iterator
+const_iterator
+const_iterator
+const_iterator
+operator=
+operator++ call:[invalid_iterator,itr] noreturn:[invalid_iterator]
+operator++ call:[invalid_iterator] noreturn:[invalid_iterator]
+operator-- call:[invalid_iterator,itr] noreturn:[invalid_iterator]
+operator-- call:[invalid_iterator] noreturn:[invalid_iterator]
+operator*
+operator== call:[return] noreturn:[return]
+operator== call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+operator->
+map call:[init]
+map call:[copy_tree,init]
+operator= call:[clear,copy_tree]
+map call:[clear,operatordelete] noreturn:[operatordelete]
+at call:[Compare,index_out_of_bound] noreturn:[index_out_of_bound]
+at call:[Compare,index_out_of_bound] noreturn:[index_out_of_bound]
+operator[] call:[Compare,T,insert,return] noreturn:[return]
+operator[] call:[Compare,index_out_of_bound] noreturn:[index_out_of_bound]
+begin call:[itr]
+cbegin call:[itr]
+end call:[itr]
+cend call:[itr]
+empty
+size
+clear call:[clear]
+insert call:[Compare,begin,insert,j]
+erase call:[erase_rebalance,invalid_iterator] noreturn:[invalid_iterator]
+count call:[Compare]
+find call:[Compare,itr]
+find call:[Compare,itr]
+insert call:[Compare,insert_rebalance,iterator,node] noreturn:[iterator]

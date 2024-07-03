@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/minivim.h
+string
+-
+cstdio
+-
+vector
+-
+iostream
+-
+fstream
+-
+ncurses.h
+-
+
+/mnt/d/Project/Project2_Minivim/minivim/src/minivim.cpp
+minivim.h
+-
+

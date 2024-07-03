@@ -1,0 +1,332 @@
+exception
+exception
+what
+Int
+operator==
+operator!=
+DynamicType
+DynamicType
+operator=
+DynamicType
+operator!=
+init call:[clock] noreturn:[clock]
+stop call:[clock] noreturn:[clock]
+getTime
+isEqual call:[clear,push_back,size] noreturn:[push_back]
+pushBackChecker global:[N,timer] call:[getTime,init,isEqual,make_pair,push_back,rand,stop] noreturn:[make_pair,push_back]
+pushFrontChecker global:[N,timer] call:[getTime,init,isEqual,make_pair,push_front,rand,stop] noreturn:[make_pair,push_front]
+insertChecker global:[N,timer] call:[getTime,init,isEqual,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+popBackChecker global:[N,timer] call:[getTime,init,isEqual,make_pair,pop_back,push_back,rand,size,stop] noreturn:[make_pair,pop_back,push_back]
+popFrontChecker global:[N,timer] call:[getTime,init,isEqual,make_pair,pop_front,push_back,rand,size,stop] noreturn:[make_pair,pop_front,push_back]
+eraseChecker global:[N,timer] call:[begin,erase,getTime,init,isEqual,make_pair,push_back,rand,size,stop] noreturn:[erase,make_pair,push_back]
+atChecker global:[N,timer] call:[at,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+constAtChecker global:[N,timer] call:[a,at,b,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+bracketChecker global:[N,timer] call:[getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+constBracketChecker global:[N,timer] call:[a,b,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+frontChecker global:[N,timer] call:[front,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair]
+backChecker global:[N,timer] call:[back,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair]
+iteratorAddNChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair]
+iteratorRedNChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair]
+iteratorAddENChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair]
+iteratorRedENChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair]
+iteratorPAddOneChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair,rand]
+iteratorPRedOneChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair]
+iteratorSAddOneChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair,rand]
+iteratorSRedOneChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,size,stop] noreturn:[insert,make_pair]
+iteratorMinusOperatorChecker global:[N,timer] call:[begin,end,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+errorBracketChecker global:[N,timer] call:[getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+errorAtChecker global:[N,timer] call:[at,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair,push_back]
+errorIteratorChecker global:[N,timer] call:[begin,end,getTime,init,make_pair,push_back,rand,size,stop] noreturn:[begin,end,make_pair,push_back]
+errorInsertChecker global:[N,timer] call:[begin,end,getTime,init,insert,make_pair,push_back,rand,stop] noreturn:[insert,make_pair,push_back]
+errorEraseChecker global:[N,timer] call:[begin,end,erase,getTime,init,make_pair,push_back,rand,stop] noreturn:[erase,make_pair,push_back]
+sizeChecker global:[N,timer] call:[getTime,init,make_pair,push_back,rand,size,stop] noreturn:[make_pair]
+emptyChecker global:[N,timer] call:[empty,getTime,init,make_pair,push_back,rand,stop] noreturn:[make_pair,push_back]
+copyConstructorChecker global:[N,timer] call:[DynamicType,clear,getTime,init,make_pair,push_back,stop,tmpA,tmpB] noreturn:[make_pair,push_back]
+equalOperatorChecker global:[N,timer] call:[DynamicType,clear,getTime,init,make_pair,push_back,stop] noreturn:[make_pair,push_back]
+memoryLeakChecker global:[N,timer] call:[DynamicType,begin,clear,getTime,init,insert,make_pair,pop_front,push_back,push_front,rand,size,stop] noreturn:[make_pair,pop_front,push_front]
+synthesisChecker global:[N,timer] call:[begin,cbegin,clear,end,erase,getTime,init,insert,isEqual,make_pair,push_back,rand,stop,tA,tB,ttA,ttB,tttA,tttB] noreturn:[make_pair,push_back]
+iteratorInsertPersistenceChecker global:[N,timer] call:[begin,end,getTime,init,insert,isEqual,make_pair,rand,stop] noreturn:[make_pair]
+iteratorErasePersistenceChecker global:[N,timer] call:[begin,end,erase,getTime,init,isEqual,make_pair,printf,push_back,rand,stop] noreturn:[make_pair,push_back]
+pushBackTimer global:[N_SPEED,timer] call:[getTime,init,make_pair,push_back,rand,stop] noreturn:[make_pair,push_back]
+popBackTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,pop_back,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,pop_back,push_back,push_front]
+pushFrontTimer global:[N_SPEED,timer] call:[getTime,init,make_pair,push_front,rand,stop] noreturn:[make_pair,push_front]
+popFrontTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,pop_front,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,pop_front,push_back,push_front]
+frontTimer global:[N_SPEED,timer] call:[begin,front,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[front,insert,make_pair,push_back,push_front]
+backTimer global:[N_SPEED,timer] call:[back,begin,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[back,insert,make_pair,push_back,push_front]
+beginTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[begin,insert,make_pair,push_back,push_front]
+endTimer global:[N_SPEED,timer] call:[begin,end,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[end,insert,make_pair,push_back,push_front]
+iteratorAddOneTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front]
+iteratorRedOneTimer global:[N_SPEED,timer] call:[begin,end,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front]
+iteratorAddNTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front]
+iteratorRedNTimer global:[N_SPEED,timer] call:[begin,end,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front]
+insertTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,rand,size,stop] noreturn:[insert,make_pair]
+eraseTimer global:[N_SPEED,timer] call:[begin,erase,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[erase,insert,make_pair,push_back,push_front]
+copyConstructorTimer global:[N_SPEED,timer] call:[b,begin,c,d,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front]
+equalOperatorTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front]
+atTimer global:[N_SPEED,timer] call:[at,begin,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front,rand]
+bracketTimer global:[N_SPEED,timer] call:[begin,getTime,init,insert,make_pair,push_back,push_front,rand,size,stop] noreturn:[insert,make_pair,push_back,push_front,rand]
+main global:[N_SPEED,TEST_A,TEST_B] call:[getTime,init,printf,puts,second,sizeof,stop] noreturn:[printf,puts]
+vec
+vec call:[Int,vec] noreturn:[Int]
+operator= call:[Int,vec] noreturn:[Int]
+vec
+swap
+expand call:[Int]
+is_empty
+is_full
+get_size
+push_back call:[Int,expand] noreturn:[Int,expand]
+push_back call:[Int,expand] noreturn:[Int,expand]
+push_front call:[Int,expand,swap] noreturn:[Int,expand,swap]
+push_front call:[Int,expand,swap] noreturn:[Int,expand,swap]
+operator[] call:[throw] noreturn:[throw]
+at call:[throw] noreturn:[throw]
+front call:[throw] noreturn:[throw]
+back call:[throw] noreturn:[throw]
+insert call:[Int,expand] noreturn:[Int,expand]
+remove call:[swap] noreturn:[swap]
+pop_front call:[swap] noreturn:[swap]
+pop_back
+resize
+block
+block
+operator= call:[vec]
+block
+iterator
+iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+const_iterator
+const_iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+deque < Int > call:[block]
+deque < Int > call:[block]
+deque < Int >
+operator= call:[block,deque < Int >]
+two_pow
+at call:[get_size,throw] noreturn:[throw]
+at call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+front call:[front,size,throw] noreturn:[front,throw]
+back call:[back,throw] noreturn:[back,throw]
+begin call:[end,iterator] noreturn:[iterator]
+cbegin call:[cend,const_iterator] noreturn:[const_iterator]
+end call:[iterator] noreturn:[iterator]
+cend call:[const_iterator] noreturn:[const_iterator]
+empty
+size
+clear call:[block,deque < Int >]
+split call:[block,get_size,resize]
+merge call:[push_back] noreturn:[push_back]
+insert call:[end,get_size,insert,iterator,push_back,split,two_pow] noreturn:[end,iterator,split]
+erase call:[get_size,iterator,merge,remove,throw,two_pow] noreturn:[merge,throw]
+push_back call:[get_size,push_back,split,two_pow] noreturn:[split]
+pop_back call:[get_size,merge,pop_back,throw,two_pow] noreturn:[merge,throw]
+push_front call:[get_size,push_front,split,two_pow] noreturn:[split]
+pop_front call:[get_size,merge,pop_front,throw,two_pow] noreturn:[merge,throw]
+vec
+vec call:[DynamicType,vec] noreturn:[DynamicType]
+operator= call:[DynamicType,vec] noreturn:[DynamicType]
+vec
+swap
+expand call:[DynamicType]
+is_empty
+is_full
+get_size
+push_back call:[DynamicType,expand] noreturn:[DynamicType,expand]
+push_back call:[DynamicType,expand] noreturn:[DynamicType,expand]
+push_front call:[DynamicType,expand,swap] noreturn:[DynamicType,expand,swap]
+push_front call:[DynamicType,expand,swap] noreturn:[DynamicType,expand,swap]
+operator[] call:[throw] noreturn:[throw]
+at call:[throw] noreturn:[throw]
+front call:[throw] noreturn:[throw]
+back call:[throw] noreturn:[throw]
+insert call:[DynamicType,expand] noreturn:[DynamicType,expand]
+remove call:[swap] noreturn:[swap]
+pop_front call:[swap] noreturn:[swap]
+pop_back
+resize
+block
+block
+operator= call:[vec]
+block
+iterator
+iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+const_iterator
+const_iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+deque < DynamicType > call:[block]
+deque < DynamicType > call:[block]
+deque < DynamicType >
+operator= call:[block,deque < DynamicType >]
+two_pow
+at call:[get_size,throw] noreturn:[throw]
+at call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+front call:[front,size,throw] noreturn:[front,throw]
+back call:[back,throw] noreturn:[back,throw]
+begin call:[end,iterator] noreturn:[iterator]
+cbegin call:[cend,const_iterator] noreturn:[const_iterator]
+end call:[iterator] noreturn:[iterator]
+cend call:[const_iterator] noreturn:[const_iterator]
+empty
+size
+clear call:[block,deque < DynamicType >]
+split call:[block,get_size,resize]
+merge call:[push_back] noreturn:[push_back]
+insert call:[end,get_size,insert,iterator,push_back,split,two_pow] noreturn:[end,iterator,split]
+erase call:[get_size,iterator,merge,remove,throw,two_pow] noreturn:[merge,throw]
+push_back call:[get_size,push_back,split,two_pow] noreturn:[split]
+pop_back call:[get_size,merge,pop_back,throw,two_pow] noreturn:[merge,throw]
+push_front call:[get_size,push_front,split,two_pow] noreturn:[split]
+pop_front call:[get_size,merge,pop_front,throw,two_pow] noreturn:[merge,throw]
+vec
+vec call:[int,vec] noreturn:[int]
+operator= call:[int,vec] noreturn:[int]
+vec
+swap
+expand call:[int]
+is_empty
+is_full
+get_size
+push_back call:[expand,int] noreturn:[expand,int]
+push_back call:[expand,int] noreturn:[expand,int]
+push_front call:[expand,int,swap] noreturn:[expand,int,swap]
+push_front call:[expand,int,swap] noreturn:[expand,int,swap]
+operator[] call:[throw] noreturn:[throw]
+at call:[throw] noreturn:[throw]
+front call:[throw] noreturn:[throw]
+back call:[throw] noreturn:[throw]
+insert call:[expand,int] noreturn:[expand,int]
+remove call:[swap] noreturn:[swap]
+pop_front call:[swap] noreturn:[swap]
+pop_back
+resize
+block
+block
+operator= call:[vec]
+block
+iterator
+iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+const_iterator
+const_iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+deque < int > call:[block]
+deque < int > call:[block]
+deque < int >
+operator= call:[block,deque < int >]
+two_pow
+at call:[get_size,throw] noreturn:[throw]
+at call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+front call:[front,size,throw] noreturn:[front,throw]
+back call:[back,throw] noreturn:[back,throw]
+begin call:[end,iterator] noreturn:[iterator]
+cbegin call:[cend,const_iterator] noreturn:[const_iterator]
+end call:[iterator] noreturn:[iterator]
+cend call:[const_iterator] noreturn:[const_iterator]
+empty
+size
+clear call:[block,deque < int >]
+split call:[block,get_size,resize]
+merge call:[push_back] noreturn:[push_back]
+insert call:[end,get_size,insert,iterator,push_back,split,two_pow] noreturn:[end,iterator,split]
+erase call:[get_size,iterator,merge,remove,throw,two_pow] noreturn:[merge,throw]
+push_back call:[get_size,push_back,split,two_pow] noreturn:[split]
+pop_back call:[get_size,merge,pop_back,throw,two_pow] noreturn:[merge,throw]
+push_front call:[get_size,push_front,split,two_pow] noreturn:[split]
+pop_front call:[get_size,merge,pop_front,throw,two_pow] noreturn:[merge,throw]

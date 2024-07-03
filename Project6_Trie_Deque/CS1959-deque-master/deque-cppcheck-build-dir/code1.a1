@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4313240275683495283">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-matrix.hpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iomanip&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iomanip&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-matrix.hpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-matrix.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-matrix.hpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iomanip&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iomanip&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="64" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="class-bint.hpp" line="65" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code1.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="exceptions.hpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="exceptions.hpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="exceptions.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="deque.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="deque.hpp" line="7" column="0"/>
+        </error>
+        <error id="operatorEqToSelf" severity="warning" msg="&apos;operator=&apos; should check for assignment to self to avoid problems with dynamic memory." verbose="&apos;operator=&apos; should check for assignment to self to ensure that each block of dynamically allocated memory is owned and managed by only one instance of the class." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="44" column="12"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;elements&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;elements&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="217" column="9"/>
+            <symbol>elements</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Integer&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Integer&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="class-integer.hpp" line="5" column="5"/>
+            <symbol>Integer</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Bint&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Bint&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="class-bint.hpp" line="30" column="5"/>
+            <symbol>Bint</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Bint&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Bint&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="class-bint.hpp" line="31" column="5"/>
+            <symbol>Bint</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Bint&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Bint&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="class-bint.hpp" line="32" column="5"/>
+            <symbol>Bint</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;vec&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;vec&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="25" column="7"/>
+            <symbol>vec</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;block&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;block&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="212" column="7"/>
+            <symbol>block</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="243" column="7"/>
+            <symbol>iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="450" column="7"/>
+            <symbol>const_iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="451" column="7"/>
+            <symbol>const_iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;RowProxy&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;RowProxy&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="class-matrix.hpp" line="20" column="9"/>
+            <symbol>RowProxy</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ConstRowProxy&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ConstRowProxy&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code1.cpp">
+            <location file="class-matrix.hpp" line="29" column="9"/>
+            <symbol>ConstRowProxy</symbol>
+        </error>
+        <error id="incorrectLogicOperator" severity="warning" msg="Logical conjunction always evaluates to false: current_block != nullptr &amp;&amp; current_block == nullptr." verbose="Logical conjunction always evaluates to false: current_block != nullptr &amp;&amp; current_block == nullptr. Are these conditions necessary? Did you intend to use || instead? Are the numbers correct? Are you comparing the correct variables?" cwe="570" file0="code1.cpp">
+            <location file="deque.hpp" line="308" column="42"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;current_block!=nullptr&apos; is always true" verbose="Condition &apos;current_block!=nullptr&apos; is always true" cwe="571" file0="code1.cpp">
+            <location file="deque.hpp" line="326" column="62" info="Condition &apos;current_block!=nullptr&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;current_block!=nullptr&apos; is always true" verbose="Condition &apos;current_block!=nullptr&apos; is always true" cwe="571" file0="code1.cpp">
+            <location file="deque.hpp" line="533" column="62" info="Condition &apos;current_block!=nullptr&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;_nxt!=nullptr&apos; is always true" verbose="Condition &apos;_nxt!=nullptr&apos; is always true" cwe="571" file0="code1.cpp">
+            <location file="deque.hpp" line="881" column="16" info="Condition &apos;_nxt!=nullptr&apos; is always true"/>
+        </error>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="423" column="11"/>
+        </error>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="630" column="11"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp">
+            <location file="deque.hpp" line="288" column="17" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="283" column="34" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp">
+            <location file="deque.hpp" line="311" column="23" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="303" column="34" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp">
+            <location file="deque.hpp" line="346" column="20" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="351" column="31" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code1.cpp">
+            <location file="deque.hpp" line="495" column="17" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="490" column="34" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="oppositeExpression" severity="style" msg="Opposite expression on both sides of &apos;&amp;&amp;&apos;." verbose="Finding the opposite expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="code1.cpp">
+            <location file="deque.hpp" line="308" column="42"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;dInt&apos; can be declared as reference to const" verbose="Variable &apos;dInt&apos; can be declared as reference to const" cwe="398" file0="code1.cpp">
+            <location file="code1.cpp" line="92" column="29" info="Variable &apos;dInt&apos; can be declared as reference to const"/>
+            <symbol>dInt</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: cur.nxt, cur.pre" verbose="Uninitialized variables: cur.nxt, cur.pre" cwe="457" file0="code1.cpp">
+            <location file="deque.hpp" line="675" column="19"/>
+            <location file="deque.hpp" line="667" column="18" info="Assuming condition is false"/>
+            <symbol>cur</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: cur.nxt, cur.pre" verbose="Uninitialized variables: cur.nxt, cur.pre" cwe="457" file0="code1.cpp">
+            <location file="deque.hpp" line="700" column="19"/>
+            <location file="deque.hpp" line="692" column="18" info="Assuming condition is false"/>
+            <symbol>cur</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="code1.cpp">
+            <location file="deque.hpp" line="791" column="15"/>
+            <symbol>tmp</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="class-bint.hpp:26:10" call-funcname="_SafeNewSpace" call-argnr="1" file="class-bint.hpp" line="88" col="18" call-argexpr="newMem" call-argvaluetype="0" call-argvalue="0">
+  <path file="class-bint.hpp" line="87" col="19" info="Assignment &apos;newMem=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="code1.cpp:16:11" call-funcname="randNum" call-argnr="1" file="code1.cpp" line="36" col="39" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="code1.cpp" line="34" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="code1.cpp:16:11" call-funcname="randNum" call-argnr="1" file="code1.cpp" line="53" col="136" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="code1.cpp" line="51" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="115" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="114" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="124" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="123" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="800" col="46" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="809" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="928" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="115" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="114" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="124" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="123" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="800" col="46" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="809" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="928" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="115" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="114" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="124" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="123" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="800" col="46" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="809" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="928" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="115" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="114" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="124" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="123" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="800" col="46" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="809" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="928" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Integer" file="class-integer.hpp" line="1" col="1" hash="9969937263774868130"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="deque.hpp:103:12" my-argnr="1" my-argname="val" file="deque.hpp" line="107" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:118:12" my-argnr="1" my-argname="val" file="deque.hpp" line="125" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:103:12" my-argnr="1" my-argname="val" file="deque.hpp" line="107" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:118:12" my-argnr="1" my-argname="val" file="deque.hpp" line="125" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:103:12" my-argnr="1" my-argname="val" file="deque.hpp" line="107" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:118:12" my-argnr="1" my-argname="val" file="deque.hpp" line="125" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:103:12" my-argnr="1" my-argname="val" file="deque.hpp" line="107" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:118:12" my-argnr="1" my-argname="val" file="deque.hpp" line="125" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="class-integer.hpp:7:10" my-argnr="1" my-argname="t" file="class-integer.hpp" line="9" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:82:13" my-argnr="1" my-argname="a" file="class-matrix.hpp" line="84" col="9" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:82:13" my-argnr="2" my-argname="b" file="class-matrix.hpp" line="84" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:97:13" my-argnr="1" my-argname="a" file="class-matrix.hpp" line="99" col="9" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:97:13" my-argnr="2" my-argname="b" file="class-matrix.hpp" line="99" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:111:6" my-argnr="1" my-argname="a" file="class-matrix.hpp" line="113" col="9" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:111:6" my-argnr="2" my-argname="b" file="class-matrix.hpp" line="113" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:126:13" my-argnr="1" my-argname="mat" file="class-matrix.hpp" line="128" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:138:13" my-argnr="1" my-argname="mat" file="class-matrix.hpp" line="140" col="28" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:152:13" my-argnr="1" my-argname="a" file="class-matrix.hpp" line="154" col="9" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:152:13" my-argnr="2" my-argname="b" file="class-matrix.hpp" line="154" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:172:13" my-argnr="1" my-argname="a" file="class-matrix.hpp" line="174" col="19" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:184:13" my-argnr="2" my-argname="a" file="class-matrix.hpp" line="186" col="19" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:196:13" my-argnr="1" my-argname="a" file="class-matrix.hpp" line="198" col="19" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:208:13" my-argnr="1" my-argname="a" file="class-matrix.hpp" line="210" col="21" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:220:16" my-argnr="1" my-argname="stream" file="class-matrix.hpp" line="222" col="39" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:220:16" my-argnr="2" my-argname="mat" file="class-matrix.hpp" line="227" col="28" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:26:10" my-argnr="2" my-argname="len" file="class-bint.hpp" line="78" col="17" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:33:5" my-argnr="1" my-argname="b" file="class-bint.hpp" line="183" col="18" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:34:5" my-argnr="1" my-argname="b" file="class-bint.hpp" line="189" col="12" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:257:15" my-argnr="1" my-argname="is" file="class-bint.hpp" line="260" col="5" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:265:15" my-argnr="2" my-argname="b" file="class-bint.hpp" line="267" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:293:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="295" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:293:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="295" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:309:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="311" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:309:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="311" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:325:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="327" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:325:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="327" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:358:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="360" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:358:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="360" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:386:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="388" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:386:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="388" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:415:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="417" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:415:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="417" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:455:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="457" col="9" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:455:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="457" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:484:6" my-argnr="1" my-argname="lhs" file="class-bint.hpp" line="486" col="24" value="0"/>
+    <unsafe-usage my-id="class-bint.hpp:484:6" my-argnr="2" my-argname="rhs" file="class-bint.hpp" line="486" col="37" value="0"/>
+    <unsafe-usage my-id="deque.hpp:33:7" my-argnr="1" my-argname="other" file="deque.hpp" line="36" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:44:12" my-argnr="1" my-argname="other" file="deque.hpp" line="46" col="20" value="0"/>
+    <unsafe-usage my-id="deque.hpp:103:12" my-argnr="1" my-argname="val" file="deque.hpp" line="107" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:118:12" my-argnr="1" my-argname="val" file="deque.hpp" line="125" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:213:7" my-argnr="1" my-argname="other" file="deque.hpp" line="215" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:219:14" my-argnr="1" my-argname="other" file="deque.hpp" line="222" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:244:7" my-argnr="1" my-argname="t" file="deque.hpp" line="246" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:264:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="268" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:359:16" my-argnr="1" my-argname="n" file="deque.hpp" line="362" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:365:16" my-argnr="1" my-argname="n" file="deque.hpp" line="368" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:427:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="429" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:431:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="433" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:435:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="437" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:439:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="441" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:451:7" my-argnr="1" my-argname="t" file="deque.hpp" line="453" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:471:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="475" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:566:22" my-argnr="1" my-argname="n" file="deque.hpp" line="569" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:572:22" my-argnr="1" my-argname="n" file="deque.hpp" line="575" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:634:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="636" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:638:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="640" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:642:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="644" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:646:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="648" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:661:5" my-argnr="1" my-argname="other" file="deque.hpp" line="663" col="18" value="0"/>
+    <unsafe-usage my-id="deque.hpp:683:12" my-argnr="1" my-argname="other" file="deque.hpp" line="685" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:933:10" my-argnr="1" my-argname="value" file="deque.hpp" line="935" col="42" value="0"/>
+    <unsafe-usage my-id="deque.hpp:951:10" my-argnr="1" my-argname="value" file="deque.hpp" line="953" col="39" value="0"/>
+    <unsafe-usage my-id="deque.hpp:33:7" my-argnr="1" my-argname="other" file="deque.hpp" line="36" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:44:12" my-argnr="1" my-argname="other" file="deque.hpp" line="46" col="20" value="0"/>
+    <unsafe-usage my-id="deque.hpp:213:7" my-argnr="1" my-argname="other" file="deque.hpp" line="215" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:219:14" my-argnr="1" my-argname="other" file="deque.hpp" line="222" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:244:7" my-argnr="1" my-argname="t" file="deque.hpp" line="246" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:264:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="268" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:359:16" my-argnr="1" my-argname="n" file="deque.hpp" line="362" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:365:16" my-argnr="1" my-argname="n" file="deque.hpp" line="368" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:427:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="429" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:431:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="433" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:435:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="437" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:439:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="441" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:451:7" my-argnr="1" my-argname="t" file="deque.hpp" line="453" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:471:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="475" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:566:22" my-argnr="1" my-argname="n" file="deque.hpp" line="569" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:572:22" my-argnr="1" my-argname="n" file="deque.hpp" line="575" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:634:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="636" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:638:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="640" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:642:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="644" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:646:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="648" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:661:5" my-argnr="1" my-argname="other" file="deque.hpp" line="663" col="18" value="0"/>
+    <unsafe-usage my-id="deque.hpp:683:12" my-argnr="1" my-argname="other" file="deque.hpp" line="685" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:33:7" my-argnr="1" my-argname="other" file="deque.hpp" line="36" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:44:12" my-argnr="1" my-argname="other" file="deque.hpp" line="46" col="20" value="0"/>
+    <unsafe-usage my-id="deque.hpp:213:7" my-argnr="1" my-argname="other" file="deque.hpp" line="215" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:219:14" my-argnr="1" my-argname="other" file="deque.hpp" line="222" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:244:7" my-argnr="1" my-argname="t" file="deque.hpp" line="246" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:264:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="268" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:359:16" my-argnr="1" my-argname="n" file="deque.hpp" line="362" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:365:16" my-argnr="1" my-argname="n" file="deque.hpp" line="368" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:427:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="429" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:431:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="433" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:435:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="437" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:439:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="441" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:451:7" my-argnr="1" my-argname="t" file="deque.hpp" line="453" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:471:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="475" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:566:22" my-argnr="1" my-argname="n" file="deque.hpp" line="569" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:572:22" my-argnr="1" my-argname="n" file="deque.hpp" line="575" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:634:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="636" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:638:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="640" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:642:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="644" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:646:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="648" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:661:5" my-argnr="1" my-argname="other" file="deque.hpp" line="663" col="18" value="0"/>
+    <unsafe-usage my-id="deque.hpp:683:12" my-argnr="1" my-argname="other" file="deque.hpp" line="685" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:33:7" my-argnr="1" my-argname="other" file="deque.hpp" line="36" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:44:12" my-argnr="1" my-argname="other" file="deque.hpp" line="46" col="20" value="0"/>
+    <unsafe-usage my-id="deque.hpp:213:7" my-argnr="1" my-argname="other" file="deque.hpp" line="215" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:219:14" my-argnr="1" my-argname="other" file="deque.hpp" line="222" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:244:7" my-argnr="1" my-argname="t" file="deque.hpp" line="246" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:264:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="268" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:359:16" my-argnr="1" my-argname="n" file="deque.hpp" line="362" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:365:16" my-argnr="1" my-argname="n" file="deque.hpp" line="368" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:427:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="429" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:431:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="433" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:435:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="437" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:439:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="441" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:451:7" my-argnr="1" my-argname="t" file="deque.hpp" line="453" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:471:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="475" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:566:22" my-argnr="1" my-argname="n" file="deque.hpp" line="569" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:572:22" my-argnr="1" my-argname="n" file="deque.hpp" line="575" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:634:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="636" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:638:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="640" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:642:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="644" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:646:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="648" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:661:5" my-argnr="1" my-argname="other" file="deque.hpp" line="663" col="18" value="0"/>
+    <unsafe-usage my-id="deque.hpp:683:12" my-argnr="1" my-argname="other" file="deque.hpp" line="685" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:933:10" my-argnr="1" my-argname="value" file="deque.hpp" line="935" col="42" value="0"/>
+    <unsafe-usage my-id="deque.hpp:951:10" my-argnr="1" my-argname="value" file="deque.hpp" line="953" col="39" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:21:15" my-argnr="1" my-argname="pos" file="class-matrix.hpp" line="23" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:30:21" my-argnr="1" my-argname="pos" file="class-matrix.hpp" line="32" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:45:19" my-argnr="1" my-argname="rhs" file="class-matrix.hpp" line="47" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:52:19" my-argnr="1" my-argname="rhs" file="class-matrix.hpp" line="54" col="24" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:67:14" my-argnr="1" my-argname="Kth" file="class-matrix.hpp" line="69" col="36" value="0"/>
+    <unsafe-usage my-id="class-matrix.hpp:71:25" my-argnr="1" my-argname="Kth" file="class-matrix.hpp" line="73" col="41" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Transpose" lineNumber="208"/>
+    <functiondecl functionName="I" lineNumber="239"/>
+    <functiondecl functionName="Pow" lineNumber="249"/>
+    <functiondecl functionName="_SafeNewSpace" lineNumber="72"/>
+    <functiondecl functionName="_DoubleSpace" lineNumber="85"/>
+    <functiondecl functionName="abs" lineNumber="280"/>
+    <functiondecl functionName="abs" lineNumber="287"/>
+    <functiondecl functionName="what" lineNumber="21"/>
+    <functiondecl functionName="randNum" lineNumber="16"/>
+    <functiondecl functionName="error" lineNumber="23"/>
+    <functiondecl functionName="TestInteger" lineNumber="29"/>
+    <functiondecl functionName="TestMatrix" lineNumber="46"/>
+    <functiondecl functionName="TestBint" lineNumber="64"/>
+    <functiondecl functionName="TestCopyConstructorAndOperatorEqu" lineNumber="83"/>
+    <functiondecl functionName="TestIteratorSequenceAccess" lineNumber="111"/>
+    <functiondecl functionName="TestIteratorRandomAccess" lineNumber="132"/>
+    <functiondecl functionName="TestInsertAndErase" lineNumber="150"/>
+    <functiondecl functionName="TestPopAndPush" lineNumber="176"/>
+    <functiondecl functionName="main" lineNumber="213"/>
+    <functiondecl functionName="swap" lineNumber="64"/>
+    <functiondecl functionName="expand" lineNumber="70"/>
+    <functiondecl functionName="is_empty" lineNumber="85"/>
+    <functiondecl functionName="is_full" lineNumber="89"/>
+    <functiondecl functionName="get_size" lineNumber="93"/>
+    <functiondecl functionName="push_back" lineNumber="97"/>
+    <functiondecl functionName="push_back" lineNumber="103"/>
+    <functiondecl functionName="push_front" lineNumber="109"/>
+    <functiondecl functionName="push_front" lineNumber="118"/>
+    <functiondecl functionName="at" lineNumber="134"/>
+    <functiondecl functionName="front" lineNumber="141"/>
+    <functiondecl functionName="back" lineNumber="148"/>
+    <functiondecl functionName="insert" lineNumber="155"/>
+    <functiondecl functionName="remove" lineNumber="164"/>
+    <functiondecl functionName="pop_front" lineNumber="175"/>
+    <functiondecl functionName="pop_back" lineNumber="186"/>
+    <functiondecl functionName="resize" lineNumber="194"/>
+    <functiondecl functionName="GetPos" lineNumber="249"/>
+    <functiondecl functionName="GetPos" lineNumber="456"/>
+    <functiondecl functionName="two_pow" lineNumber="704"/>
+    <functiondecl functionName="at" lineNumber="709"/>
+    <functiondecl functionName="at" lineNumber="726"/>
+    <functiondecl functionName="front" lineNumber="777"/>
+    <functiondecl functionName="back" lineNumber="789"/>
+    <functiondecl functionName="begin" lineNumber="798"/>
+    <functiondecl functionName="cbegin" lineNumber="802"/>
+    <functiondecl functionName="end" lineNumber="807"/>
+    <functiondecl functionName="cend" lineNumber="811"/>
+    <functiondecl functionName="empty" lineNumber="816"/>
+    <functiondecl functionName="size" lineNumber="821"/>
+    <functiondecl functionName="clear" lineNumber="826"/>
+    <functiondecl functionName="split" lineNumber="837"/>
+    <functiondecl functionName="merge" lineNumber="872"/>
+    <functiondecl functionName="insert" lineNumber="886"/>
+    <functiondecl functionName="erase" lineNumber="909"/>
+    <functiondecl functionName="push_back" lineNumber="933"/>
+    <functiondecl functionName="pop_back" lineNumber="941"/>
+    <functiondecl functionName="push_front" lineNumber="951"/>
+    <functiondecl functionName="pop_front" lineNumber="959"/>
+    <functiondecl functionName="swap" lineNumber="64"/>
+    <functiondecl functionName="expand" lineNumber="70"/>
+    <functiondecl functionName="is_empty" lineNumber="85"/>
+    <functiondecl functionName="is_full" lineNumber="89"/>
+    <functiondecl functionName="get_size" lineNumber="93"/>
+    <functiondecl functionName="push_back" lineNumber="97"/>
+    <functiondecl functionName="push_back" lineNumber="103"/>
+    <functiondecl functionName="push_front" lineNumber="109"/>
+    <functiondecl functionName="push_front" lineNumber="118"/>
+    <functiondecl functionName="at" lineNumber="134"/>
+    <functiondecl functionName="front" lineNumber="141"/>
+    <functiondecl functionName="back" lineNumber="148"/>
+    <functiondecl functionName="insert" lineNumber="155"/>
+    <functiondecl functionName="remove" lineNumber="164"/>
+    <functiondecl functionName="pop_front" lineNumber="175"/>
+    <functiondecl functionName="pop_back" lineNumber="186"/>
+    <functiondecl functionName="resize" lineNumber="194"/>
+    <functiondecl functionName="GetPos" lineNumber="249"/>
+    <functiondecl functionName="GetPos" lineNumber="456"/>
+    <functiondecl functionName="two_pow" lineNumber="704"/>
+    <functiondecl functionName="at" lineNumber="709"/>
+    <functiondecl functionName="at" lineNumber="726"/>
+    <functiondecl functionName="front" lineNumber="777"/>
+    <functiondecl functionName="back" lineNumber="789"/>
+    <functiondecl functionName="begin" lineNumber="798"/>
+    <functiondecl functionName="cbegin" lineNumber="802"/>
+    <functiondecl functionName="end" lineNumber="807"/>
+    <functiondecl functionName="cend" lineNumber="811"/>
+    <functiondecl functionName="empty" lineNumber="816"/>
+    <functiondecl functionName="size" lineNumber="821"/>
+    <functiondecl functionName="clear" lineNumber="826"/>
+    <functiondecl functionName="split" lineNumber="837"/>
+    <functiondecl functionName="merge" lineNumber="872"/>
+    <functiondecl functionName="insert" lineNumber="886"/>
+    <functiondecl functionName="erase" lineNumber="909"/>
+    <functiondecl functionName="push_back" lineNumber="933"/>
+    <functiondecl functionName="pop_back" lineNumber="941"/>
+    <functiondecl functionName="push_front" lineNumber="951"/>
+    <functiondecl functionName="pop_front" lineNumber="959"/>
+    <functiondecl functionName="swap" lineNumber="64"/>
+    <functiondecl functionName="expand" lineNumber="70"/>
+    <functiondecl functionName="is_empty" lineNumber="85"/>
+    <functiondecl functionName="is_full" lineNumber="89"/>
+    <functiondecl functionName="get_size" lineNumber="93"/>
+    <functiondecl functionName="push_back" lineNumber="97"/>
+    <functiondecl functionName="push_back" lineNumber="103"/>
+    <functiondecl functionName="push_front" lineNumber="109"/>
+    <functiondecl functionName="push_front" lineNumber="118"/>
+    <functiondecl functionName="at" lineNumber="134"/>
+    <functiondecl functionName="front" lineNumber="141"/>
+    <functiondecl functionName="back" lineNumber="148"/>
+    <functiondecl functionName="insert" lineNumber="155"/>
+    <functiondecl functionName="remove" lineNumber="164"/>
+    <functiondecl functionName="pop_front" lineNumber="175"/>
+    <functiondecl functionName="pop_back" lineNumber="186"/>
+    <functiondecl functionName="resize" lineNumber="194"/>
+    <functiondecl functionName="GetPos" lineNumber="249"/>
+    <functiondecl functionName="GetPos" lineNumber="456"/>
+    <functiondecl functionName="two_pow" lineNumber="704"/>
+    <functiondecl functionName="at" lineNumber="709"/>
+    <functiondecl functionName="at" lineNumber="726"/>
+    <functiondecl functionName="front" lineNumber="777"/>
+    <functiondecl functionName="back" lineNumber="789"/>
+    <functiondecl functionName="begin" lineNumber="798"/>
+    <functiondecl functionName="cbegin" lineNumber="802"/>
+    <functiondecl functionName="end" lineNumber="807"/>
+    <functiondecl functionName="cend" lineNumber="811"/>
+    <functiondecl functionName="empty" lineNumber="816"/>
+    <functiondecl functionName="size" lineNumber="821"/>
+    <functiondecl functionName="clear" lineNumber="826"/>
+    <functiondecl functionName="split" lineNumber="837"/>
+    <functiondecl functionName="merge" lineNumber="872"/>
+    <functiondecl functionName="insert" lineNumber="886"/>
+    <functiondecl functionName="erase" lineNumber="909"/>
+    <functiondecl functionName="push_back" lineNumber="933"/>
+    <functiondecl functionName="pop_back" lineNumber="941"/>
+    <functiondecl functionName="push_front" lineNumber="951"/>
+    <functiondecl functionName="pop_front" lineNumber="959"/>
+    <functiondecl functionName="swap" lineNumber="64"/>
+    <functiondecl functionName="expand" lineNumber="70"/>
+    <functiondecl functionName="is_empty" lineNumber="85"/>
+    <functiondecl functionName="is_full" lineNumber="89"/>
+    <functiondecl functionName="get_size" lineNumber="93"/>
+    <functiondecl functionName="push_back" lineNumber="97"/>
+    <functiondecl functionName="push_back" lineNumber="103"/>
+    <functiondecl functionName="push_front" lineNumber="109"/>
+    <functiondecl functionName="push_front" lineNumber="118"/>
+    <functiondecl functionName="at" lineNumber="134"/>
+    <functiondecl functionName="front" lineNumber="141"/>
+    <functiondecl functionName="back" lineNumber="148"/>
+    <functiondecl functionName="insert" lineNumber="155"/>
+    <functiondecl functionName="remove" lineNumber="164"/>
+    <functiondecl functionName="pop_front" lineNumber="175"/>
+    <functiondecl functionName="pop_back" lineNumber="186"/>
+    <functiondecl functionName="resize" lineNumber="194"/>
+    <functiondecl functionName="GetPos" lineNumber="249"/>
+    <functiondecl functionName="GetPos" lineNumber="456"/>
+    <functiondecl functionName="two_pow" lineNumber="704"/>
+    <functiondecl functionName="at" lineNumber="709"/>
+    <functiondecl functionName="at" lineNumber="726"/>
+    <functiondecl functionName="front" lineNumber="777"/>
+    <functiondecl functionName="back" lineNumber="789"/>
+    <functiondecl functionName="begin" lineNumber="798"/>
+    <functiondecl functionName="cbegin" lineNumber="802"/>
+    <functiondecl functionName="end" lineNumber="807"/>
+    <functiondecl functionName="cend" lineNumber="811"/>
+    <functiondecl functionName="empty" lineNumber="816"/>
+    <functiondecl functionName="size" lineNumber="821"/>
+    <functiondecl functionName="clear" lineNumber="826"/>
+    <functiondecl functionName="split" lineNumber="837"/>
+    <functiondecl functionName="merge" lineNumber="872"/>
+    <functiondecl functionName="insert" lineNumber="886"/>
+    <functiondecl functionName="erase" lineNumber="909"/>
+    <functiondecl functionName="push_back" lineNumber="933"/>
+    <functiondecl functionName="pop_back" lineNumber="941"/>
+    <functiondecl functionName="push_front" lineNumber="951"/>
+    <functiondecl functionName="pop_front" lineNumber="959"/>
+    <functiondecl functionName="RowSize" lineNumber="59"/>
+    <functiondecl functionName="ColSize" lineNumber="63"/>
+    <functioncall functionName="BadCast"/>
+    <functioncall functionName="Bint"/>
+    <functioncall functionName="ColSize"/>
+    <functioncall functionName="ConstRowProxy"/>
+    <functioncall functionName="GetPos"/>
+    <functioncall functionName="I"/>
+    <functioncall functionName="Integer"/>
+    <functioncall functionName="Matrix"/>
+    <functioncall functionName="NewSpaceFailed"/>
+    <functioncall functionName="RowProxy"/>
+    <functioncall functionName="RowSize"/>
+    <functioncall functionName="TestBint"/>
+    <functioncall functionName="TestCopyConstructorAndOperatorEqu"/>
+    <functioncall functionName="TestInsertAndErase"/>
+    <functioncall functionName="TestInteger"/>
+    <functioncall functionName="TestIteratorRandomAccess"/>
+    <functioncall functionName="TestIteratorSequenceAccess"/>
+    <functioncall functionName="TestMatrix"/>
+    <functioncall functionName="TestPopAndPush"/>
+    <functioncall functionName="_SafeNewSpace"/>
+    <functioncall functionName="_Td"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="const_iterator"/>
+    <functioncall functionName="deque"/>
+    <functioncall functionName="dualInt"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="exception"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="expand"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get_size"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="invalid_argument"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="merge"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="precision"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="randNum"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="setf"/>
+    <functioncall functionName="setfill"/>
+    <functioncall functionName="setw"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="split"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="two_pow"/>
+    <functioncall functionName="vec"/>
+    <functioncall functionName="vector"/>
+  </FileInfo>
+</analyzerinfo>

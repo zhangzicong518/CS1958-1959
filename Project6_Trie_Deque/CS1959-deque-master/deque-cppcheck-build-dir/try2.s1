@@ -1,0 +1,53 @@
+swap
+is_empty
+is_filled
+get_size
+push_back call:[T] noreturn:[T]
+push_pointer_front call:[swap] noreturn:[swap]
+push_front call:[T,swap] noreturn:[T,swap]
+operator[]
+at
+front
+back
+nullout_last
+insert_before call:[T] noreturn:[T]
+remove_at call:[swap] noreturn:[swap]
+pop_front call:[swap] noreturn:[swap]
+pop_back
+LimVec
+LimVec
+emplace_back call:[T] noreturn:[T]
+emplace_front call:[T,swap] noreturn:[T,swap]
+emplace call:[T] noreturn:[T]
+Deque call:[Node]
+Deque
+front call:[front] noreturn:[front]
+back call:[back] noreturn:[back]
+operator[] call:[get_size]
+at call:[get_size]
+push_back call:[Node,is_filled,push_back] noreturn:[push_back]
+push_front call:[Node,is_filled,push_front] noreturn:[push_front]
+insert call:[Node,back,insert_before,is_filled,nullout_last,push_pointer_front] noreturn:[insert_before,push_pointer_front]
+pop_front call:[is_empty,pop_front]
+pop_back call:[is_empty,pop_back]
+erase call:[is_empty,remove_at]
+Node
+Node
+Node
+operator++ call:[get_size]
+operator++ call:[get_size]
+operator-- call:[get_size]
+operator-- call:[get_size]
+operator== call:[return]
+operator!=
+operator*
+DequeItr
+DequeItr
+DequeItr
+begin call:[DequeItr] noreturn:[DequeItr]
+end call:[DequeItr] noreturn:[DequeItr]
+cbegin call:[DequeItr] noreturn:[DequeItr]
+cend call:[DequeItr] noreturn:[DequeItr]
+emplace_back call:[Node,emplace_back,forward,is_filled] noreturn:[emplace_back]
+emplace_front call:[Node,emplace_front,is_filled] noreturn:[emplace_front]
+emplace call:[Node,back,emplace,is_filled,nullout_last,push_pointer_front] noreturn:[emplace,push_pointer_front]

@@ -1,0 +1,46 @@
+test1 call:[begin,emplace,end,erase,find,move,size,typeid,while] noreturn:[emplace]
+main call:[freopen,test1]
+node
+node
+init call:[operatornew,sizeof]
+clear call:[clear]
+minimum
+maximum
+rotate_left call:[pushup] noreturn:[pushup]
+rotate_right call:[pushup] noreturn:[pushup]
+after_insert_fix call:[rotate_left,rotate_right] noreturn:[rotate_left,rotate_right]
+erase_node call:[after_erase_fix,maximum,minimum,pushup,swap] noreturn:[after_erase_fix,maximum,minimum,pushup]
+after_erase_fix call:[rotate_left,rotate_right]
+copy_tree call:[copy_tree,node] noreturn:[copy_tree]
+pushup call:[pushup] noreturn:[pushup]
+iterator
+iterator
+iterator
+operator=
+operator++ call:[itr]
+operator++
+operator-- call:[itr]
+operator--
+operator*
+operator==
+operator!=
+ESet < int , std :: less < int > > call:[init]
+ESet < int , std :: less < int > > call:[copy_tree,init]
+operator= call:[clear,copy_tree]
+ESet < int , std :: less < int > > call:[init,swap] noreturn:[swap]
+operator= call:[clear,swap]
+ESet < int , std :: less < int > > call:[clear,operatordelete]
+begin call:[itr]
+end call:[itr]
+size
+clear call:[clear]
+emplace call:[insert] noreturn:[insert]
+insert call:[begin,insert_node,j,make_pair] noreturn:[make_pair]
+erase call:[end,erase_node,find]
+erase_node call:[erase_node]
+find call:[end,iterator,return]
+rank
+range call:[end,find,rank]
+lower_bound call:[iterator] noreturn:[iterator]
+upper_bound call:[iterator] noreturn:[iterator]
+insert_node call:[after_insert_fix,iterator,node,pushup] noreturn:[iterator]

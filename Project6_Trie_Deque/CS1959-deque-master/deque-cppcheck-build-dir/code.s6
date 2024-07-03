@@ -1,0 +1,19 @@
+isEqual global:[randnum] call:[at,back,empty,front,randnum,size]
+randnumFill global:[randnum] call:[push_back,push_front,randnum] noreturn:[push_back,push_front]
+pushTest global:[MAX_N,randnum] call:[isEqual,push_back,push_front,randnum] noreturn:[isEqual]
+popTest global:[MAX_N,randnum] call:[isEqual,pop_back,pop_front,randnum,randnumFill] noreturn:[isEqual]
+insertTest global:[randnum] call:[begin,end,insert,isEqual,randnum,size] noreturn:[isEqual]
+iteratorTest global:[MAX_N,randnum] call:[begin,end,randnum,randnumFill,size] noreturn:[randnum]
+eraseTest global:[randnum] call:[begin,end,erase,isEqual,randnum,randnumFill,size] noreturn:[isEqual]
+DynamicType
+DynamicType
+operator=
+DynamicType
+operator!=
+copyAndClearTest global:[MAX_N,ansCounter,myCounter] call:[DynamicType,clear,deq3,deq4,deq5,isEqual,push_back] noreturn:[push_back]
+memoryTest global:[MAX_N,ansCounter,myCounter,randnum] call:[DynamicType,begin,erase,insert,isEqual,pop_back,pop_front,push_back,push_front,randnum,size] noreturn:[isEqual,push_back]
+exceptionTest call:[at,back,begin,end,front,push_back] noreturn:[at,back,begin,front]
+dfs global:[ansCounter,myCounter,randnum] call:[begin,dfs,end,erase,insert,isEqual,randnum] noreturn:[dfs]
+dfs2 global:[ansCounter,myCounter,noUseCounter,randnum] call:[DynamicType,begin,dfs2,end,erase,insert,isEqual,randnum,size,tmp,tmp2] noreturn:[dfs2]
+nomercyTest global:[ansCounter,myCounter] call:[DynamicType,dfs,dfs2,push_front,randnumFill] noreturn:[push_front]
+main call:[bool,printf,sizeof] noreturn:[printf]

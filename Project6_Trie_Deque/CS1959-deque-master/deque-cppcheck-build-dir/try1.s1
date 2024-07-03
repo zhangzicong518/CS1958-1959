@@ -1,0 +1,235 @@
+_deque_buf_size call:[long]
+test1 call:[A,a,begin,dequeA2,dequeA3,dequeA4,dequeDou2,dequeDou3,dequeDou4,dequeInt2,dequeInt3,dequeInt4,end]
+A
+operatorint
+test2 call:[begin,dequeInt,dequeInt1,end,insert,pop_back,pop_front,push_back,push_front]
+test3 call:[begin,dequeInt,end,erase]
+main call:[test1,test2,test3] noreturn:[test3]
+buffer_size call:[_deque_buf_size,sizeof] noreturn:[_deque_buf_size]
+initial_map_size
+destroy call:[__destroy] noreturn:[__destroy]
+__destroy call:[__destroy_aux] noreturn:[__destroy_aux]
+__destroy_aux call:[destroy] noreturn:[destroy]
+destroy call:[destroy] noreturn:[destroy]
+destroy call:[int] noreturn:[int]
+begin
+end
+operator[] call:[long]
+front
+back
+size
+max_size call:[long] noreturn:[long]
+empty
+construct call:[int,new] noreturn:[int]
+push_back_aux call:[allocate_node,buffer_size,construct,deallocate_node,reserve_map_at_back,set_node]
+reserve_map_at_back call:[reallocate_map] noreturn:[reallocate_map]
+reserve_map_at_front call:[reallocate_map] noreturn:[reallocate_map]
+new_elements_at_front call:[allocate_node,buffer_size,deallocate_node,reserve_map_at_front] noreturn:[allocate_node,deallocate_node]
+new_elements_at_back call:[allocate_node,buffer_size,deallocate_node,reserve_map_at_back] noreturn:[allocate_node,deallocate_node]
+reserve_elements_at_front call:[long,new_elements_at_front] noreturn:[long,new_elements_at_front]
+reserve_elements_at_back call:[long,new_elements_at_back] noreturn:[long,new_elements_at_back]
+reallocate_map call:[allocate_map,copy,copy_backward,deallocate_map,max,set_node] noreturn:[copy,copy_backward,set_node]
+push_front_aux call:[allocate_node,buffer_size,construct,deallocate_node,reserve_map_at_front,set_node] noreturn:[construct]
+pop_back_aux call:[deallocate_node,destroy,set_node] noreturn:[destroy]
+pop_front_aux call:[deallocate_node,destroy,set_node]
+insert_aux call:[back,copy,copy_backward,front,push_back,push_front,size] noreturn:[copy,copy_backward]
+insert_aux call:[__uninitialized_copy_fill,__uninitialized_fill_copy,copy,copy_backward,destroy_nodes_at_back,destroy_nodes_at_front,fill,long,reserve_elements_at_back,reserve_elements_at_front,size,uninitialized_copy] noreturn:[fill]
+__uninitialized_fill_copy call:[destroy,uninitialized_copy,uninitialized_fill] noreturn:[uninitialized_copy]
+__uninitialized_copy_fill call:[destroy,uninitialized_copy,uninitialized_fill] noreturn:[uninitialized_fill]
+destroy_nodes_at_front call:[deallocate_node] noreturn:[deallocate_node]
+destroy_nodes_at_back call:[deallocate_node] noreturn:[deallocate_node]
+deallocate call:[operatordelete] noreturn:[operatordelete]
+creat_map_and_nodes call:[allocate_map,allocate_node,buffer_size,deallocate_map,deallocate_node,initial_map_size,max,set_node] noreturn:[allocate_node,buffer_size,deallocate_node]
+deallocate_map call:[operatordelete] noreturn:[operatordelete]
+deallocate_node call:[operatordelete] noreturn:[operatordelete]
+allocate_node call:[exit,operatornew,set_new_handler,sizeof] noreturn:[exit]
+allocate_map call:[exit,operatornew,set_new_handler,sizeof] noreturn:[exit]
+fill_initialize call:[buffer_size,creat_map_and_nodes,deallocate_map,deallocate_node,uninitialized_fill] noreturn:[deallocate_node,uninitialized_fill]
+destroy_map_and_nodes call:[deallocate_map,deallocate_node] noreturn:[deallocate_map,deallocate_node]
+Deque < int , 0 > call:[creat_map_and_nodes] noreturn:[creat_map_and_nodes]
+Deque < int , 0 > call:[fill_initialize] noreturn:[fill_initialize]
+Deque < int , 0 > call:[fill_initialize,int] noreturn:[fill_initialize]
+Deque < int , 0 > call:[begin,creat_map_and_nodes,destroy_map_and_nodes,end,size,uninitialized_copy] noreturn:[uninitialized_copy]
+Deque < int , 0 > call:[destroy,destroy_map_and_nodes] noreturn:[destroy_map_and_nodes]
+push_back call:[construct,push_back_aux] noreturn:[push_back_aux]
+push_front call:[construct,push_front_aux] noreturn:[push_front_aux]
+pop_back call:[destroy,pop_back_aux] noreturn:[destroy,pop_back_aux]
+pop_front call:[destroy,pop_front_aux] noreturn:[pop_front_aux]
+insert call:[insert_aux,push_back,push_front] noreturn:[insert_aux]
+insert call:[insert_aux,reserve_elements_at_back,reserve_elements_at_front,uninitialized_fill] noreturn:[insert_aux]
+insert call:[insert]
+erase call:[copy,copy_backward,pop_back,pop_front,size] noreturn:[pop_back,pop_front]
+erase call:[buffer_size,clear,copy,copy_backward,deallocate,destroy,size] noreturn:[deallocate]
+clear call:[buffer_size,deallocate,destroy] noreturn:[deallocate,destroy]
+buffer_size call:[_deque_buf_size,sizeof] noreturn:[_deque_buf_size]
+initial_map_size
+destroy call:[__destroy] noreturn:[__destroy]
+__destroy call:[__destroy_aux] noreturn:[__destroy_aux]
+__destroy_aux call:[destroy] noreturn:[destroy]
+destroy call:[destroy] noreturn:[destroy]
+destroy call:[double] noreturn:[double]
+begin
+end
+operator[] call:[long]
+front
+back
+size
+max_size call:[long] noreturn:[long]
+empty
+construct call:[double,new] noreturn:[double]
+push_back_aux call:[allocate_node,buffer_size,construct,deallocate_node,reserve_map_at_back,set_node]
+reserve_map_at_back call:[reallocate_map] noreturn:[reallocate_map]
+reserve_map_at_front call:[reallocate_map] noreturn:[reallocate_map]
+new_elements_at_front call:[allocate_node,buffer_size,deallocate_node,reserve_map_at_front] noreturn:[allocate_node,deallocate_node]
+new_elements_at_back call:[allocate_node,buffer_size,deallocate_node,reserve_map_at_back] noreturn:[allocate_node,deallocate_node]
+reserve_elements_at_front call:[long,new_elements_at_front] noreturn:[long,new_elements_at_front]
+reserve_elements_at_back call:[long,new_elements_at_back] noreturn:[long,new_elements_at_back]
+reallocate_map call:[allocate_map,copy,copy_backward,deallocate_map,max,set_node] noreturn:[copy,copy_backward,set_node]
+push_front_aux call:[allocate_node,buffer_size,construct,deallocate_node,reserve_map_at_front,set_node] noreturn:[construct]
+pop_back_aux call:[deallocate_node,destroy,set_node] noreturn:[destroy]
+pop_front_aux call:[deallocate_node,destroy,set_node]
+insert_aux call:[back,copy,copy_backward,front,push_back,push_front,size] noreturn:[copy,copy_backward]
+insert_aux call:[__uninitialized_copy_fill,__uninitialized_fill_copy,copy,copy_backward,destroy_nodes_at_back,destroy_nodes_at_front,fill,long,reserve_elements_at_back,reserve_elements_at_front,size,uninitialized_copy] noreturn:[fill]
+__uninitialized_fill_copy call:[destroy,uninitialized_copy,uninitialized_fill] noreturn:[uninitialized_copy]
+__uninitialized_copy_fill call:[destroy,uninitialized_copy,uninitialized_fill] noreturn:[uninitialized_fill]
+destroy_nodes_at_front call:[deallocate_node] noreturn:[deallocate_node]
+destroy_nodes_at_back call:[deallocate_node] noreturn:[deallocate_node]
+deallocate call:[operatordelete] noreturn:[operatordelete]
+creat_map_and_nodes call:[allocate_map,allocate_node,buffer_size,deallocate_map,deallocate_node,initial_map_size,max,set_node] noreturn:[allocate_node,buffer_size,deallocate_node]
+deallocate_map call:[operatordelete] noreturn:[operatordelete]
+deallocate_node call:[operatordelete] noreturn:[operatordelete]
+allocate_node call:[exit,operatornew,set_new_handler,sizeof] noreturn:[exit]
+allocate_map call:[exit,operatornew,set_new_handler,sizeof] noreturn:[exit]
+fill_initialize call:[buffer_size,creat_map_and_nodes,deallocate_map,deallocate_node,uninitialized_fill] noreturn:[deallocate_node,uninitialized_fill]
+destroy_map_and_nodes call:[deallocate_map,deallocate_node] noreturn:[deallocate_map,deallocate_node]
+Deque < double , 0 > call:[creat_map_and_nodes] noreturn:[creat_map_and_nodes]
+Deque < double , 0 > call:[fill_initialize] noreturn:[fill_initialize]
+Deque < double , 0 > call:[double,fill_initialize] noreturn:[fill_initialize]
+Deque < double , 0 > call:[begin,creat_map_and_nodes,destroy_map_and_nodes,end,size,uninitialized_copy] noreturn:[uninitialized_copy]
+Deque < double , 0 > call:[destroy,destroy_map_and_nodes] noreturn:[destroy_map_and_nodes]
+push_back call:[construct,push_back_aux] noreturn:[push_back_aux]
+push_front call:[construct,push_front_aux] noreturn:[push_front_aux]
+pop_back call:[destroy,pop_back_aux] noreturn:[destroy,pop_back_aux]
+pop_front call:[destroy,pop_front_aux] noreturn:[pop_front_aux]
+insert call:[insert_aux,push_back,push_front] noreturn:[insert_aux]
+insert call:[insert_aux,reserve_elements_at_back,reserve_elements_at_front,uninitialized_fill] noreturn:[insert_aux]
+insert call:[insert]
+erase call:[copy,copy_backward,pop_back,pop_front,size] noreturn:[pop_back,pop_front]
+erase call:[buffer_size,clear,copy,copy_backward,deallocate,destroy,size] noreturn:[deallocate]
+clear call:[buffer_size,deallocate,destroy] noreturn:[deallocate,destroy]
+buffer_size call:[_deque_buf_size,sizeof] noreturn:[_deque_buf_size]
+initial_map_size
+destroy call:[__destroy] noreturn:[__destroy]
+__destroy call:[__destroy_aux] noreturn:[__destroy_aux]
+__destroy_aux call:[destroy] noreturn:[destroy]
+destroy call:[destroy] noreturn:[destroy]
+destroy call:[A] noreturn:[A]
+begin
+end
+operator[] call:[long]
+front
+back
+size
+max_size call:[long] noreturn:[long]
+empty
+construct call:[A,new] noreturn:[A]
+push_back_aux call:[allocate_node,buffer_size,construct,deallocate_node,reserve_map_at_back,set_node]
+reserve_map_at_back call:[reallocate_map] noreturn:[reallocate_map]
+reserve_map_at_front call:[reallocate_map] noreturn:[reallocate_map]
+new_elements_at_front call:[allocate_node,buffer_size,deallocate_node,reserve_map_at_front] noreturn:[allocate_node,deallocate_node]
+new_elements_at_back call:[allocate_node,buffer_size,deallocate_node,reserve_map_at_back] noreturn:[allocate_node,deallocate_node]
+reserve_elements_at_front call:[long,new_elements_at_front] noreturn:[long,new_elements_at_front]
+reserve_elements_at_back call:[long,new_elements_at_back] noreturn:[long,new_elements_at_back]
+reallocate_map call:[allocate_map,copy,copy_backward,deallocate_map,max,set_node] noreturn:[copy,copy_backward,set_node]
+push_front_aux call:[allocate_node,buffer_size,construct,deallocate_node,reserve_map_at_front,set_node] noreturn:[construct]
+pop_back_aux call:[deallocate_node,destroy,set_node] noreturn:[destroy]
+pop_front_aux call:[deallocate_node,destroy,set_node]
+insert_aux call:[back,copy,copy_backward,front,push_back,push_front,size] noreturn:[copy,copy_backward]
+insert_aux call:[__uninitialized_copy_fill,__uninitialized_fill_copy,copy,copy_backward,destroy_nodes_at_back,destroy_nodes_at_front,fill,long,reserve_elements_at_back,reserve_elements_at_front,size,uninitialized_copy] noreturn:[fill]
+__uninitialized_fill_copy call:[destroy,uninitialized_copy,uninitialized_fill] noreturn:[uninitialized_copy]
+__uninitialized_copy_fill call:[destroy,uninitialized_copy,uninitialized_fill] noreturn:[uninitialized_fill]
+destroy_nodes_at_front call:[deallocate_node] noreturn:[deallocate_node]
+destroy_nodes_at_back call:[deallocate_node] noreturn:[deallocate_node]
+deallocate call:[operatordelete] noreturn:[operatordelete]
+creat_map_and_nodes call:[allocate_map,allocate_node,buffer_size,deallocate_map,deallocate_node,initial_map_size,max,set_node] noreturn:[allocate_node,buffer_size,deallocate_node]
+deallocate_map call:[operatordelete] noreturn:[operatordelete]
+deallocate_node call:[operatordelete] noreturn:[operatordelete]
+allocate_node call:[exit,operatornew,set_new_handler,sizeof] noreturn:[exit]
+allocate_map call:[exit,operatornew,set_new_handler,sizeof] noreturn:[exit]
+fill_initialize call:[buffer_size,creat_map_and_nodes,deallocate_map,deallocate_node,uninitialized_fill] noreturn:[deallocate_node,uninitialized_fill]
+destroy_map_and_nodes call:[deallocate_map,deallocate_node] noreturn:[deallocate_map,deallocate_node]
+Deque < A , 0 > call:[creat_map_and_nodes] noreturn:[creat_map_and_nodes]
+Deque < A , 0 > call:[fill_initialize] noreturn:[fill_initialize]
+Deque < A , 0 > call:[A,fill_initialize] noreturn:[fill_initialize]
+Deque < A , 0 > call:[begin,creat_map_and_nodes,destroy_map_and_nodes,end,size,uninitialized_copy] noreturn:[uninitialized_copy]
+Deque < A , 0 > call:[destroy,destroy_map_and_nodes] noreturn:[destroy_map_and_nodes]
+push_back call:[construct,push_back_aux] noreturn:[push_back_aux]
+push_front call:[construct,push_front_aux] noreturn:[push_front_aux]
+pop_back call:[destroy,pop_back_aux] noreturn:[destroy,pop_back_aux]
+pop_front call:[destroy,pop_front_aux] noreturn:[pop_front_aux]
+insert call:[insert_aux,push_back,push_front] noreturn:[insert_aux]
+insert call:[insert_aux,reserve_elements_at_back,reserve_elements_at_front,uninitialized_fill] noreturn:[insert_aux]
+insert call:[insert]
+erase call:[copy,copy_backward,pop_back,pop_front,size] noreturn:[pop_back,pop_front]
+erase call:[buffer_size,clear,copy,copy_backward,deallocate,destroy,size] noreturn:[deallocate]
+clear call:[buffer_size,deallocate,destroy] noreturn:[deallocate,destroy]
+buffer_size call:[_deque_buf_size,sizeof] noreturn:[_deque_buf_size]
+Deque_iterator < int , int & , int * , 0 >
+Deque_iterator < int , int & , int * , 0 >
+Deque_iterator < int , int & , int * , 0 >
+set_node call:[buffer_size,long] noreturn:[long]
+operator*
+operator-> call:[operator*]
+operator- call:[buffer_size,long]
+operator++ call:[set_node]
+operator++
+operator-- call:[set_node]
+operator--
+operator+= call:[buffer_size,difference_type,long,set_node]
+operator+
+operator-=
+operator-
+operator== call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+operator<
+operator[]
+buffer_size call:[_deque_buf_size,sizeof] noreturn:[_deque_buf_size]
+Deque_iterator < double , double & , double * , 0 >
+Deque_iterator < double , double & , double * , 0 >
+Deque_iterator < double , double & , double * , 0 >
+set_node call:[buffer_size,long] noreturn:[long]
+operator*
+operator-> call:[operator*]
+operator- call:[buffer_size,long]
+operator++ call:[set_node]
+operator++
+operator-- call:[set_node]
+operator--
+operator+= call:[buffer_size,difference_type,long,set_node]
+operator+
+operator-=
+operator-
+operator== call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+operator<
+operator[]
+buffer_size call:[_deque_buf_size,sizeof] noreturn:[_deque_buf_size]
+Deque_iterator < A , A & , A * , 0 >
+Deque_iterator < A , A & , A * , 0 >
+Deque_iterator < A , A & , A * , 0 >
+set_node call:[buffer_size,long] noreturn:[long]
+operator*
+operator-> call:[operator*]
+operator- call:[buffer_size,long]
+operator++ call:[set_node]
+operator++
+operator-- call:[set_node]
+operator--
+operator+= call:[buffer_size,difference_type,long,set_node]
+operator+
+operator-=
+operator-
+operator== call:[return] noreturn:[return]
+operator!= call:[return] noreturn:[return]
+operator<
+operator[]

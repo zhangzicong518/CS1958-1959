@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="11875776208667369130">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="src.hpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="1.cpp" line="3" column="0"/>
+        </error>
+        <error id="uselessAssignmentPtrArg" severity="warning" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" verbose="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" cwe="398" file0="1.cpp">
+            <location file="src.hpp" line="44" column="9"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="1.cpp">
+            <location file="1.cpp" line="7" column="5"/>
+            <symbol>freopen</symbol>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="1.cpp">
+            <location file="1.cpp" line="8" column="5"/>
+            <symbol>freopen</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;node&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;node&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="1.cpp">
+            <location file="src.hpp" line="18" column="9"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="1.cpp">
+            <location file="src.hpp" line="346" column="9"/>
+            <symbol>iterator</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;it==--it2&apos; is always false" verbose="Condition &apos;it==--it2&apos; is always false" cwe="570" file0="1.cpp">
+            <location file="1.cpp" line="75" column="24" info="Condition &apos;it==--it2&apos; is always false"/>
+            <location file="1.cpp" line="74" column="26" info="it2 is assigned &apos;it&apos; here."/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="portability" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long long}&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long long}&apos;." cwe="686" file0="1.cpp">
+            <location file="1.cpp" line="68" column="13"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;x&apos; can be declared as pointer to const" verbose="Parameter &apos;x&apos; can be declared as pointer to const" cwe="398" file0="1.cpp">
+            <location file="src.hpp" line="695" column="48" info="Parameter &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="src.hpp:695:14" call-funcname="insert_node" call-argnr="2" file="src.hpp" line="584" col="50" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="src.hpp" line="574" col="18" info="Assuming that condition &apos;x!=nullptr&apos; is not redundant"/>
+</function-call><function-call call-id="src.hpp:695:14" call-funcname="insert_node" call-argnr="2" file="src.hpp" line="589" col="46" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="src.hpp" line="574" col="18" info="Assuming that condition &apos;x!=nullptr&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ESet &lt; long long , std :: less &lt; long &gt; &gt;" file="src.hpp" line="7" col="1" hash="6793520471925099210"/>
+<class name="ESet &lt; long long , std :: less &lt; long &gt; &gt;::node" file="src.hpp" line="12" col="5" hash="6088009610183072333"/>
+<class name="ESet &lt; long long , std :: less &lt; long &gt; &gt;::iterator" file="src.hpp" line="338" col="5" hash="11038933696669565803"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="src.hpp:47:11" my-argnr="1" my-argname="x" file="src.hpp" line="49" col="16" value="0"/>
+    <unsafe-usage my-id="src.hpp:54:11" my-argnr="1" my-argname="x" file="src.hpp" line="56" col="16" value="0"/>
+    <unsafe-usage my-id="src.hpp:61:10" my-argnr="1" my-argname="x" file="src.hpp" line="63" col="19" value="0"/>
+    <unsafe-usage my-id="src.hpp:83:10" my-argnr="1" my-argname="y" file="src.hpp" line="85" col="19" value="0"/>
+    <unsafe-usage my-id="src.hpp:105:10" my-argnr="1" my-argname="x" file="src.hpp" line="107" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="src.hpp:47:11" my-argnr="1" my-argname="x" file="src.hpp" line="49" col="16" value="0"/>
+    <unsafe-usage my-id="src.hpp:54:11" my-argnr="1" my-argname="x" file="src.hpp" line="56" col="16" value="0"/>
+    <unsafe-usage my-id="src.hpp:61:10" my-argnr="1" my-argname="x" file="src.hpp" line="63" col="19" value="0"/>
+    <unsafe-usage my-id="src.hpp:83:10" my-argnr="1" my-argname="y" file="src.hpp" line="85" col="19" value="0"/>
+    <unsafe-usage my-id="src.hpp:349:9" my-argnr="1" my-argname="other" file="src.hpp" line="351" col="19" value="0"/>
+    <unsafe-usage my-id="src.hpp:441:14" my-argnr="1" my-argname="rhs" file="src.hpp" line="443" col="27" value="0"/>
+    <unsafe-usage my-id="src.hpp:445:14" my-argnr="1" my-argname="rhs" file="src.hpp" line="447" col="27" value="0"/>
+    <unsafe-usage my-id="src.hpp:458:5" my-argnr="1" my-argname="other" file="src.hpp" line="462" col="22" value="0"/>
+    <unsafe-usage my-id="src.hpp:508:5" my-argnr="1" my-argname="other" file="src.hpp" line="512" col="25" value="0"/>
+    <unsafe-usage my-id="src.hpp:517:11" my-argnr="1" my-argname="other" file="src.hpp" line="519" col="13" value="0"/>
+    <unsafe-usage my-id="src.hpp:593:12" my-argnr="1" my-argname="key" file="src.hpp" line="595" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="5"/>
+    <functiondecl functionName="init" lineNumber="25"/>
+    <functiondecl functionName="clear" lineNumber="37"/>
+    <functiondecl functionName="minimum" lineNumber="47"/>
+    <functiondecl functionName="maximum" lineNumber="54"/>
+    <functiondecl functionName="rotate_left" lineNumber="61"/>
+    <functiondecl functionName="rotate_right" lineNumber="83"/>
+    <functiondecl functionName="after_insert_fix" lineNumber="105"/>
+    <functiondecl functionName="erase_node" lineNumber="158"/>
+    <functiondecl functionName="after_erase_fix" lineNumber="234"/>
+    <functiondecl functionName="copy_tree" lineNumber="316"/>
+    <functiondecl functionName="pushup" lineNumber="329"/>
+    <functiondecl functionName="begin" lineNumber="536"/>
+    <functiondecl functionName="end" lineNumber="542"/>
+    <functiondecl functionName="size" lineNumber="548"/>
+    <functiondecl functionName="clear" lineNumber="553"/>
+    <functiondecl functionName="emplace" lineNumber="563"/>
+    <functiondecl functionName="insert" lineNumber="569"/>
+    <functiondecl functionName="erase" lineNumber="593"/>
+    <functiondecl functionName="erase_node" lineNumber="605"/>
+    <functiondecl functionName="find" lineNumber="617"/>
+    <functiondecl functionName="rank" lineNumber="635"/>
+    <functiondecl functionName="range" lineNumber="654"/>
+    <functiondecl functionName="lower_bound" lineNumber="663"/>
+    <functiondecl functionName="upper_bound" lineNumber="679"/>
+    <functiondecl functionName="insert_node" lineNumber="695"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="ESet"/>
+    <functioncall functionName="after_erase_fix"/>
+    <functioncall functionName="after_insert_fix"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="copy_tree"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="erase_node"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="freopen"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insert_node"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="itr"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="less"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="maximum"/>
+    <functioncall functionName="minimum"/>
+    <functioncall functionName="node"/>
+    <functioncall functionName="operatordelete"/>
+    <functioncall functionName="operatornew"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="pushup"/>
+    <functioncall functionName="range"/>
+    <functioncall functionName="rank"/>
+    <functioncall functionName="rotate_left"/>
+    <functioncall functionName="rotate_right"/>
+    <functioncall functionName="scanf"/>
+    <functioncall functionName="stdin"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1992457938294272603">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="iter.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;rb_tree_node.h&quot; not found." verbose="Include file: &quot;rb_tree_node.h&quot; not found.">
+            <location file="iter.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iterator&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="iter.cpp" line="5" column="0"/>
+        </error>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning object that will be invalid when returning." verbose="Returning object that will be invalid when returning." cwe="562" file0="iter.cpp">
+            <location file="iter.cpp" line="93" column="20"/>
+            <location file="iter.cpp" line="93" column="20" info="Address of variable taken here."/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;rb_tree_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;rb_tree_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="iter.cpp">
+            <location file="iter.cpp" line="83" column="9"/>
+            <symbol>rb_tree_iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;rb_tree_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;rb_tree_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="iter.cpp">
+            <location file="iter.cpp" line="84" column="9"/>
+            <symbol>rb_tree_iterator</symbol>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="iter.cpp:84:9" my-argnr="1" my-argname="it" file="iter.cpp" line="84" col="55" value="0"/>
+    <unsafe-usage my-id="iter.cpp:124:17" my-argnr="1" my-argname="lhs" file="iter.cpp" line="127" col="16" value="0"/>
+    <unsafe-usage my-id="iter.cpp:124:17" my-argnr="2" my-argname="rhs" file="iter.cpp" line="127" col="28" value="0"/>
+    <unsafe-usage my-id="iter.cpp:131:17" my-argnr="1" my-argname="lhs" file="iter.cpp" line="134" col="16" value="0"/>
+    <unsafe-usage my-id="iter.cpp:131:17" my-argnr="2" my-argname="rhs" file="iter.cpp" line="134" col="28" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="increment" lineNumber="19"/>
+    <functiondecl functionName="decrement" lineNumber="43"/>
+    <functioncall functionName="Ptr"/>
+    <functioncall functionName="Ref"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="decrement"/>
+    <functioncall functionName="increment"/>
+    <functioncall functionName="link_type"/>
+    <functioncall functionName="operator*"/>
+    <functioncall functionName="rb_tree_iterator"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2761600107116727121">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;src.hpp&quot; not found." verbose="Include file: &quot;src.hpp&quot; not found.">
+            <location file="D:\Project\Project7_Set\test\3.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project7_Set\test\3.cpp" line="5" column="0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;s3&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;s3&apos; is reassigned a value before the old one has been used." cwe="563" file0="D:/Project/Project7_Set/test/3.cpp">
+            <location file="D:\Project\Project7_Set\test\3.cpp" line="39" column="8" info="s3 is overwritten"/>
+            <location file="D:\Project\Project7_Set\test\3.cpp" line="30" column="22" info="s3 is assigned"/>
+            <symbol>s3</symbol>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="D:/Project/Project7_Set/test/3.cpp">
+            <location file="D:\Project\Project7_Set\test\3.cpp" line="75" column="27"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;)&apos;. Configuration: &apos;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&apos;." verbose="Unmatched &apos;)&apos;. Configuration: &apos;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&apos;." file0="D:/Project/Project7_Set/test/3.cpp">
+            <location file="D:\Project\Project7_Set\test\3.cpp" line="3" column="7"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="test1" lineNumber="7"/>
+    <functiondecl functionName="main" lineNumber="85"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="test1"/>
+  </FileInfo>
+</analyzerinfo>

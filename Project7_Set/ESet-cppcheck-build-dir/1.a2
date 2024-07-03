@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="3282102769793786761">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;src.hpp&quot; not found." verbose="Include file: &quot;src.hpp&quot; not found.">
+            <location file="D:\Project\Project7_Set\test\1.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project7_Set\test\1.cpp" line="5" column="0"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="D:/Project/Project7_Set/test/1.cpp">
+            <location file="D:\Project\Project7_Set\test\1.cpp" line="9" column="5"/>
+            <symbol>freopen</symbol>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="D:/Project/Project7_Set/test/1.cpp">
+            <location file="D:\Project\Project7_Set\test\1.cpp" line="10" column="5"/>
+            <symbol>freopen</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;it==--it2&apos; is always false" verbose="Condition &apos;it==--it2&apos; is always false" cwe="570" file0="D:/Project/Project7_Set/test/1.cpp">
+            <location file="D:\Project\Project7_Set\test\1.cpp" line="72" column="24" info="Condition &apos;it==--it2&apos; is always false"/>
+            <location file="D:\Project\Project7_Set\test\1.cpp" line="71" column="26" info="it2 is assigned &apos;it&apos; here."/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;)&apos;. Configuration: &apos;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&apos;." verbose="Unmatched &apos;)&apos;. Configuration: &apos;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&apos;." file0="D:/Project/Project7_Set/test/1.cpp">
+            <location file="D:\Project\Project7_Set\test\1.cpp" line="3" column="7"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="7"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="freopen"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="range"/>
+    <functioncall functionName="scanf"/>
+    <functioncall functionName="stdin"/>
+    <functioncall functionName="stdout"/>
+  </FileInfo>
+</analyzerinfo>

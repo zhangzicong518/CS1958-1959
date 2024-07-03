@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17994094930386155620">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdio&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdio&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ctime&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ctime&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cmath&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cmath&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="8" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;deque.hpp&quot; not found." verbose="Include file: &quot;deque.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;exceptions.hpp&quot; not found." verbose="Include file: &quot;exceptions.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="10" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;T&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;T&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="24" column="5"/>
+            <symbol>T</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i%10&lt;=9&apos; is always true" verbose="Condition &apos;i%10&lt;=9&apos; is always true" cwe="571" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="74" column="25" info="Condition &apos;i%10&lt;=9&apos; is always true"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="72" column="25" info="Assuming that condition &apos;i%10&lt;=8&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i%10&lt;=9&apos; is always true" verbose="Condition &apos;i%10&lt;=9&apos; is always true" cwe="571" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="123" column="25" info="Condition &apos;i%10&lt;=9&apos; is always true"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="121" column="25" info="Assuming that condition &apos;i%10&lt;=8&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i%10&lt;=9&apos; is always true" verbose="Condition &apos;i%10&lt;=9&apos; is always true" cwe="571" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="488" column="25" info="Condition &apos;i%10&lt;=9&apos; is always true"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="486" column="25" info="Assuming that condition &apos;i%10&lt;=8&apos; is not redundant"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="496" column="13" info="tmp is overwritten"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="495" column="17" info="tmp is initialized"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="513" column="13" info="tmp is overwritten"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="512" column="17" info="tmp is initialized"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;tmp&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;tmp&apos; is reassigned a value before the old one has been used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="531" column="17" info="tmp is overwritten"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="530" column="17" info="tmp is assigned"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;tmp&apos; can be reduced." verbose="The scope of the variable &apos;tmp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="527" column="13"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;q&apos; shadows outer variable" verbose="Local variable &apos;q&apos; shadows outer variable" cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="471" column="27" info="Shadow variable"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="39" column="16" info="Shadowed declaration"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="95" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="104" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="129" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="195" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="496" column="13"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="513" column="13"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="531" column="17"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="52" column="90"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp:24:5" call-funcname="T" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="473" col="23" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="472" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp:24:5" call-funcname="T" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="477" col="22" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="476" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp:24:5" call-funcname="T" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="483" col="26" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\four\code.cpp" line="480" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="T" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="18" col="1" hash="17959447488660499427"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp:31:6" my-argnr="1" my-argname="a" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="33" col="12" value="0"/>
+    <unsafe-usage my-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp:31:6" my-argnr="2" my-argname="b" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="33" col="23" value="0"/>
+    <unsafe-usage my-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp:35:6" my-argnr="1" my-argname="a" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="37" col="12" value="0"/>
+    <unsafe-usage my-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp:35:6" my-argnr="2" my-argname="b" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp" line="37" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="num" lineNumber="25"/>
+    <functiondecl functionName="change" lineNumber="26"/>
+    <functiondecl functionName="equal" lineNumber="45"/>
+    <functiondecl functionName="test1" lineNumber="63"/>
+    <functiondecl functionName="test2" lineNumber="89"/>
+    <functiondecl functionName="test3" lineNumber="157"/>
+    <functiondecl functionName="test4" lineNumber="292"/>
+    <functiondecl functionName="test5" lineNumber="361"/>
+    <functiondecl functionName="test6" lineNumber="420"/>
+    <functiondecl functionName="test7" lineNumber="467"/>
+    <functiondecl functionName="main" lineNumber="536"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="_q"/>
+    <functioncall functionName="_stl"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cbegin"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="change"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equal"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="it_q_const"/>
+    <functioncall functionName="it_stl_const"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="puts"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="test1"/>
+    <functioncall functionName="test2"/>
+    <functioncall functionName="test3"/>
+    <functioncall functionName="test4"/>
+    <functioncall functionName="test5"/>
+    <functioncall functionName="test6"/>
+    <functioncall functionName="test7"/>
+    <functioncall functionName="time"/>
+  </FileInfo>
+</analyzerinfo>

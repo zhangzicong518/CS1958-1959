@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="1205889419651543007">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;future&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;future&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="map.cpp" line="10" column="0"/>
+        </error>
+        <error id="uselessAssignmentPtrArg" severity="warning" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" verbose="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="58" column="9"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;node&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;node&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="31" column="9"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="365" column="9"/>
+            <symbol>iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="375" column="9"/>
+            <symbol>iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="567" column="9"/>
+            <symbol>const_iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="577" column="9"/>
+            <symbol>const_iterator</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;tmp&apos; can be reduced." verbose="The scope of the variable &apos;tmp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="175" column="13"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;x&apos; can be declared as pointer to const" verbose="Parameter &apos;x&apos; can be declared as pointer to const" cwe="398" file0="map.cpp">
+            <location file="map.cpp" line="1052" column="47" info="Parameter &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="map.cpp:1052:14" call-funcname="insert" call-argnr="2" file="map.cpp" line="956" col="51" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="map.cpp" line="946" col="18" info="Assuming that condition &apos;x!=NULL&apos; is not redundant"/>
+</function-call><function-call call-id="map.cpp:1052:14" call-funcname="insert" call-argnr="2" file="map.cpp" line="961" col="47" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="map.cpp" line="946" col="18" info="Assuming that condition &apos;x!=NULL&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="map::node" file="map.cpp" line="23" col="5" hash="7695141146289230751"/>
+<class name="map::iterator" file="map.cpp" line="351" col="5" hash="16130781904525479720"/>
+<class name="map::const_iterator" file="map.cpp" line="554" col="5" hash="10101681147722845693"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="map.cpp:61:11" my-argnr="1" my-argname="x" file="map.cpp" line="63" col="16" value="0"/>
+    <unsafe-usage my-id="map.cpp:68:11" my-argnr="1" my-argname="x" file="map.cpp" line="70" col="16" value="0"/>
+    <unsafe-usage my-id="map.cpp:75:10" my-argnr="1" my-argname="x" file="map.cpp" line="77" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:96:10" my-argnr="1" my-argname="y" file="map.cpp" line="98" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:117:10" my-argnr="1" my-argname="x" file="map.cpp" line="119" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="map.cpp:61:11" my-argnr="1" my-argname="x" file="map.cpp" line="63" col="16" value="0"/>
+    <unsafe-usage my-id="map.cpp:68:11" my-argnr="1" my-argname="x" file="map.cpp" line="70" col="16" value="0"/>
+    <unsafe-usage my-id="map.cpp:75:10" my-argnr="1" my-argname="x" file="map.cpp" line="77" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:96:10" my-argnr="1" my-argname="y" file="map.cpp" line="98" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:369:9" my-argnr="1" my-argname="other" file="map.cpp" line="372" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:375:9" my-argnr="1" my-argname="other" file="map.cpp" line="377" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:529:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="531" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:533:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="535" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:540:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="542" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:544:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="546" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:571:9" my-argnr="1" my-argname="other" file="map.cpp" line="574" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:577:9" my-argnr="1" my-argname="other" file="map.cpp" line="580" col="19" value="0"/>
+    <unsafe-usage my-id="map.cpp:716:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="718" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:720:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="722" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:724:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="726" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:728:14" my-argnr="1" my-argname="rhs" file="map.cpp" line="730" col="28" value="0"/>
+    <unsafe-usage my-id="map.cpp:746:5" my-argnr="1" my-argname="other" file="map.cpp" line="750" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="init" lineNumber="38"/>
+    <functiondecl functionName="clear" lineNumber="49"/>
+    <functiondecl functionName="minimum" lineNumber="61"/>
+    <functiondecl functionName="maximum" lineNumber="68"/>
+    <functiondecl functionName="leftRotate" lineNumber="75"/>
+    <functiondecl functionName="rightRotate" lineNumber="96"/>
+    <functiondecl functionName="insert_rebalance" lineNumber="117"/>
+    <functiondecl functionName="erase_rebalance" lineNumber="170"/>
+    <functiondecl functionName="copy_tree" lineNumber="322"/>
+    <functiondecl functionName="at" lineNumber="811"/>
+    <functiondecl functionName="at" lineNumber="826"/>
+    <functiondecl functionName="begin" lineNumber="885"/>
+    <functiondecl functionName="cbegin" lineNumber="890"/>
+    <functiondecl functionName="end" lineNumber="899"/>
+    <functiondecl functionName="cend" lineNumber="904"/>
+    <functiondecl functionName="empty" lineNumber="913"/>
+    <functiondecl functionName="size" lineNumber="920"/>
+    <functiondecl functionName="clear" lineNumber="927"/>
+    <functiondecl functionName="insert" lineNumber="941"/>
+    <functiondecl functionName="erase" lineNumber="969"/>
+    <functiondecl functionName="count" lineNumber="987"/>
+    <functiondecl functionName="find" lineNumber="1008"/>
+    <functiondecl functionName="find" lineNumber="1029"/>
+    <functiondecl functionName="insert" lineNumber="1052"/>
+    <functioncall functionName="Compare"/>
+    <functioncall functionName="Key"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="const_iterator"/>
+    <functioncall functionName="copy_tree"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="erase_rebalance"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="index_out_of_bound"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insert_rebalance"/>
+    <functioncall functionName="invalid_iterator"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="itr"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="leftRotate"/>
+    <functioncall functionName="map"/>
+    <functioncall functionName="maximum"/>
+    <functioncall functionName="minimum"/>
+    <functioncall functionName="node"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="rightRotate"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

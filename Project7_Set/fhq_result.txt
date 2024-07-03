@@ -1,0 +1,17 @@
+test 1: emplace test    
+time : 0.17
+test 2: find test    
+time : 0.039
+test 3: copy_construct test    
+time : 3.662
+test 5: move_construct test    
+time : 10.575
+test 6: range test    
+time : 0.022
+test 7: bound_find test    
+time : 0.069
+test 8: iterator test    
+total move: 3361464
+time : 0.597
+test 9: erase test    
+time : 0.093

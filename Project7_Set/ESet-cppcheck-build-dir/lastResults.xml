@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.13.0"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="src.hpp" line="4"/>
+        </error>
+        <error id="uselessAssignmentPtrArg" severity="warning" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" verbose="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" cwe="398" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="src.hpp" line="44"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;node&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;node&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="src.hpp" line="18"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="src.hpp" line="346"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &amp;#039;x&amp;#039; can be declared as pointer to const" verbose="Parameter &amp;#039;x&amp;#039; can be declared as pointer to const" cwe="398" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="src.hpp" line="695"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="1.cpp" line="3"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="1.cpp" line="7"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="1.cpp" line="8"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;it==--it2&amp;#039; is always false" verbose="Condition &amp;#039;it==--it2&amp;#039; is always false" cwe="570" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="1.cpp" line="75" info="Condition &amp;#039;it==--it2&amp;#039; is always false"/>
+            <location file="1.cpp" line="74" info="it2 is assigned &amp;#039;it&amp;#039; here."/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="portability" msg="%d in format string (no. 1) requires &amp;#039;int&amp;#039; but the argument type is &amp;#039;size_t {aka unsigned long long}&amp;#039;." verbose="%d in format string (no. 1) requires &amp;#039;int&amp;#039; but the argument type is &amp;#039;size_t {aka unsigned long long}&amp;#039;." cwe="686" file0="1.cpp" sinceDate="yyyy/M/d">
+            <location file="1.cpp" line="68"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="2.cpp" line="5"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="2.cpp" sinceDate="yyyy/M/d">
+            <location file="2.cpp" line="9"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="2.cpp" sinceDate="yyyy/M/d">
+            <location file="2.cpp" line="10"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;it==--it2&amp;#039; is always false" verbose="Condition &amp;#039;it==--it2&amp;#039; is always false" cwe="570" file0="2.cpp" sinceDate="yyyy/M/d">
+            <location file="2.cpp" line="72" info="Condition &amp;#039;it==--it2&amp;#039; is always false"/>
+            <location file="2.cpp" line="71" info="it2 is assigned &amp;#039;it&amp;#039; here."/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="portability" msg="%d in format string (no. 1) requires &amp;#039;int&amp;#039; but the argument type is &amp;#039;size_t {aka unsigned long long}&amp;#039;." verbose="%d in format string (no. 1) requires &amp;#039;int&amp;#039; but the argument type is &amp;#039;size_t {aka unsigned long long}&amp;#039;." cwe="686" file0="2.cpp" sinceDate="yyyy/M/d">
+            <location file="2.cpp" line="65"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="3.cpp" line="5"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="3.cpp" sinceDate="yyyy/M/d">
+            <location file="3.cpp" line="87"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;it!=s.find(0)&amp;#039; is always false" verbose="Condition &amp;#039;it!=s.find(0)&amp;#039; is always false" cwe="570" file0="3.cpp" sinceDate="yyyy/M/d">
+            <location file="3.cpp" line="52" info="Condition &amp;#039;it!=s.find(0)&amp;#039; is always false"/>
+            <location file="3.cpp" line="32" info="Assignment &amp;#039;it=it&amp;#039;, assigned value is symbolic=s.find(0)"/>
+            <location file="3.cpp" line="31" info="it is assigned &amp;#039;s.find(0)&amp;#039; here."/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="3.cpp" sinceDate="yyyy/M/d">
+            <location file="3.cpp" line="75"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="iter.cpp" line="3"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;rb_tree_node.h&amp;quot; not found." verbose="Include file: &amp;quot;rb_tree_node.h&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="iter.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iterator&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iterator&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="iter.cpp" line="5"/>
+        </error>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning object that will be invalid when returning." verbose="Returning object that will be invalid when returning." cwe="562" file0="iter.cpp" sinceDate="yyyy/M/d">
+            <location file="iter.cpp" line="93" info=""/>
+            <location file="iter.cpp" line="93" info="Address of variable taken here."/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;rb_tree_iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;rb_tree_iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="iter.cpp" sinceDate="yyyy/M/d">
+            <location file="iter.cpp" line="83"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;rb_tree_iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;rb_tree_iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="iter.cpp" sinceDate="yyyy/M/d">
+            <location file="iter.cpp" line="84"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;utility&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;utility&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="8"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="9"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;future&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;future&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="10"/>
+        </error>
+        <error id="uselessAssignmentPtrArg" severity="warning" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" verbose="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="58"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &amp;#039;node&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Struct &amp;#039;node&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="31"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="365"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="375"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="567"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;const_iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="577"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;tmp&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="175"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &amp;#039;x&amp;#039; can be declared as pointer to const" verbose="Parameter &amp;#039;x&amp;#039; can be declared as pointer to const" cwe="398" file0="map.cpp" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="1052"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;at&amp;#039; is never used." verbose="The function &amp;#039;at&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="map.cpp" line="826"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstddef&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;map&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="6"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;stdexcept&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="8"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="9"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;utility&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;utility&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="10"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="11"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;mutex&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="12"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;future&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;future&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="13"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;node&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;node&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="old_src.cpp" sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="26"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;iterator&amp;#039; has a constructor with 1 argument that is not explicit. Such, so called &amp;quot;Converting constructors&amp;quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="old_src.cpp" sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="41"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;tmp-&amp;gt;val&amp;lt;key&amp;#039; is always true" verbose="Condition &amp;#039;tmp-&amp;gt;val&amp;lt;key&amp;#039; is always true" cwe="571" file0="old_src.cpp" sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="878" info="Condition &amp;#039;tmp-&amp;gt;val&amp;lt;key&amp;#039; is always true"/>
+            <location file="old_src.cpp" line="873" info="Assuming condition &amp;#039;tmp-&amp;gt;val&amp;gt;=key&amp;#039; is false"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &amp;#039;x&amp;#039; can be declared as pointer to const" verbose="Parameter &amp;#039;x&amp;#039; can be declared as pointer to const" cwe="398" file0="old_src.cpp" sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="411"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &amp;#039;fa&amp;#039; can be declared as pointer to const" verbose="Variable &amp;#039;fa&amp;#039; can be declared as pointer to const" cwe="398" file0="old_src.cpp" sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="869"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &amp;#039;fa&amp;#039; can be declared as pointer to const" verbose="Variable &amp;#039;fa&amp;#039; can be declared as pointer to const" cwe="398" file0="old_src.cpp" sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="920"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &amp;#039;fa&amp;#039; can be declared as pointer to const" verbose="Variable &amp;#039;fa&amp;#039; can be declared as pointer to const" cwe="398" file0="old_src.cpp" sinceDate="yyyy/M/d">
+            <location file="old_src.cpp" line="935"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;memory&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;new&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;new&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;algorithm&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="5"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;functional&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;functional&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="6"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;rb_tree_iterator.h&amp;quot; not found." verbose="Include file: &amp;quot;rb_tree_iterator.h&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="7"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &amp;#039;x&amp;#039; can be declared as pointer to const" verbose="Variable &amp;#039;x&amp;#039; can be declared as pointer to const" cwe="398" file0="test.cpp" sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="299"/>
+        </error>
+        <error id="mismatchingContainerExpression" severity="warning" msg="Iterators to containers from different expressions &amp;#039;lhs&amp;#039; and &amp;#039;rhs&amp;#039; are used together." verbose="Iterators to containers from different expressions &amp;#039;lhs&amp;#039; and &amp;#039;rhs&amp;#039; are used together." cwe="664" file0="test.cpp" sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="1106"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;count&amp;#039; is never used." verbose="The function &amp;#039;count&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="525"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;empty&amp;#039; is never used." verbose="The function &amp;#039;empty&amp;#039; is never used." cwe="561" sinceDate="yyyy/M/d">
+            <location file="test.cpp" line="237"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;src.hpp&amp;quot; not found." verbose="Include file: &amp;quot;src.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="test\1.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="test\1.cpp" line="5"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="test/1.cpp" sinceDate="yyyy/M/d">
+            <location file="test\1.cpp" line="9"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="test/1.cpp" sinceDate="yyyy/M/d">
+            <location file="test\1.cpp" line="10"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;it==--it2&amp;#039; is always false" verbose="Condition &amp;#039;it==--it2&amp;#039; is always false" cwe="570" file0="test/1.cpp" sinceDate="yyyy/M/d">
+            <location file="test\1.cpp" line="72" info="Condition &amp;#039;it==--it2&amp;#039; is always false"/>
+            <location file="test\1.cpp" line="71" info="it2 is assigned &amp;#039;it&amp;#039; here."/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&amp;#039;." verbose="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&amp;#039;." file0="test/1.cpp" sinceDate="yyyy/M/d">
+            <location file="test\1.cpp" line="3"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;src.hpp&amp;quot; not found." verbose="Include file: &amp;quot;src.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="test\2.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="test\2.cpp" line="5"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="test/2.cpp" sinceDate="yyyy/M/d">
+            <location file="test\2.cpp" line="9"/>
+        </error>
+        <error id="ignoredReturnValue" severity="warning" msg="Return value of function freopen() is not used." verbose="Return value of function freopen() is not used." cwe="252" file0="test/2.cpp" sinceDate="yyyy/M/d">
+            <location file="test\2.cpp" line="10"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;it==--it2&amp;#039; is always false" verbose="Condition &amp;#039;it==--it2&amp;#039; is always false" cwe="570" file0="test/2.cpp" sinceDate="yyyy/M/d">
+            <location file="test\2.cpp" line="72" info="Condition &amp;#039;it==--it2&amp;#039; is always false"/>
+            <location file="test\2.cpp" line="71" info="it2 is assigned &amp;#039;it&amp;#039; here."/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&amp;#039;." verbose="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&amp;#039;." file0="test/2.cpp" sinceDate="yyyy/M/d">
+            <location file="test\2.cpp" line="3"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;src.hpp&amp;quot; not found." verbose="Include file: &amp;quot;src.hpp&amp;quot; not found." sinceDate="yyyy/M/d">
+            <location file="test\3.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="yyyy/M/d">
+            <location file="test\3.cpp" line="5"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &amp;#039;s3&amp;#039; is reassigned a value before the old one has been used." verbose="Variable &amp;#039;s3&amp;#039; is reassigned a value before the old one has been used." cwe="563" file0="test/3.cpp" sinceDate="yyyy/M/d">
+            <location file="test\3.cpp" line="39" info="s3 is overwritten"/>
+            <location file="test\3.cpp" line="30" info="s3 is assigned"/>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="test/3.cpp" sinceDate="yyyy/M/d">
+            <location file="test\3.cpp" line="75"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&amp;#039;." verbose="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;_GLIBCXX_MAP;_GLIBCXX_UNORDERED_MAP;_LIST_;_MAP_;_SET_;_UNORDERED_MAP_;_UNORDERED_SET_&amp;#039;." file0="test/3.cpp" sinceDate="yyyy/M/d">
+            <location file="test\3.cpp" line="3"/>
+        </error>
+    </errors>
+</results>

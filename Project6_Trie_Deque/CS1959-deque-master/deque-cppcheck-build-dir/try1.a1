@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="5195160104033829451">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="try1.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="try1.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;type_traits&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="try1.cpp" line="6" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;A&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;A&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="745" column="9"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;t_copy&apos; can be reduced." verbose="The scope of the variable &apos;t_copy&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="199" column="20"/>
+            <symbol>t_copy</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;t_copy&apos; can be reduced." verbose="The scope of the variable &apos;t_copy&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="303" column="20"/>
+            <symbol>t_copy</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;first1&apos; should be passed by const reference." verbose="Parameter &apos;first1&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="155" column="34" info="Function parameter &apos;first1&apos; should be passed by const reference."/>
+            <symbol>first1</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;last1&apos; should be passed by const reference." verbose="Parameter &apos;last1&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="155" column="51" info="Function parameter &apos;last1&apos; should be passed by const reference."/>
+            <symbol>last1</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;first&apos; should be passed by const reference." verbose="Parameter &apos;first&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="159" column="36" info="Function parameter &apos;first&apos; should be passed by const reference."/>
+            <symbol>first</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;last&apos; should be passed by const reference." verbose="Parameter &apos;last&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="159" column="52" info="Function parameter &apos;last&apos; should be passed by const reference."/>
+            <symbol>last</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;last&apos; should be passed by const reference." verbose="Parameter &apos;last&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="165" column="56" info="Function parameter &apos;last&apos; should be passed by const reference."/>
+            <symbol>last</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;before_start&apos; should be passed by const reference." verbose="Parameter &apos;before_start&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="452" column="42" info="Function parameter &apos;before_start&apos; should be passed by const reference."/>
+            <symbol>before_start</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;after_finish&apos; should be passed by const reference." verbose="Parameter &apos;after_finish&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="457" column="41" info="Function parameter &apos;after_finish&apos; should be passed by const reference."/>
+            <symbol>after_finish</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;position&apos; should be passed by const reference." verbose="Parameter &apos;position&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="604" column="30" info="Function parameter &apos;position&apos; should be passed by const reference."/>
+            <symbol>position</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;pos&apos; should be passed by const reference." verbose="Parameter &apos;pos&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="623" column="26" info="Function parameter &apos;pos&apos; should be passed by const reference."/>
+            <symbol>pos</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;pos&apos; should be passed by const reference." verbose="Parameter &apos;pos&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="640" column="26" info="Function parameter &apos;pos&apos; should be passed by const reference."/>
+            <symbol>pos</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;last&apos; should be passed by const reference." verbose="Parameter &apos;last&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="try1.cpp">
+            <location file="try1.cpp" line="640" column="56" info="Function parameter &apos;last&apos; should be passed by const reference."/>
+            <symbol>last</symbol>
+        </error>
+        <error id="signConversionCond" severity="warning" msg="Expression &apos;-offset-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &apos;-offset-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="try1.cpp">
+            <location file="try1.cpp" line="102" column="124" info="Negative value is converted to an unsigned value"/>
+            <location file="try1.cpp" line="102" column="50" info="Assuming that condition &apos;offset&gt;0&apos; is not redundant"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="try1.cpp:745:9" call-funcname="A" call-argnr="1" file="try1.cpp" line="745" col="10" call-argexpr="a=0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:10:15" call-funcname="_deque_buf_size" call-argnr="1" file="try1.cpp" line="145" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:159:17" call-funcname="__destroy" call-argnr="3" file="try1.cpp" line="157" col="18" call-argexpr="int*0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:273:10" call-funcname="reallocate_map" call-argnr="2" file="try1.cpp" line="218" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:463:10" call-funcname="creat_map_and_nodes" call-argnr="1" file="try1.cpp" line="540" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:512:10" call-funcname="fill_initialize" call-argnr="2" file="try1.cpp" line="542" col="91" call-argexpr="int()" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:10:15" call-funcname="_deque_buf_size" call-argnr="1" file="try1.cpp" line="145" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:159:17" call-funcname="__destroy" call-argnr="3" file="try1.cpp" line="157" col="18" call-argexpr="double*0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:273:10" call-funcname="reallocate_map" call-argnr="2" file="try1.cpp" line="218" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:463:10" call-funcname="creat_map_and_nodes" call-argnr="1" file="try1.cpp" line="540" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:512:10" call-funcname="fill_initialize" call-argnr="2" file="try1.cpp" line="542" col="91" call-argexpr="double()" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:10:15" call-funcname="_deque_buf_size" call-argnr="1" file="try1.cpp" line="145" col="31" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:159:17" call-funcname="__destroy" call-argnr="3" file="try1.cpp" line="157" col="18" call-argexpr="A*0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:273:10" call-funcname="reallocate_map" call-argnr="2" file="try1.cpp" line="218" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:463:10" call-funcname="creat_map_and_nodes" call-argnr="1" file="try1.cpp" line="540" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:10:15" call-funcname="_deque_buf_size" call-argnr="1" file="try1.cpp" line="33" col="57" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:10:15" call-funcname="_deque_buf_size" call-argnr="1" file="try1.cpp" line="33" col="57" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="try1.cpp:10:15" call-funcname="_deque_buf_size" call-argnr="1" file="try1.cpp" line="33" col="57" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="__false_type" file="try1.cpp" line="16" col="1" hash="4868766040120789911"/>
+<class name="__true_type" file="try1.cpp" line="19" col="1" hash="4486468202187221124"/>
+<class name="input_iterator_tag" file="try1.cpp" line="22" col="1" hash="4137391956978869869"/>
+<class name="Deque &lt; int , 0 &gt;" file="try1.cpp" line="129" col="1" hash="1656448463493464109"/>
+<class name="Deque &lt; double , 0 &gt;" file="try1.cpp" line="129" col="1" hash="1542113131348301059"/>
+<class name="Deque &lt; A , 0 &gt;" file="try1.cpp" line="129" col="1" hash="3054498386165590263"/>
+<class name="Deque_iterator &lt; int , int &amp; , int * , 0 &gt;" file="try1.cpp" line="28" col="1" hash="412861728753182091"/>
+<class name="Deque_iterator &lt; double , double &amp; , double * , 0 &gt;" file="try1.cpp" line="28" col="1" hash="11085800824803463959"/>
+<class name="Deque_iterator &lt; A , A &amp; , A * , 0 &gt;" file="try1.cpp" line="28" col="1" hash="6567061392400428415"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="try1.cpp:175:17" my-argnr="1" my-argname="pointer" file="try1.cpp" line="177" col="9" value="0"/>
+    <unsafe-usage my-id="try1.cpp:175:17" my-argnr="1" my-argname="pointer" file="try1.cpp" line="177" col="9" value="0"/>
+    <unsafe-usage my-id="try1.cpp:175:17" my-argnr="1" my-argname="pointer" file="try1.cpp" line="177" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="try1.cpp:175:17" my-argnr="1" my-argname="pointer" file="try1.cpp" line="177" col="9" value="0"/>
+    <unsafe-usage my-id="try1.cpp:541:5" my-argnr="2" my-argname="value" file="try1.cpp" line="541" col="111" value="0"/>
+    <unsafe-usage my-id="try1.cpp:543:5" my-argnr="1" my-argname="x" file="try1.cpp" line="545" col="29" value="0"/>
+    <unsafe-usage my-id="try1.cpp:175:17" my-argnr="1" my-argname="pointer" file="try1.cpp" line="177" col="9" value="0"/>
+    <unsafe-usage my-id="try1.cpp:541:5" my-argnr="2" my-argname="value" file="try1.cpp" line="541" col="111" value="0"/>
+    <unsafe-usage my-id="try1.cpp:543:5" my-argnr="1" my-argname="x" file="try1.cpp" line="545" col="29" value="0"/>
+    <unsafe-usage my-id="try1.cpp:175:17" my-argnr="1" my-argname="pointer" file="try1.cpp" line="177" col="9" value="0"/>
+    <unsafe-usage my-id="try1.cpp:541:5" my-argnr="2" my-argname="value" file="try1.cpp" line="541" col="111" value="0"/>
+    <unsafe-usage my-id="try1.cpp:543:5" my-argnr="1" my-argname="x" file="try1.cpp" line="545" col="29" value="0"/>
+    <unsafe-usage my-id="try1.cpp:59:21" my-argnr="1" my-argname="x" file="try1.cpp" line="61" col="57" value="0"/>
+    <unsafe-usage my-id="try1.cpp:119:10" my-argnr="1" my-argname="x" file="try1.cpp" line="119" col="59" value="0"/>
+    <unsafe-usage my-id="try1.cpp:120:10" my-argnr="1" my-argname="x" file="try1.cpp" line="120" col="59" value="0"/>
+    <unsafe-usage my-id="try1.cpp:121:10" my-argnr="1" my-argname="x" file="try1.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="try1.cpp:59:21" my-argnr="1" my-argname="x" file="try1.cpp" line="61" col="57" value="0"/>
+    <unsafe-usage my-id="try1.cpp:119:10" my-argnr="1" my-argname="x" file="try1.cpp" line="119" col="59" value="0"/>
+    <unsafe-usage my-id="try1.cpp:120:10" my-argnr="1" my-argname="x" file="try1.cpp" line="120" col="59" value="0"/>
+    <unsafe-usage my-id="try1.cpp:121:10" my-argnr="1" my-argname="x" file="try1.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="try1.cpp:59:21" my-argnr="1" my-argname="x" file="try1.cpp" line="61" col="57" value="0"/>
+    <unsafe-usage my-id="try1.cpp:119:10" my-argnr="1" my-argname="x" file="try1.cpp" line="119" col="59" value="0"/>
+    <unsafe-usage my-id="try1.cpp:120:10" my-argnr="1" my-argname="x" file="try1.cpp" line="120" col="59" value="0"/>
+    <unsafe-usage my-id="try1.cpp:121:10" my-argnr="1" my-argname="x" file="try1.cpp" line="123" col="24" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_deque_buf_size" lineNumber="10"/>
+    <functiondecl functionName="test1" lineNumber="718"/>
+    <functiondecl functionName="test2" lineNumber="760"/>
+    <functiondecl functionName="test3" lineNumber="794"/>
+    <functiondecl functionName="main" lineNumber="816"/>
+    <functiondecl functionName="buffer_size" lineNumber="143"/>
+    <functiondecl functionName="initial_map_size" lineNumber="147"/>
+    <functiondecl functionName="destroy" lineNumber="155"/>
+    <functiondecl functionName="__destroy" lineNumber="159"/>
+    <functiondecl functionName="__destroy_aux" lineNumber="165"/>
+    <functiondecl functionName="destroy" lineNumber="170"/>
+    <functiondecl functionName="destroy" lineNumber="175"/>
+    <functiondecl functionName="begin" lineNumber="181"/>
+    <functiondecl functionName="end" lineNumber="182"/>
+    <functiondecl functionName="front" lineNumber="184"/>
+    <functiondecl functionName="back" lineNumber="185"/>
+    <functiondecl functionName="size" lineNumber="191"/>
+    <functiondecl functionName="max_size" lineNumber="192"/>
+    <functiondecl functionName="empty" lineNumber="193"/>
+    <functiondecl functionName="construct" lineNumber="196"/>
+    <functiondecl functionName="push_back_aux" lineNumber="197"/>
+    <functiondecl functionName="reserve_map_at_back" lineNumber="215"/>
+    <functiondecl functionName="reserve_map_at_front" lineNumber="220"/>
+    <functiondecl functionName="new_elements_at_front" lineNumber="225"/>
+    <functiondecl functionName="new_elements_at_back" lineNumber="242"/>
+    <functiondecl functionName="reserve_elements_at_front" lineNumber="259"/>
+    <functiondecl functionName="reserve_elements_at_back" lineNumber="266"/>
+    <functiondecl functionName="reallocate_map" lineNumber="273"/>
+    <functiondecl functionName="push_front_aux" lineNumber="301"/>
+    <functiondecl functionName="pop_back_aux" lineNumber="320"/>
+    <functiondecl functionName="pop_front_aux" lineNumber="327"/>
+    <functiondecl functionName="insert_aux" lineNumber="334"/>
+    <functiondecl functionName="insert_aux" lineNumber="363"/>
+    <functiondecl functionName="__uninitialized_fill_copy" lineNumber="426"/>
+    <functiondecl functionName="__uninitialized_copy_fill" lineNumber="439"/>
+    <functiondecl functionName="destroy_nodes_at_front" lineNumber="452"/>
+    <functiondecl functionName="destroy_nodes_at_back" lineNumber="457"/>
+    <functiondecl functionName="deallocate" lineNumber="462"/>
+    <functiondecl functionName="creat_map_and_nodes" lineNumber="463"/>
+    <functiondecl functionName="deallocate_map" lineNumber="488"/>
+    <functiondecl functionName="deallocate_node" lineNumber="489"/>
+    <functiondecl functionName="allocate_node" lineNumber="490"/>
+    <functiondecl functionName="allocate_map" lineNumber="501"/>
+    <functiondecl functionName="fill_initialize" lineNumber="512"/>
+    <functiondecl functionName="destroy_map_and_nodes" lineNumber="530"/>
+    <functiondecl functionName="push_back" lineNumber="562"/>
+    <functiondecl functionName="push_front" lineNumber="574"/>
+    <functiondecl functionName="pop_back" lineNumber="584"/>
+    <functiondecl functionName="pop_front" lineNumber="594"/>
+    <functiondecl functionName="insert" lineNumber="604"/>
+    <functiondecl functionName="insert" lineNumber="623"/>
+    <functiondecl functionName="insert" lineNumber="640"/>
+    <functiondecl functionName="erase" lineNumber="651"/>
+    <functiondecl functionName="erase" lineNumber="668"/>
+    <functiondecl functionName="clear" lineNumber="700"/>
+    <functiondecl functionName="buffer_size" lineNumber="143"/>
+    <functiondecl functionName="initial_map_size" lineNumber="147"/>
+    <functiondecl functionName="destroy" lineNumber="155"/>
+    <functiondecl functionName="__destroy" lineNumber="159"/>
+    <functiondecl functionName="__destroy_aux" lineNumber="165"/>
+    <functiondecl functionName="destroy" lineNumber="170"/>
+    <functiondecl functionName="destroy" lineNumber="175"/>
+    <functiondecl functionName="begin" lineNumber="181"/>
+    <functiondecl functionName="end" lineNumber="182"/>
+    <functiondecl functionName="front" lineNumber="184"/>
+    <functiondecl functionName="back" lineNumber="185"/>
+    <functiondecl functionName="size" lineNumber="191"/>
+    <functiondecl functionName="max_size" lineNumber="192"/>
+    <functiondecl functionName="empty" lineNumber="193"/>
+    <functiondecl functionName="construct" lineNumber="196"/>
+    <functiondecl functionName="push_back_aux" lineNumber="197"/>
+    <functiondecl functionName="reserve_map_at_back" lineNumber="215"/>
+    <functiondecl functionName="reserve_map_at_front" lineNumber="220"/>
+    <functiondecl functionName="new_elements_at_front" lineNumber="225"/>
+    <functiondecl functionName="new_elements_at_back" lineNumber="242"/>
+    <functiondecl functionName="reserve_elements_at_front" lineNumber="259"/>
+    <functiondecl functionName="reserve_elements_at_back" lineNumber="266"/>
+    <functiondecl functionName="reallocate_map" lineNumber="273"/>
+    <functiondecl functionName="push_front_aux" lineNumber="301"/>
+    <functiondecl functionName="pop_back_aux" lineNumber="320"/>
+    <functiondecl functionName="pop_front_aux" lineNumber="327"/>
+    <functiondecl functionName="insert_aux" lineNumber="334"/>
+    <functiondecl functionName="insert_aux" lineNumber="363"/>
+    <functiondecl functionName="__uninitialized_fill_copy" lineNumber="426"/>
+    <functiondecl functionName="__uninitialized_copy_fill" lineNumber="439"/>
+    <functiondecl functionName="destroy_nodes_at_front" lineNumber="452"/>
+    <functiondecl functionName="destroy_nodes_at_back" lineNumber="457"/>
+    <functiondecl functionName="deallocate" lineNumber="462"/>
+    <functiondecl functionName="creat_map_and_nodes" lineNumber="463"/>
+    <functiondecl functionName="deallocate_map" lineNumber="488"/>
+    <functiondecl functionName="deallocate_node" lineNumber="489"/>
+    <functiondecl functionName="allocate_node" lineNumber="490"/>
+    <functiondecl functionName="allocate_map" lineNumber="501"/>
+    <functiondecl functionName="fill_initialize" lineNumber="512"/>
+    <functiondecl functionName="destroy_map_and_nodes" lineNumber="530"/>
+    <functiondecl functionName="push_back" lineNumber="562"/>
+    <functiondecl functionName="push_front" lineNumber="574"/>
+    <functiondecl functionName="pop_back" lineNumber="584"/>
+    <functiondecl functionName="pop_front" lineNumber="594"/>
+    <functiondecl functionName="insert" lineNumber="604"/>
+    <functiondecl functionName="insert" lineNumber="623"/>
+    <functiondecl functionName="insert" lineNumber="640"/>
+    <functiondecl functionName="erase" lineNumber="651"/>
+    <functiondecl functionName="erase" lineNumber="668"/>
+    <functiondecl functionName="clear" lineNumber="700"/>
+    <functiondecl functionName="buffer_size" lineNumber="143"/>
+    <functiondecl functionName="initial_map_size" lineNumber="147"/>
+    <functiondecl functionName="destroy" lineNumber="155"/>
+    <functiondecl functionName="__destroy" lineNumber="159"/>
+    <functiondecl functionName="__destroy_aux" lineNumber="165"/>
+    <functiondecl functionName="destroy" lineNumber="170"/>
+    <functiondecl functionName="destroy" lineNumber="175"/>
+    <functiondecl functionName="begin" lineNumber="181"/>
+    <functiondecl functionName="end" lineNumber="182"/>
+    <functiondecl functionName="front" lineNumber="184"/>
+    <functiondecl functionName="back" lineNumber="185"/>
+    <functiondecl functionName="size" lineNumber="191"/>
+    <functiondecl functionName="max_size" lineNumber="192"/>
+    <functiondecl functionName="empty" lineNumber="193"/>
+    <functiondecl functionName="construct" lineNumber="196"/>
+    <functiondecl functionName="push_back_aux" lineNumber="197"/>
+    <functiondecl functionName="reserve_map_at_back" lineNumber="215"/>
+    <functiondecl functionName="reserve_map_at_front" lineNumber="220"/>
+    <functiondecl functionName="new_elements_at_front" lineNumber="225"/>
+    <functiondecl functionName="new_elements_at_back" lineNumber="242"/>
+    <functiondecl functionName="reserve_elements_at_front" lineNumber="259"/>
+    <functiondecl functionName="reserve_elements_at_back" lineNumber="266"/>
+    <functiondecl functionName="reallocate_map" lineNumber="273"/>
+    <functiondecl functionName="push_front_aux" lineNumber="301"/>
+    <functiondecl functionName="pop_back_aux" lineNumber="320"/>
+    <functiondecl functionName="pop_front_aux" lineNumber="327"/>
+    <functiondecl functionName="insert_aux" lineNumber="334"/>
+    <functiondecl functionName="insert_aux" lineNumber="363"/>
+    <functiondecl functionName="__uninitialized_fill_copy" lineNumber="426"/>
+    <functiondecl functionName="__uninitialized_copy_fill" lineNumber="439"/>
+    <functiondecl functionName="destroy_nodes_at_front" lineNumber="452"/>
+    <functiondecl functionName="destroy_nodes_at_back" lineNumber="457"/>
+    <functiondecl functionName="deallocate" lineNumber="462"/>
+    <functiondecl functionName="creat_map_and_nodes" lineNumber="463"/>
+    <functiondecl functionName="deallocate_map" lineNumber="488"/>
+    <functiondecl functionName="deallocate_node" lineNumber="489"/>
+    <functiondecl functionName="allocate_node" lineNumber="490"/>
+    <functiondecl functionName="allocate_map" lineNumber="501"/>
+    <functiondecl functionName="fill_initialize" lineNumber="512"/>
+    <functiondecl functionName="destroy_map_and_nodes" lineNumber="530"/>
+    <functiondecl functionName="push_back" lineNumber="562"/>
+    <functiondecl functionName="push_front" lineNumber="574"/>
+    <functiondecl functionName="pop_back" lineNumber="584"/>
+    <functiondecl functionName="pop_front" lineNumber="594"/>
+    <functiondecl functionName="insert" lineNumber="604"/>
+    <functiondecl functionName="insert" lineNumber="623"/>
+    <functiondecl functionName="insert" lineNumber="640"/>
+    <functiondecl functionName="erase" lineNumber="651"/>
+    <functiondecl functionName="erase" lineNumber="668"/>
+    <functiondecl functionName="clear" lineNumber="700"/>
+    <functiondecl functionName="buffer_size" lineNumber="33"/>
+    <functiondecl functionName="set_node" lineNumber="51"/>
+    <functiondecl functionName="buffer_size" lineNumber="33"/>
+    <functiondecl functionName="set_node" lineNumber="51"/>
+    <functiondecl functionName="buffer_size" lineNumber="33"/>
+    <functiondecl functionName="set_node" lineNumber="51"/>
+    <functioncall functionName="A"/>
+    <functioncall functionName="Deque"/>
+    <functioncall functionName="Deque_iterator"/>
+    <functioncall functionName="__destroy"/>
+    <functioncall functionName="__destroy_aux"/>
+    <functioncall functionName="__uninitialized_copy_fill"/>
+    <functioncall functionName="__uninitialized_fill_copy"/>
+    <functioncall functionName="_deque_buf_size"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="allocate_map"/>
+    <functioncall functionName="allocate_node"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="buff_size"/>
+    <functioncall functionName="buffer_size"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="construct"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="copy_backward"/>
+    <functioncall functionName="creat_map_and_nodes"/>
+    <functioncall functionName="deallocate"/>
+    <functioncall functionName="deallocate_map"/>
+    <functioncall functionName="deallocate_node"/>
+    <functioncall functionName="dequeA2"/>
+    <functioncall functionName="dequeA3"/>
+    <functioncall functionName="dequeA4"/>
+    <functioncall functionName="dequeDou2"/>
+    <functioncall functionName="dequeDou3"/>
+    <functioncall functionName="dequeDou4"/>
+    <functioncall functionName="dequeInt"/>
+    <functioncall functionName="dequeInt1"/>
+    <functioncall functionName="dequeInt2"/>
+    <functioncall functionName="dequeInt3"/>
+    <functioncall functionName="dequeInt4"/>
+    <functioncall functionName="destroy"/>
+    <functioncall functionName="destroy_map_and_nodes"/>
+    <functioncall functionName="destroy_nodes_at_back"/>
+    <functioncall functionName="destroy_nodes_at_front"/>
+    <functioncall functionName="difference_type"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fill"/>
+    <functioncall functionName="fill_initialize"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="initial_map_size"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insert_aux"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="new_elements_at_back"/>
+    <functioncall functionName="new_elements_at_front"/>
+    <functioncall functionName="operator*"/>
+    <functioncall functionName="operatordelete"/>
+    <functioncall functionName="operatorint"/>
+    <functioncall functionName="operatornew"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_back_aux"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="pop_front_aux"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="push_back_aux"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="push_front_aux"/>
+    <functioncall functionName="reallocate_map"/>
+    <functioncall functionName="reserve_elements_at_back"/>
+    <functioncall functionName="reserve_elements_at_front"/>
+    <functioncall functionName="reserve_map_at_back"/>
+    <functioncall functionName="reserve_map_at_front"/>
+    <functioncall functionName="set_new_handler"/>
+    <functioncall functionName="set_node"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="test1"/>
+    <functioncall functionName="test2"/>
+    <functioncall functionName="test3"/>
+    <functioncall functionName="tmp"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uninitialized_copy"/>
+    <functioncall functionName="uninitialized_fill"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,105 @@
+exception
+exception
+what
+T
+num
+change
+operator== call:[num] noreturn:[num]
+operator!= call:[num] noreturn:[num]
+equal global:[it_q,it_stl,q,stl] call:[begin,empty,end,printf,size]
+test1 global:[N,q,stl] call:[T,empty,equal,pop_back,pop_front,printf,push_back,push_front,puts] noreturn:[pop_back,pop_front,push_back,push_front,puts]
+test2 global:[N,need_to_check_throw,q,stl] call:[T,at,back,front,num,pop_back,pop_front,printf,push_back,push_front,puts,rand,size] noreturn:[num,pop_back,pop_front,push_back,push_front,puts]
+test3 global:[it_q,it_stl,need_to_check_throw,q,stl] call:[begin,change,end,equal,it_q_const,it_stl_const,num,printf,puts,rand,size] noreturn:[begin,puts]
+test4 global:[_it_q,_it_stl,q,stl] call:[_q,_stl,cbegin,cend,num,printf,puts,rand,size] noreturn:[puts]
+test5 global:[N,it_q,it_stl,q,stl] call:[T,begin,change,end,equal,erase,insert,printf,puts,rand,size,sqrt] noreturn:[change,insert,puts]
+test6 global:[q,stl] call:[T,begin,clear,empty,end,equal,insert,p,printf,push_back,puts,rand,size] noreturn:[insert,puts]
+test7 global:[N,good_complexity,it_q] call:[T,at,begin,clear,erase,insert,num,pop_back,pop_front,printf,push_back,push_front,puts,rand,size] noreturn:[erase,insert,num,pop_back,pop_front,push_back,push_front,puts,size]
+main call:[puts,srand,test1,test2,test3,test4,test5,test6,test7,time] noreturn:[test7]
+vec
+vec call:[T,vec] noreturn:[T]
+operator= call:[T,vec] noreturn:[T]
+vec
+swap
+expand call:[T]
+is_empty
+is_full
+get_size
+push_back call:[T,expand] noreturn:[T,expand]
+push_back call:[T,expand] noreturn:[T,expand]
+push_front call:[T,expand,swap] noreturn:[T,expand,swap]
+push_front call:[T,expand,swap] noreturn:[T,expand,swap]
+operator[] call:[throw] noreturn:[throw]
+at call:[throw] noreturn:[throw]
+front call:[throw] noreturn:[throw]
+back call:[throw] noreturn:[throw]
+insert call:[T,expand] noreturn:[T,expand]
+remove call:[swap] noreturn:[swap]
+pop_front call:[swap] noreturn:[swap]
+pop_back
+resize
+block
+block
+operator= call:[vec]
+block
+iterator
+iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+const_iterator
+const_iterator
+GetPos call:[make_pair] noreturn:[make_pair]
+operator- call:[GetPos,throw] noreturn:[throw]
+operator+= call:[get_size,throw] noreturn:[throw]
+operator-= call:[throw] noreturn:[throw]
+operator+
+operator-
+operator++ call:[get_size,throw] noreturn:[throw]
+operator++
+operator-- call:[get_size,throw] noreturn:[throw]
+operator--
+operator* call:[throw] noreturn:[throw]
+operator-> call:[throw] noreturn:[throw]
+operator== call:[return]
+operator== call:[return]
+operator!= call:[return]
+operator!= call:[return]
+deque < T > call:[block]
+deque < T > call:[block]
+deque < T >
+operator= call:[block,deque < T >]
+two_pow
+at call:[get_size,throw] noreturn:[throw]
+at call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+operator[] call:[get_size,throw] noreturn:[throw]
+front call:[front,size,throw] noreturn:[front,throw]
+back call:[back,throw] noreturn:[back,throw]
+begin call:[end,iterator] noreturn:[iterator]
+cbegin call:[cend,const_iterator] noreturn:[const_iterator]
+end call:[iterator] noreturn:[iterator]
+cend call:[const_iterator] noreturn:[const_iterator]
+empty
+size
+clear call:[block,deque < T >]
+split call:[block,get_size,resize]
+merge call:[push_back] noreturn:[push_back]
+insert call:[end,get_size,insert,iterator,push_back,split,two_pow] noreturn:[end,iterator,split]
+erase call:[get_size,iterator,merge,remove,throw,two_pow] noreturn:[merge,throw]
+push_back call:[get_size,push_back,split,two_pow] noreturn:[split]
+pop_back call:[get_size,merge,pop_back,throw,two_pow] noreturn:[merge,throw]
+push_front call:[get_size,push_front,split,two_pow] noreturn:[split]
+pop_front call:[get_size,merge,pop_front,throw,two_pow] noreturn:[merge,throw]

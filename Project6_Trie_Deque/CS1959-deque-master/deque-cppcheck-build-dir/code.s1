@@ -1,0 +1,14 @@
+T
+num
+change
+operator== call:[num] noreturn:[num]
+operator!= call:[num] noreturn:[num]
+equal global:[it_q,it_stl,q,stl] call:[begin,empty,end,printf,size]
+test1 global:[N,q,stl] call:[T,empty,equal,pop_back,pop_front,printf,push_back,push_front,puts] noreturn:[pop_back,pop_front,push_back,push_front,puts]
+test2 global:[N,need_to_check_throw,q,stl] call:[T,at,back,front,num,pop_back,pop_front,printf,push_back,push_front,puts,rand,size] noreturn:[num,pop_back,pop_front,push_back,push_front,puts]
+test3 global:[it_q,it_stl,need_to_check_throw,q,stl] call:[begin,change,end,equal,it_q_const,it_stl_const,num,printf,puts,rand,size] noreturn:[begin,puts]
+test4 global:[_it_q,_it_stl,q,stl] call:[_q,_stl,cbegin,cend,num,printf,puts,rand,size] noreturn:[puts]
+test5 global:[N,it_q,it_stl,q,stl] call:[T,begin,change,end,equal,erase,insert,printf,puts,rand,size,sqrt] noreturn:[change,insert,puts]
+test6 global:[q,stl] call:[T,begin,clear,empty,end,equal,insert,p,printf,push_back,puts,rand,size] noreturn:[insert,puts]
+test7 global:[N,good_complexity,it_q] call:[T,at,begin,clear,erase,insert,num,pop_back,pop_front,printf,push_back,push_front,puts,rand,size] noreturn:[erase,insert,num,pop_back,pop_front,push_back,push_front,puts,size]
+main call:[puts,srand,test1,test2,test3,test4,test5,test6,test7,time] noreturn:[test7]

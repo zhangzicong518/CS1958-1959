@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="12150883241953299426">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;new&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;new&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;functional&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="test.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;rb_tree_iterator.h&quot; not found." verbose="Include file: &quot;rb_tree_iterator.h&quot; not found.">
+            <location file="test.cpp" line="7" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;x&apos; can be declared as pointer to const" verbose="Variable &apos;x&apos; can be declared as pointer to const" cwe="398" file0="test.cpp">
+            <location file="test.cpp" line="299" column="19" info="Variable &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="mismatchingContainerExpression" severity="warning" msg="Iterators to containers from different expressions &apos;lhs&apos; and &apos;rhs&apos; are used together." verbose="Iterators to containers from different expressions &apos;lhs&apos; and &apos;rhs&apos; are used together." cwe="664" file0="test.cpp">
+            <location file="test.cpp" line="1106" column="27"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="test.cpp:251:18" call-funcname="insert_aux" call-argnr="1" file="test.cpp" line="678" col="60" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="test.cpp" line="667" col="16" info="Assuming that condition &apos;x&apos; is not redundant"/>
+</function-call><function-call call-id="test.cpp:251:18" call-funcname="insert_aux" call-argnr="1" file="test.cpp" line="685" col="56" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="test.cpp" line="667" col="16" info="Assuming that condition &apos;x&apos; is not redundant"/>
+</function-call><function-call call-id="test.cpp:251:18" call-funcname="insert_aux" call-argnr="1" file="test.cpp" line="704" col="34" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="test.cpp:251:18" call-funcname="insert_aux" call-argnr="1" file="test.cpp" line="719" col="38" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="test.cpp:251:18" call-funcname="insert_aux" call-argnr="1" file="test.cpp" line="754" col="26" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="test.cpp" line="749" col="16" info="Assuming that condition &apos;x&apos; is not redundant"/>
+</function-call><function-call call-id="test.cpp:251:18" call-funcname="insert_aux" call-argnr="1" file="test.cpp" line="788" col="38" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="test.cpp:118:27" call-funcname="value" call-argnr="1" file="test.cpp" line="124" col="33" my-id="test.cpp:122:27" my-argnr="1"/>
+<function-call call-id="test.cpp:65:19" call-funcname="clone_node" call-argnr="1" file="test.cpp" line="814" col="25" my-id="test.cpp:168:19" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="test.cpp:65:19" my-argnr="1" my-argname="p" file="test.cpp" line="67" col="42" value="0"/>
+    <unsafe-usage my-id="test.cpp:106:27" my-argnr="1" my-argname="p" file="test.cpp" line="108" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:110:27" my-argnr="1" my-argname="p" file="test.cpp" line="112" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:114:27" my-argnr="1" my-argname="p" file="test.cpp" line="116" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:118:27" my-argnr="1" my-argname="p" file="test.cpp" line="120" col="20" value="0"/>
+    <unsafe-usage my-id="test.cpp:126:28" my-argnr="1" my-argname="p" file="test.cpp" line="126" col="56" value="0"/>
+    <unsafe-usage my-id="test.cpp:129:27" my-argnr="1" my-argname="p" file="test.cpp" line="131" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:133:27" my-argnr="1" my-argname="p" file="test.cpp" line="135" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:137:27" my-argnr="1" my-argname="p" file="test.cpp" line="139" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:181:14" my-argnr="1" my-argname="x" file="test.cpp" line="342" col="9" value="0"/>
+    <unsafe-usage my-id="test.cpp:179:14" my-argnr="1" my-argname="x" file="test.cpp" line="424" col="22" value="0"/>
+    <unsafe-usage my-id="test.cpp:180:14" my-argnr="1" my-argname="x" file="test.cpp" line="450" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="test.cpp:65:19" my-argnr="1" my-argname="p" file="test.cpp" line="67" col="42" value="0"/>
+    <unsafe-usage my-id="test.cpp:106:27" my-argnr="1" my-argname="p" file="test.cpp" line="108" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:110:27" my-argnr="1" my-argname="p" file="test.cpp" line="112" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:114:27" my-argnr="1" my-argname="p" file="test.cpp" line="116" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:118:27" my-argnr="1" my-argname="p" file="test.cpp" line="120" col="20" value="0"/>
+    <unsafe-usage my-id="test.cpp:122:27" my-argnr="1" my-argname="p" file="test.cpp" line="124" col="39" value="0"/>
+    <unsafe-usage my-id="test.cpp:126:28" my-argnr="1" my-argname="p" file="test.cpp" line="126" col="56" value="0"/>
+    <unsafe-usage my-id="test.cpp:129:27" my-argnr="1" my-argname="p" file="test.cpp" line="131" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:133:27" my-argnr="1" my-argname="p" file="test.cpp" line="135" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:137:27" my-argnr="1" my-argname="p" file="test.cpp" line="139" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:142:27" my-argnr="1" my-argname="p" file="test.cpp" line="144" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:150:28" my-argnr="1" my-argname="p" file="test.cpp" line="152" col="50" value="0"/>
+    <unsafe-usage my-id="test.cpp:199:9" my-argnr="1" my-argname="rhs" file="test.cpp" line="202" col="18" value="0"/>
+    <unsafe-usage my-id="test.cpp:284:14" my-argnr="1" my-argname="rhs" file="test.cpp" line="286" col="31" value="0"/>
+    <unsafe-usage my-id="test.cpp:179:14" my-argnr="1" my-argname="x" file="test.cpp" line="424" col="22" value="0"/>
+    <unsafe-usage my-id="test.cpp:180:14" my-argnr="1" my-argname="x" file="test.cpp" line="450" col="22" value="0"/>
+    <unsafe-usage my-id="test.cpp:275:19" my-argnr="1" my-argname="k" file="test.cpp" line="527" col="55" value="0"/>
+    <unsafe-usage my-id="test.cpp:280:39" my-argnr="1" my-argname="k" file="test.cpp" line="628" col="58" value="0"/>
+    <unsafe-usage my-id="test.cpp:281:51" my-argnr="1" my-argname="k" file="test.cpp" line="636" col="70" value="0"/>
+    <unsafe-usage my-id="test.cpp:259:18" my-argnr="1" my-argname="val" file="test.cpp" line="754" col="33" value="0"/>
+    <unsafe-usage my-id="test.cpp:168:19" my-argnr="1" my-argname="source_x" file="test.cpp" line="814" col="36" value="0"/>
+    <unsafe-usage my-id="test.cpp:268:19" my-argnr="1" my-argname="k" file="test.cpp" line="880" col="55" value="0"/>
+    <unsafe-usage my-id="test.cpp:1101:17" my-argnr="1" my-argname="lhs" file="test.cpp" line="1105" col="16" value="0"/>
+    <unsafe-usage my-id="test.cpp:1101:17" my-argnr="2" my-argname="rhs" file="test.cpp" line="1105" col="30" value="0"/>
+    <unsafe-usage my-id="test.cpp:1118:17" my-argnr="1" my-argname="lhs" file="test.cpp" line="1123" col="13" value="0"/>
+    <unsafe-usage my-id="test.cpp:1118:17" my-argnr="2" my-argname="rhs" file="test.cpp" line="1123" col="39" value="0"/>
+    <unsafe-usage my-id="test.cpp:1151:17" my-argnr="1" my-argname="lhs" file="test.cpp" line="1155" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="get_node" lineNumber="38"/>
+    <functiondecl functionName="put_node" lineNumber="45"/>
+    <functiondecl functionName="create_node" lineNumber="51"/>
+    <functiondecl functionName="clone_node" lineNumber="65"/>
+    <functiondecl functionName="destroy_node" lineNumber="74"/>
+    <functiondecl functionName="root" lineNumber="88"/>
+    <functiondecl functionName="leftmost" lineNumber="93"/>
+    <functiondecl functionName="rightmost" lineNumber="98"/>
+    <functiondecl functionName="left" lineNumber="106"/>
+    <functiondecl functionName="right" lineNumber="110"/>
+    <functiondecl functionName="parent" lineNumber="114"/>
+    <functiondecl functionName="value" lineNumber="118"/>
+    <functiondecl functionName="key" lineNumber="122"/>
+    <functiondecl functionName="color" lineNumber="126"/>
+    <functiondecl functionName="left" lineNumber="129"/>
+    <functiondecl functionName="right" lineNumber="133"/>
+    <functiondecl functionName="parent" lineNumber="137"/>
+    <functiondecl functionName="value" lineNumber="142"/>
+    <functiondecl functionName="key" lineNumber="146"/>
+    <functiondecl functionName="color" lineNumber="150"/>
+    <functiondecl functionName="minimum" lineNumber="156"/>
+    <functiondecl functionName="maximum" lineNumber="161"/>
+    <functiondecl functionName="empty_initialize" lineNumber="169"/>
+    <functiondecl functionName="begin" lineNumber="233"/>
+    <functiondecl functionName="end" lineNumber="234"/>
+    <functiondecl functionName="cbegin" lineNumber="235"/>
+    <functiondecl functionName="cend" lineNumber="236"/>
+    <functiondecl functionName="empty" lineNumber="237"/>
+    <functiondecl functionName="size" lineNumber="241"/>
+    <functiondecl functionName="begin" lineNumber="247"/>
+    <functiondecl functionName="end" lineNumber="248"/>
+    <functiondecl functionName="swap" lineNumber="284"/>
+    <functiondecl functionName="insert_aux" lineNumber="297"/>
+    <functiondecl functionName="rb_tree_rebalance" lineNumber="339"/>
+    <functiondecl functionName="rb_tree_rotate_left" lineNumber="421"/>
+    <functiondecl functionName="rb_tree_rotate_right" lineNumber="447"/>
+    <functiondecl functionName="find" lineNumber="477"/>
+    <functiondecl functionName="find" lineNumber="501"/>
+    <functiondecl functionName="count" lineNumber="525"/>
+    <functiondecl functionName="lower_bound" lineNumber="534"/>
+    <functiondecl functionName="lower_bound" lineNumber="557"/>
+    <functiondecl functionName="upper_bound" lineNumber="580"/>
+    <functiondecl functionName="upper_bound" lineNumber="603"/>
+    <functiondecl functionName="equal_range" lineNumber="626"/>
+    <functiondecl functionName="equal_range" lineNumber="634"/>
+    <functiondecl functionName="insert_unique" lineNumber="661"/>
+    <functiondecl functionName="insert_unique" lineNumber="692"/>
+    <functiondecl functionName="insert_unique" lineNumber="735"/>
+    <functiondecl functionName="insert_equal" lineNumber="745"/>
+    <functiondecl functionName="insert_equal" lineNumber="760"/>
+    <functiondecl functionName="insert_equal" lineNumber="803"/>
+    <functiondecl functionName="copy" lineNumber="812"/>
+    <functiondecl functionName="erase_aux" lineNumber="854"/>
+    <functiondecl functionName="erase" lineNumber="868"/>
+    <functiondecl functionName="erase" lineNumber="878"/>
+    <functiondecl functionName="erase" lineNumber="889"/>
+    <functiondecl functionName="clear" lineNumber="904"/>
+    <functiondecl functionName="rb_tree_rebalance_for_erase" lineNumber="918"/>
+    <functiondecl functionName="swap" lineNumber="1151"/>
+    <functioncall functionName="Alloc"/>
+    <functioncall functionName="Compare"/>
+    <functioncall functionName="InputIterator"/>
+    <functioncall functionName="Key"/>
+    <functioncall functionName="KeyOfValue"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="__rb_tree_node"/>
+    <functioncall functionName="allocate"/>
+    <functioncall functionName="base_ptr"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="cbegin"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clone_node"/>
+    <functioncall functionName="color"/>
+    <functioncall functionName="const_iterator"/>
+    <functioncall functionName="const_pointer"/>
+    <functioncall functionName="const_reference"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="create_node"/>
+    <functioncall functionName="deallocate"/>
+    <functioncall functionName="destroy_node"/>
+    <functioncall functionName="distance"/>
+    <functioncall functionName="empty_initialize"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equal"/>
+    <functioncall functionName="equal_range"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="erase_aux"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="get_node"/>
+    <functioncall functionName="insert_aux"/>
+    <functioncall functionName="insert_equal"/>
+    <functioncall functionName="insert_unique"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="key_compare"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="leftmost"/>
+    <functioncall functionName="lexicographical_compare"/>
+    <functioncall functionName="link_type"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="maximum"/>
+    <functioncall functionName="minimum"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="put_node"/>
+    <functioncall functionName="rb_tree"/>
+    <functioncall functionName="rb_tree_black"/>
+    <functioncall functionName="rb_tree_color_type"/>
+    <functioncall functionName="rb_tree_node"/>
+    <functioncall functionName="rb_tree_rebalance"/>
+    <functioncall functionName="rb_tree_rebalance_for_erase"/>
+    <functioncall functionName="rb_tree_red"/>
+    <functioncall functionName="rb_tree_rotate_left"/>
+    <functioncall functionName="rb_tree_rotate_right"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="rightmost"/>
+    <functioncall functionName="root"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="upper_bound"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="value_type"/>
+  </FileInfo>
+</analyzerinfo>

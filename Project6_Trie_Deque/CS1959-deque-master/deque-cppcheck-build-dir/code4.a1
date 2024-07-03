@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="16611335999047058169">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code4.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdio&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdio&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code4.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code4.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;queue&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code4.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code4.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ctime&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ctime&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code4.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cmath&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cmath&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="code4.cpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="exceptions.hpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstring&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="exceptions.hpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="exceptions.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="deque.hpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="deque.hpp" line="7" column="0"/>
+        </error>
+        <error id="operatorEqToSelf" severity="warning" msg="&apos;operator=&apos; should check for assignment to self to avoid problems with dynamic memory." verbose="&apos;operator=&apos; should check for assignment to self to ensure that each block of dynamically allocated memory is owned and managed by only one instance of the class." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="44" column="12"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;elements&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;elements&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="217" column="9"/>
+            <symbol>elements</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;T&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;T&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code4.cpp">
+            <location file="code4.cpp" line="24" column="5"/>
+            <symbol>T</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;vec&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;vec&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="25" column="7"/>
+            <symbol>vec</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;block&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;block&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="212" column="7"/>
+            <symbol>block</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="243" column="7"/>
+            <symbol>iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="450" column="7"/>
+            <symbol>const_iterator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;const_iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="451" column="7"/>
+            <symbol>const_iterator</symbol>
+        </error>
+        <error id="incorrectLogicOperator" severity="warning" msg="Logical conjunction always evaluates to false: current_block != nullptr &amp;&amp; current_block == nullptr." verbose="Logical conjunction always evaluates to false: current_block != nullptr &amp;&amp; current_block == nullptr. Are these conditions necessary? Did you intend to use || instead? Are the numbers correct? Are you comparing the correct variables?" cwe="570" file0="code4.cpp">
+            <location file="deque.hpp" line="308" column="42"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i%10&lt;=9&apos; is always true" verbose="Condition &apos;i%10&lt;=9&apos; is always true" cwe="571" file0="code4.cpp">
+            <location file="code4.cpp" line="74" column="25" info="Condition &apos;i%10&lt;=9&apos; is always true"/>
+            <location file="code4.cpp" line="72" column="25" info="Assuming that condition &apos;i%10&lt;=8&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i%10&lt;=9&apos; is always true" verbose="Condition &apos;i%10&lt;=9&apos; is always true" cwe="571" file0="code4.cpp">
+            <location file="code4.cpp" line="123" column="25" info="Condition &apos;i%10&lt;=9&apos; is always true"/>
+            <location file="code4.cpp" line="121" column="25" info="Assuming that condition &apos;i%10&lt;=8&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i%10&lt;=9&apos; is always true" verbose="Condition &apos;i%10&lt;=9&apos; is always true" cwe="571" file0="code4.cpp">
+            <location file="code4.cpp" line="499" column="25" info="Condition &apos;i%10&lt;=9&apos; is always true"/>
+            <location file="code4.cpp" line="497" column="25" info="Assuming that condition &apos;i%10&lt;=8&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;current_block!=nullptr&apos; is always true" verbose="Condition &apos;current_block!=nullptr&apos; is always true" cwe="571" file0="code4.cpp">
+            <location file="deque.hpp" line="326" column="62" info="Condition &apos;current_block!=nullptr&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;current_block!=nullptr&apos; is always true" verbose="Condition &apos;current_block!=nullptr&apos; is always true" cwe="571" file0="code4.cpp">
+            <location file="deque.hpp" line="533" column="62" info="Condition &apos;current_block!=nullptr&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;_nxt!=nullptr&apos; is always true" verbose="Condition &apos;_nxt!=nullptr&apos; is always true" cwe="571" file0="code4.cpp">
+            <location file="deque.hpp" line="881" column="16" info="Condition &apos;_nxt!=nullptr&apos; is always true"/>
+        </error>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="423" column="11"/>
+        </error>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="630" column="11"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code4.cpp">
+            <location file="deque.hpp" line="288" column="17" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="283" column="34" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code4.cpp">
+            <location file="deque.hpp" line="311" column="23" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="303" column="34" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code4.cpp">
+            <location file="deque.hpp" line="346" column="20" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="351" column="31" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." verbose="Either the condition &apos;current_block!=nullptr&apos; is redundant or there is possible null pointer dereference: current_block." cwe="476" file0="code4.cpp">
+            <location file="deque.hpp" line="495" column="17" info="Null pointer dereference"/>
+            <location file="deque.hpp" line="490" column="34" info="Assuming that condition &apos;current_block!=nullptr&apos; is not redundant"/>
+            <symbol>current_block</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="507" column="13" info="tmp is overwritten"/>
+            <location file="code4.cpp" line="506" column="17" info="tmp is initialized"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="524" column="13" info="tmp is overwritten"/>
+            <location file="code4.cpp" line="523" column="17" info="tmp is initialized"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;tmp&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;tmp&apos; is reassigned a value before the old one has been used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="542" column="17" info="tmp is overwritten"/>
+            <location file="code4.cpp" line="541" column="17" info="tmp is assigned"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="oppositeExpression" severity="style" msg="Opposite expression on both sides of &apos;&amp;&amp;&apos;." verbose="Finding the opposite expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="code4.cpp">
+            <location file="deque.hpp" line="308" column="42"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;tmp&apos; can be reduced." verbose="The scope of the variable &apos;tmp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="code4.cpp">
+            <location file="code4.cpp" line="538" column="13"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;q&apos; shadows outer variable" verbose="Local variable &apos;q&apos; shadows outer variable" cwe="398" file0="code4.cpp">
+            <location file="code4.cpp" line="482" column="27" info="Shadow variable"/>
+            <location file="code4.cpp" line="39" column="16" info="Shadowed declaration"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="mismatchingContainerExpression" severity="warning" msg="Iterators to containers from different expressions &apos;q&apos; and &apos;other&apos; are used together." verbose="Iterators to containers from different expressions &apos;q&apos; and &apos;other&apos; are used together." cwe="664" file0="code4.cpp">
+            <location file="code4.cpp" line="202" column="17"/>
+        </error>
+        <error id="mismatchingContainerExpression" severity="warning" msg="Iterators to containers from different expressions &apos;q&apos; and &apos;pp&apos; are used together." verbose="Iterators to containers from different expressions &apos;q&apos; and &apos;pp&apos; are used together." cwe="664" file0="code4.cpp">
+            <location file="code4.cpp" line="268" column="9"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: cur.nxt, cur.pre" verbose="Uninitialized variables: cur.nxt, cur.pre" cwe="457" file0="code4.cpp">
+            <location file="deque.hpp" line="675" column="19"/>
+            <location file="deque.hpp" line="667" column="18" info="Assuming condition is false"/>
+            <symbol>cur</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: cur.nxt, cur.pre" verbose="Uninitialized variables: cur.nxt, cur.pre" cwe="457" file0="code4.cpp">
+            <location file="deque.hpp" line="700" column="19"/>
+            <location file="deque.hpp" line="692" column="18" info="Assuming condition is false"/>
+            <symbol>cur</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;judge1&apos; is assigned a value that is never used." verbose="Variable &apos;judge1&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="150" column="25"/>
+            <symbol>judge1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;judge2&apos; is assigned a value that is never used." verbose="Variable &apos;judge2&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="151" column="25"/>
+            <symbol>judge2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="95" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="104" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="129" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="202" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="507" column="13"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="524" column="13"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="code4.cpp" line="542" column="17"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="code4.cpp">
+            <location file="deque.hpp" line="791" column="15"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="postfixOperator" severity="performance" msg="Prefer prefix ++/-- operators for non-primitive types." verbose="Prefix ++/-- operators should be preferred for non-primitive types. Pre-increment/decrement can be more efficient than post-increment/decrement. Post-increment/decrement usually involves keeping a copy of the previous value around and adds a little extra code." cwe="398" file0="code4.cpp">
+            <location file="code4.cpp" line="52" column="90"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="code4.cpp:24:5" call-funcname="T" call-argnr="1" file="code4.cpp" line="484" col="23" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="code4.cpp" line="483" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="code4.cpp:24:5" call-funcname="T" call-argnr="1" file="code4.cpp" line="488" col="22" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="code4.cpp" line="487" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="code4.cpp:24:5" call-funcname="T" call-argnr="1" file="code4.cpp" line="494" col="26" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="code4.cpp" line="491" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="code4.cpp:24:5" call-funcname="T" call-argnr="1" file="deque.hpp" line="101" col="32" call-argexpr="val" call-argvaluetype="0" call-argvalue="0">
+  <path file="code4.cpp" line="529" col="22" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+  <path file="code4.cpp" line="530" col="25" info="Calling function &apos;push_back&apos;, 1st argument &apos;i&apos; value is 0"/>
+  <path file="deque.hpp" line="935" col="42" info="Calling function &apos;push_back&apos;, 1st argument &apos;value&apos; value is 0"/>
+</function-call><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="115" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="114" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:64:12" call-funcname="swap" call-argnr="2" file="deque.hpp" line="124" col="15" call-argexpr="i-1" call-argvaluetype="0" call-argvalue="0">
+  <path file="deque.hpp" line="123" col="34" info="Assuming that condition &apos;i&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="800" col="46" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="809" col="22" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="deque.hpp:243:7" call-funcname="iterator" call-argnr="2" file="deque.hpp" line="928" col="75" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="T" file="code4.cpp" line="18" col="1" hash="17959447488660499427"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="deque.hpp:103:12" my-argnr="1" my-argname="val" file="deque.hpp" line="107" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:118:12" my-argnr="1" my-argname="val" file="deque.hpp" line="125" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="code4.cpp:31:6" my-argnr="1" my-argname="a" file="code4.cpp" line="33" col="12" value="0"/>
+    <unsafe-usage my-id="code4.cpp:31:6" my-argnr="2" my-argname="b" file="code4.cpp" line="33" col="23" value="0"/>
+    <unsafe-usage my-id="code4.cpp:35:6" my-argnr="1" my-argname="a" file="code4.cpp" line="37" col="12" value="0"/>
+    <unsafe-usage my-id="code4.cpp:35:6" my-argnr="2" my-argname="b" file="code4.cpp" line="37" col="23" value="0"/>
+    <unsafe-usage my-id="deque.hpp:33:7" my-argnr="1" my-argname="other" file="deque.hpp" line="36" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:44:12" my-argnr="1" my-argname="other" file="deque.hpp" line="46" col="20" value="0"/>
+    <unsafe-usage my-id="deque.hpp:103:12" my-argnr="1" my-argname="val" file="deque.hpp" line="107" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:118:12" my-argnr="1" my-argname="val" file="deque.hpp" line="125" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:213:7" my-argnr="1" my-argname="other" file="deque.hpp" line="215" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:219:14" my-argnr="1" my-argname="other" file="deque.hpp" line="222" col="15" value="0"/>
+    <unsafe-usage my-id="deque.hpp:244:7" my-argnr="1" my-argname="t" file="deque.hpp" line="246" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:264:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="268" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:359:16" my-argnr="1" my-argname="n" file="deque.hpp" line="362" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:365:16" my-argnr="1" my-argname="n" file="deque.hpp" line="368" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:427:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="429" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:431:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="433" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:435:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="437" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:439:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="441" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:451:7" my-argnr="1" my-argname="t" file="deque.hpp" line="453" col="17" value="0"/>
+    <unsafe-usage my-id="deque.hpp:471:11" my-argnr="1" my-argname="rhs" file="deque.hpp" line="475" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:566:22" my-argnr="1" my-argname="n" file="deque.hpp" line="569" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:572:22" my-argnr="1" my-argname="n" file="deque.hpp" line="575" col="16" value="0"/>
+    <unsafe-usage my-id="deque.hpp:634:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="636" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:638:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="640" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:642:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="644" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:646:12" my-argnr="1" my-argname="rhs" file="deque.hpp" line="648" col="34" value="0"/>
+    <unsafe-usage my-id="deque.hpp:661:5" my-argnr="1" my-argname="other" file="deque.hpp" line="663" col="18" value="0"/>
+    <unsafe-usage my-id="deque.hpp:683:12" my-argnr="1" my-argname="other" file="deque.hpp" line="685" col="25" value="0"/>
+    <unsafe-usage my-id="deque.hpp:837:10" my-argnr="1" my-argname="item" file="deque.hpp" line="839" col="21" value="0"/>
+    <unsafe-usage my-id="deque.hpp:933:10" my-argnr="1" my-argname="value" file="deque.hpp" line="935" col="42" value="0"/>
+    <unsafe-usage my-id="deque.hpp:951:10" my-argnr="1" my-argname="value" file="deque.hpp" line="953" col="39" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="what" lineNumber="21"/>
+    <functiondecl functionName="num" lineNumber="25"/>
+    <functiondecl functionName="change" lineNumber="26"/>
+    <functiondecl functionName="equal" lineNumber="45"/>
+    <functiondecl functionName="test1" lineNumber="63"/>
+    <functiondecl functionName="test2" lineNumber="89"/>
+    <functiondecl functionName="test3" lineNumber="164"/>
+    <functiondecl functionName="test4" lineNumber="299"/>
+    <functiondecl functionName="test5" lineNumber="368"/>
+    <functiondecl functionName="test6" lineNumber="431"/>
+    <functiondecl functionName="test7" lineNumber="478"/>
+    <functiondecl functionName="main" lineNumber="547"/>
+    <functiondecl functionName="swap" lineNumber="64"/>
+    <functiondecl functionName="expand" lineNumber="70"/>
+    <functiondecl functionName="is_empty" lineNumber="85"/>
+    <functiondecl functionName="is_full" lineNumber="89"/>
+    <functiondecl functionName="get_size" lineNumber="93"/>
+    <functiondecl functionName="push_back" lineNumber="97"/>
+    <functiondecl functionName="push_back" lineNumber="103"/>
+    <functiondecl functionName="push_front" lineNumber="109"/>
+    <functiondecl functionName="push_front" lineNumber="118"/>
+    <functiondecl functionName="at" lineNumber="134"/>
+    <functiondecl functionName="front" lineNumber="141"/>
+    <functiondecl functionName="back" lineNumber="148"/>
+    <functiondecl functionName="insert" lineNumber="155"/>
+    <functiondecl functionName="remove" lineNumber="164"/>
+    <functiondecl functionName="pop_front" lineNumber="175"/>
+    <functiondecl functionName="pop_back" lineNumber="186"/>
+    <functiondecl functionName="resize" lineNumber="194"/>
+    <functiondecl functionName="GetPos" lineNumber="249"/>
+    <functiondecl functionName="GetPos" lineNumber="456"/>
+    <functiondecl functionName="two_pow" lineNumber="704"/>
+    <functiondecl functionName="at" lineNumber="709"/>
+    <functiondecl functionName="at" lineNumber="726"/>
+    <functiondecl functionName="front" lineNumber="777"/>
+    <functiondecl functionName="back" lineNumber="789"/>
+    <functiondecl functionName="begin" lineNumber="798"/>
+    <functiondecl functionName="cbegin" lineNumber="802"/>
+    <functiondecl functionName="end" lineNumber="807"/>
+    <functiondecl functionName="cend" lineNumber="811"/>
+    <functiondecl functionName="empty" lineNumber="816"/>
+    <functiondecl functionName="size" lineNumber="821"/>
+    <functiondecl functionName="clear" lineNumber="826"/>
+    <functiondecl functionName="split" lineNumber="837"/>
+    <functiondecl functionName="merge" lineNumber="872"/>
+    <functiondecl functionName="insert" lineNumber="886"/>
+    <functiondecl functionName="erase" lineNumber="909"/>
+    <functiondecl functionName="push_back" lineNumber="933"/>
+    <functiondecl functionName="pop_back" lineNumber="941"/>
+    <functiondecl functionName="push_front" lineNumber="951"/>
+    <functiondecl functionName="pop_front" lineNumber="959"/>
+    <functioncall functionName="GetPos"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="_q"/>
+    <functioncall functionName="_stl"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block"/>
+    <functioncall functionName="cbegin"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="change"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="const_iterator"/>
+    <functioncall functionName="deque"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="equal"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="exception"/>
+    <functioncall functionName="expand"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="get_size"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="it_q_const"/>
+    <functioncall functionName="it_stl_const"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="merge"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="puts"/>
+    <functioncall functionName="rand"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="split"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="srand"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="test1"/>
+    <functioncall functionName="test2"/>
+    <functioncall functionName="test3"/>
+    <functioncall functionName="test4"/>
+    <functioncall functionName="test5"/>
+    <functioncall functionName="test6"/>
+    <functioncall functionName="test7"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="two_pow"/>
+    <functioncall functionName="vec"/>
+  </FileInfo>
+</analyzerinfo>

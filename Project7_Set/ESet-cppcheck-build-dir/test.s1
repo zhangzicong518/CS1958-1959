@@ -1,0 +1,72 @@
+get_node call:[allocate,sizeof]
+put_node call:[deallocate,sizeof] noreturn:[deallocate]
+create_node call:[get_node,new,put_node,value_type] noreturn:[put_node,value_type]
+clone_node call:[create_node]
+destroy_node call:[Value,put_node] noreturn:[put_node]
+root
+leftmost
+rightmost
+left
+right
+parent
+value
+key call:[KeyOfValue,value]
+color
+left
+right
+parent
+value
+key call:[KeyOfValue,value]
+color
+minimum call:[minimum]
+maximum call:[maximum]
+empty_initialize call:[color,get_node,leftmost,rightmost,root]
+rb_tree call:[empty_initialize] noreturn:[empty_initialize]
+rb_tree call:[empty_initialize] noreturn:[empty_initialize]
+rb_tree call:[clear,put_node] noreturn:[put_node]
+rb_tree call:[color,copy,empty_initialize,get_node,leftmost,maximum,minimum,rightmost,root] noreturn:[empty_initialize,maximum]
+rb_tree call:[empty_initialize,swap] noreturn:[swap]
+operator= call:[clear,swap]
+begin call:[leftmost] noreturn:[leftmost]
+end
+cbegin call:[leftmost] noreturn:[leftmost]
+cend
+empty
+size
+begin call:[leftmost] noreturn:[leftmost]
+end
+swap call:[swap] noreturn:[swap]
+insert_aux call:[KeyOfValue,create_node,iterator,key,key_compare,left,leftmost,parent,rb_tree_rebalance,right,rightmost,root] noreturn:[iterator]
+rb_tree_rebalance call:[rb_tree_rotate_left,rb_tree_rotate_right] noreturn:[rb_tree_rotate_left,rb_tree_rotate_right]
+rb_tree_rotate_left
+rb_tree_rotate_right
+find call:[end,iterator,key,key_compare,left,return,right,root] noreturn:[left,right]
+find call:[const_iterator,end,key,key_compare,left,return,right,root] noreturn:[left,right]
+count call:[distance,equal_range] noreturn:[distance]
+lower_bound call:[iterator,key,key_compare,left,right,root] noreturn:[iterator,left,right]
+lower_bound call:[const_iterator,key,key_compare,left,right,root] noreturn:[const_iterator,left,right]
+upper_bound call:[iterator,key,key_compare,left,right,root] noreturn:[iterator,left,right]
+upper_bound call:[const_iterator,key,key_compare,left,right,root] noreturn:[const_iterator,left,right]
+equal_range call:[lower_bound,upper_bound]
+equal_range call:[lower_bound,upper_bound]
+operator= call:[clear,copy,leftmost,maximum,minimum,rightmost,root]
+insert_unique call:[KeyOfValue,begin,insert_aux,j,key,key_compare,left,right,root] noreturn:[right]
+insert_unique call:[KeyOfValue,insert_aux,insert_unique,key,key_compare,right,rightmost,size] noreturn:[insert_aux]
+insert_unique call:[insert_unique] noreturn:[insert_unique]
+insert_equal call:[KeyOfValue,insert_aux,key,key_compare,left,right,root] noreturn:[insert_aux,right]
+insert_equal call:[KeyOfValue,insert_aux,insert_equal,key,key_compare,right,rightmost] noreturn:[insert_aux,insert_equal]
+insert_equal call:[insert_equal] noreturn:[insert_equal]
+copy call:[clone_node,copy,erase_aux,left,right] noreturn:[copy,erase_aux,left]
+erase_aux call:[destroy_node,erase_aux,left,right]
+erase call:[destroy_node,rb_tree_rebalance_for_erase]
+erase call:[distance,equal_range,erase]
+erase call:[begin,clear,end,erase] noreturn:[clear,erase]
+clear call:[erase_aux,leftmost,rightmost,root]
+rb_tree_rebalance_for_erase call:[maximum,minimum,rb_tree_rotate_left,rb_tree_rotate_right] noreturn:[maximum,minimum]
+operator== call:[cbegin,cend,equal,size] noreturn:[equal]
+operator!=
+operator< call:[cbegin,cend,lexicographical_compare] noreturn:[lexicographical_compare]
+operator>
+operator<=
+operator>=
+swap call:[swap] noreturn:[swap]

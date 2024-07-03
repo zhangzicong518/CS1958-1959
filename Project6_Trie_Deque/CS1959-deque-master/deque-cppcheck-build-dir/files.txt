@@ -1,0 +1,12 @@
+code1.a1::code1.cpp
+code2.a1::code2.cpp
+code3.a1::code3.cpp
+code4.a1::code4.cpp
+try1.a1::try1.cpp
+try2.a1::try2.cpp
+code.a1::D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four/code.cpp
+code.a2::D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/four.memcheck/code.cpp
+code.a3::D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/one/code.cpp
+code.a4::D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/three/code.cpp
+code.a5::D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two/code.cpp
+code.a6::D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp

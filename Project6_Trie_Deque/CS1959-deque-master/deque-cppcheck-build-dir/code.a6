@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="13241264237881856397">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ctime&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ctime&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;random&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;class-integer.hpp&quot; not found." verbose="Include file: &quot;class-integer.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;class-matrix.hpp&quot; not found." verbose="Include file: &quot;class-matrix.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;class-bint.hpp&quot; not found." verbose="Include file: &quot;class-bint.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;deque.hpp&quot; not found." verbose="Include file: &quot;deque.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="12" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;DynamicType&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;DynamicType&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="300" column="5"/>
+            <symbol>DynamicType</symbol>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &apos;myCounter!=ansCounter&apos;, second condition is always false" verbose="Identical condition &apos;myCounter!=ansCounter&apos;, second condition is always false" cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="351" column="23" info="Testing identical condition &apos;myCounter!=ansCounter&apos;"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="347" column="23" info="If condition &apos;myCounter!=ansCounter&apos; is true, the function will return/exit"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;deq3&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;deq3&apos; is reassigned a value before the old one has been used." cwe="563" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="340" column="27" info="deq3 is overwritten"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="340" column="14" info="deq3 is assigned"/>
+            <symbol>deq3</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;ansIter&apos; shadows outer variable" verbose="Local variable &apos;ansIter&apos; shadows outer variable" cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="181" column="35" info="Shadow variable"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="156" column="10" info="Shadowed declaration"/>
+            <symbol>ansIter</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;myIter&apos; shadows outer variable" verbose="Local variable &apos;myIter&apos; shadows outer variable" cwe="398" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="182" column="36" info="Shadow variable"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="157" column="10" info="Shadowed declaration"/>
+            <symbol>myIter</symbol>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &apos;ansIter&apos; used." verbose="The iterator &apos;ansIter&apos; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="192" column="17"/>
+            <symbol>ansIter</symbol>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &apos;myIter&apos; used." verbose="The iterator &apos;myIter&apos; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="192" column="32"/>
+            <symbol>myIter</symbol>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ans.end()-1" verbose="Possible dereference of an invalid iterator: ans.end()-1" cwe="825" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="255" column="25" info="Dereference of an invalid iterator"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="249" column="20" info="Assuming that condition &apos;ansIter!=ans.end()&apos; is not redundant"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="249" column="20" info="Assuming condition is false"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="247" column="24" info="Assignment &apos;ansIter=ans.begin()&apos;, assigned value is start=0"/>
+            <symbol>ans.end()-1</symbol>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ansIter" verbose="Possible dereference of an invalid iterator: ansIter" cwe="825" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="257" column="12" info="Dereference of an invalid iterator"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="255" column="25" info="Assignment &apos;ansIter=ans.end()-1&apos;, assigned value is start=-1"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="249" column="20" info="Assuming that condition &apos;ansIter!=ans.end()&apos; is not redundant"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="249" column="20" info="Assuming condition is false"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="247" column="24" info="Assignment &apos;ansIter=ans.begin()&apos;, assigned value is start=0"/>
+            <symbol>ansIter</symbol>
+        </error>
+        <error id="derefInvalidIterator" severity="warning" msg="Possible dereference of an invalid iterator: ansIter" verbose="Possible dereference of an invalid iterator: ansIter" cwe="825" file0="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="259" column="14" info="Dereference of an invalid iterator"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="255" column="25" info="Assignment &apos;ansIter=ans.end()-1&apos;, assigned value is start=-1"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="249" column="20" info="Assuming that condition &apos;ansIter!=ans.end()&apos; is not redundant"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="249" column="20" info="Assuming condition is false"/>
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\two.memcheck\code.cpp" line="247" column="24" info="Assignment &apos;ansIter=ans.begin()&apos;, assigned value is start=0"/>
+            <symbol>ansIter</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="344" col="38" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="345" col="38" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="367" col="38" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="392" col="34" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="393" col="34" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="402" col="38" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="403" col="38" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="406" col="39" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="407" col="39" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="418" col="56" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="419" col="56" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="566" col="46" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="567" col="46" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="574" col="44" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="575" col="44" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="578" col="42" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="579" col="42" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="620" col="40" call-argexpr="&amp;ansCounter" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:300:5" call-funcname="DynamicType" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="621" col="40" call-argexpr="&amp;myCounter" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="DynamicType" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="295" col="1" hash="8904621827407689997"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:19:6" my-argnr="1" my-argname="ans" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="21" col="9" value="0"/>
+    <unsafe-usage my-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp:19:6" my-argnr="2" my-argname="test" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/two.memcheck/code.cpp" line="21" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="isEqual" lineNumber="19"/>
+    <functiondecl functionName="randnumFill" lineNumber="49"/>
+    <functiondecl functionName="pushTest" lineNumber="67"/>
+    <functiondecl functionName="popTest" lineNumber="91"/>
+    <functiondecl functionName="insertTest" lineNumber="116"/>
+    <functiondecl functionName="iteratorTest" lineNumber="149"/>
+    <functiondecl functionName="eraseTest" lineNumber="266"/>
+    <functiondecl functionName="copyAndClearTest" lineNumber="327"/>
+    <functiondecl functionName="memoryTest" lineNumber="384"/>
+    <functiondecl functionName="exceptionTest" lineNumber="436"/>
+    <functiondecl functionName="dfs" lineNumber="525"/>
+    <functiondecl functionName="dfs2" lineNumber="557"/>
+    <functiondecl functionName="nomercyTest" lineNumber="605"/>
+    <functiondecl functionName="main" lineNumber="629"/>
+    <functioncall functionName="DynamicType"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="copyAndClearTest"/>
+    <functioncall functionName="deq3"/>
+    <functioncall functionName="deq4"/>
+    <functioncall functionName="deq5"/>
+    <functioncall functionName="dfs"/>
+    <functioncall functionName="dfs2"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="eraseTest"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertTest"/>
+    <functioncall functionName="isEqual"/>
+    <functioncall functionName="iteratorTest"/>
+    <functioncall functionName="memoryTest"/>
+    <functioncall functionName="nomercyTest"/>
+    <functioncall functionName="pct"/>
+    <functioncall functionName="popTest"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="pushTest"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="randnum"/>
+    <functioncall functionName="randnumFill"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="tmp"/>
+    <functioncall functionName="tmp2"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

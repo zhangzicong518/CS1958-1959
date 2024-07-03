@@ -1,0 +1,2 @@
+test1 call:[begin,emplace,end,erase,find,move,size,typeid,while] noreturn:[emplace]
+main call:[test1] noreturn:[test1]

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17413559491727618612">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;class-integer.hpp&quot; not found." verbose="Include file: &quot;class-integer.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="8" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;class-matrix.hpp&quot; not found." verbose="Include file: &quot;class-matrix.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;class-bint.hpp&quot; not found." verbose="Include file: &quot;class-bint.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;deque&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="13" column="0"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &quot;deque.hpp&quot; not found." verbose="Include file: &quot;deque.hpp&quot; not found.">
+            <location file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="14" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/one/code.cpp:16:11" call-funcname="randNum" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/one/code.cpp" line="36" col="39" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="34" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call><function-call call-id="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/one/code.cpp:16:11" call-funcname="randNum" call-argnr="1" file="D:/Project/Project6_Trie_Deque/CS1959-deque-master/tests/one/code.cpp" line="53" col="136" call-argexpr="i" call-argvaluetype="0" call-argvalue="0">
+  <path file="D:\Project\Project6_Trie_Deque\CS1959-deque-master\tests\one\code.cpp" line="51" col="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+</function-call>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="randNum" lineNumber="16"/>
+    <functiondecl functionName="error" lineNumber="23"/>
+    <functiondecl functionName="TestInteger" lineNumber="29"/>
+    <functiondecl functionName="TestMatrix" lineNumber="46"/>
+    <functiondecl functionName="TestBint" lineNumber="64"/>
+    <functiondecl functionName="TestCopyConstructorAndOperatorEqu" lineNumber="83"/>
+    <functiondecl functionName="TestIteratorSequenceAccess" lineNumber="111"/>
+    <functiondecl functionName="TestIteratorRandomAccess" lineNumber="132"/>
+    <functiondecl functionName="TestInsertAndErase" lineNumber="150"/>
+    <functiondecl functionName="TestPopAndPush" lineNumber="176"/>
+    <functiondecl functionName="main" lineNumber="213"/>
+    <functioncall functionName="Bint"/>
+    <functioncall functionName="Integer"/>
+    <functioncall functionName="Matrix"/>
+    <functioncall functionName="TestBint"/>
+    <functioncall functionName="TestCopyConstructorAndOperatorEqu"/>
+    <functioncall functionName="TestInsertAndErase"/>
+    <functioncall functionName="TestInteger"/>
+    <functioncall functionName="TestIteratorRandomAccess"/>
+    <functioncall functionName="TestIteratorSequenceAccess"/>
+    <functioncall functionName="TestMatrix"/>
+    <functioncall functionName="TestPopAndPush"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="dualInt"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pop_front"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="push_front"/>
+    <functioncall functionName="randNum"/>
+  </FileInfo>
+</analyzerinfo>

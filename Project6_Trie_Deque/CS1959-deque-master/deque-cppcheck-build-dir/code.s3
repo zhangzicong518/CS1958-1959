@@ -1,0 +1,11 @@
+randNum
+error call:[exit] noreturn:[exit]
+TestInteger global:[N] call:[Integer,error,push_back,randNum] noreturn:[error,push_back]
+TestMatrix global:[N] call:[error,push_back,randNum] noreturn:[error,push_back]
+TestBint global:[N] call:[Bint,back,error,push_back,randNum] noreturn:[error,push_back]
+TestCopyConstructorAndOperatorEqu global:[N] call:[dualInt,error,push_back] noreturn:[error,push_back]
+TestIteratorSequenceAccess global:[N] call:[begin,end,error,push_back] noreturn:[error,push_back]
+TestIteratorRandomAccess global:[N] call:[begin,error,push_back] noreturn:[error,push_back]
+TestInsertAndErase global:[N] call:[begin,erase,error,insert,push_back] noreturn:[error,push_back]
+TestPopAndPush call:[error,pop_back,pop_front,push_back,push_front] noreturn:[error,pop_back,push_back]
+main call:[TestBint,TestCopyConstructorAndOperatorEqu,TestInsertAndErase,TestInteger,TestIteratorRandomAccess,TestIteratorSequenceAccess,TestMatrix,TestPopAndPush]

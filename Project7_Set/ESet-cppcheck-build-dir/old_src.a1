@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4508865638431514160">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;algorithm&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstddef&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;map&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;memory&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdexcept&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="8" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="9" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;utility&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="10" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="11" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;mutex&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="12" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;future&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;future&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="old_src.cpp" line="13" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;node&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;node&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="old_src.cpp">
+            <location file="old_src.cpp" line="26" column="9"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;iterator&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="old_src.cpp">
+            <location file="old_src.cpp" line="41" column="9"/>
+            <symbol>iterator</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;tmp-&gt;val&lt;key&apos; is always true" verbose="Condition &apos;tmp-&gt;val&lt;key&apos; is always true" cwe="571" file0="old_src.cpp">
+            <location file="old_src.cpp" line="878" column="31" info="Condition &apos;tmp-&gt;val&lt;key&apos; is always true"/>
+            <location file="old_src.cpp" line="873" column="26" info="Assuming condition &apos;tmp-&gt;val&gt;=key&apos; is false"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;x&apos; can be declared as pointer to const" verbose="Parameter &apos;x&apos; can be declared as pointer to const" cwe="398" file0="old_src.cpp">
+            <location file="old_src.cpp" line="411" column="32" info="Parameter &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;fa&apos; can be declared as pointer to const" verbose="Variable &apos;fa&apos; can be declared as pointer to const" cwe="398" file0="old_src.cpp">
+            <location file="old_src.cpp" line="869" column="15" info="Variable &apos;fa&apos; can be declared as pointer to const"/>
+            <symbol>fa</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;fa&apos; can be declared as pointer to const" verbose="Variable &apos;fa&apos; can be declared as pointer to const" cwe="398" file0="old_src.cpp">
+            <location file="old_src.cpp" line="920" column="33" info="Variable &apos;fa&apos; can be declared as pointer to const"/>
+            <symbol>fa</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;fa&apos; can be declared as pointer to const" verbose="Variable &apos;fa&apos; can be declared as pointer to const" cwe="398" file0="old_src.cpp">
+            <location file="old_src.cpp" line="935" column="33" info="Variable &apos;fa&apos; can be declared as pointer to const"/>
+            <symbol>fa</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="old_src.cpp:26:9" call-funcname="node" call-argnr="2" file="old_src.cpp" line="125" col="24" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="old_src.cpp:26:9" call-funcname="node" call-argnr="2" file="old_src.cpp" line="203" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="old_src.cpp:411:14" call-funcname="insert_node" call-argnr="1" file="old_src.cpp" line="373" col="50" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="old_src.cpp" line="362" col="16" info="Assuming that condition &apos;x&apos; is not redundant"/>
+</function-call><function-call call-id="old_src.cpp:411:14" call-funcname="insert_node" call-argnr="1" file="old_src.cpp" line="380" col="46" call-argexpr="x" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="old_src.cpp" line="362" col="16" info="Assuming that condition &apos;x&apos; is not redundant"/>
+</function-call><function-call call-id="old_src.cpp:498:10" call-funcname="after_insert_fix" call-argnr="1" file="old_src.cpp" line="440" col="25" call-argexpr="z" call-argvaluetype="7" call-argvalue="0">
+  <path file="old_src.cpp" line="430" col="15" info="Assign z, buffer with size 0"/>
+</function-call><function-call call-id="old_src.cpp:41:9" call-funcname="iterator" call-argnr="1" file="old_src.cpp" line="441" col="24" call-argexpr="z" call-argvaluetype="7" call-argvalue="0">
+  <path file="old_src.cpp" line="430" col="15" info="Assign z, buffer with size 0"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ESet::node" file="old_src.cpp" line="19" col="5" hash="11501484410009630675"/>
+<class name="ESet::iterator" file="old_src.cpp" line="36" col="5" hash="15790032877880899612"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="old_src.cpp:164:11" my-argnr="1" my-argname="now" file="old_src.cpp" line="166" col="30" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:263:10" my-argnr="1" my-argname="x" file="old_src.cpp" line="265" col="19" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:304:10" my-argnr="1" my-argname="x" file="old_src.cpp" line="306" col="19" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:498:10" my-argnr="1" my-argname="x" file="old_src.cpp" line="500" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="old_src.cpp:42:9" my-argnr="1" my-argname="other" file="old_src.cpp" line="44" col="19" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:73:14" my-argnr="1" my-argname="rhs" file="old_src.cpp" line="75" col="27" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:77:14" my-argnr="1" my-argname="rhs" file="old_src.cpp" line="79" col="27" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:164:11" my-argnr="1" my-argname="now" file="old_src.cpp" line="166" col="30" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:197:5" my-argnr="1" my-argname="other" file="old_src.cpp" line="199" col="13" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:225:5" my-argnr="1" my-argname="other" file="old_src.cpp" line="228" col="25" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:230:11" my-argnr="1" my-argname="other" file="old_src.cpp" line="233" col="25" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:263:10" my-argnr="1" my-argname="x" file="old_src.cpp" line="265" col="19" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:304:10" my-argnr="1" my-argname="x" file="old_src.cpp" line="306" col="19" value="0"/>
+    <unsafe-usage my-id="old_src.cpp:855:12" my-argnr="1" my-argname="key" file="old_src.cpp" line="857" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FindNxt" lineNumber="81"/>
+    <functiondecl functionName="FindPre" lineNumber="98"/>
+    <functiondecl functionName="init" lineNumber="123"/>
+    <functiondecl functionName="root" lineNumber="130"/>
+    <functiondecl functionName="clear" lineNumber="147"/>
+    <functiondecl functionName="clean" lineNumber="155"/>
+    <functiondecl functionName="clone_node" lineNumber="164"/>
+    <functiondecl functionName="copy" lineNumber="171"/>
+    <functiondecl functionName="find_min" lineNumber="181"/>
+    <functiondecl functionName="find_max" lineNumber="189"/>
+    <functiondecl functionName="pushup" lineNumber="237"/>
+    <functiondecl functionName="rotate_left" lineNumber="263"/>
+    <functiondecl functionName="rotate_right" lineNumber="304"/>
+    <functiondecl functionName="insert" lineNumber="356"/>
+    <functiondecl functionName="insert_node" lineNumber="411"/>
+    <functiondecl functionName="after_insert_fix" lineNumber="498"/>
+    <functiondecl functionName="emplace" lineNumber="575"/>
+    <functiondecl functionName="erase_node" lineNumber="633"/>
+    <functiondecl functionName="after_erase_fix" lineNumber="776"/>
+    <functiondecl functionName="erase" lineNumber="855"/>
+    <functiondecl functionName="find" lineNumber="867"/>
+    <functiondecl functionName="rank" lineNumber="885"/>
+    <functiondecl functionName="range" lineNumber="904"/>
+    <functiondecl functionName="size" lineNumber="913"/>
+    <functiondecl functionName="lower_bound" lineNumber="918"/>
+    <functiondecl functionName="upper_bound" lineNumber="933"/>
+    <functiondecl functionName="begin" lineNumber="948"/>
+    <functiondecl functionName="end" lineNumber="953"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="ESet"/>
+    <functioncall functionName="FindNxt"/>
+    <functioncall functionName="FindPre"/>
+    <functioncall functionName="Key"/>
+    <functioncall functionName="after_erase_fix"/>
+    <functioncall functionName="after_insert_fix"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clean"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clone_node"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase_node"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_max"/>
+    <functioncall functionName="find_min"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insert_node"/>
+    <functioncall functionName="iterator"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="node"/>
+    <functioncall functionName="pushup"/>
+    <functioncall functionName="rank"/>
+    <functioncall functionName="rotate_left"/>
+    <functioncall functionName="rotate_right"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="tmp"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>
