@@ -1,0 +1,26 @@
+Performing C++ SOURCE FILE Test ASMJIT_LIBC_HAS_LIBRT failed with the following output:
+Change Dir: /home/echo/Project/JIT/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d369/fast && /usr/bin/make -f CMakeFiles/cmTC_3d369.dir/build.make CMakeFiles/cmTC_3d369.dir/build
+make[1]: Entering directory '/home/echo/Project/JIT/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d369.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -pthread -O3 -Wall -DASMJIT_LIBC_HAS_LIBRT   -o CMakeFiles/cmTC_3d369.dir/src.cxx.o -c /home/echo/Project/JIT/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d369
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d369.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -pthread -O3 -Wall -DASMJIT_LIBC_HAS_LIBRT    CMakeFiles/cmTC_3d369.dir/src.cxx.o  -o cmTC_3d369 
+/usr/bin/ld: CMakeFiles/cmTC_3d369.dir/src.cxx.o: in function `main':
+src.cxx:(.text.startup+0x27): undefined reference to `shm_open'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3d369.dir/build.make:87: cmTC_3d369] Error 1
+make[1]: Leaving directory '/home/echo/Project/JIT/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3d369/fast] Error 2
+
+
+Source file was:
+
+      #include <sys/mman.h>
+      int main() {
+        const char file_name[1] {};
+        return shm_open(file_name, 0, 0);
+      }
+      
